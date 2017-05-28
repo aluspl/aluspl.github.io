@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LifeLike : The Game
+title: LifeLike The Game
 permalink: /game/
 ---
 
