@@ -1,0 +1,55 @@
+---
+author: Alus
+comments: true
+date: 2017-03-01 13:11:26+00:00
+layout: post
+link: http://szymonmotyka.pl/daj-si-pozna-2017/
+slug: daj-si-pozna-2017
+title: Daj się poznać 2017
+wordpress_id: 1582
+categories:
+- Daj Się poznać
+- Programowanie
+- Unity3d
+tags:
+- dev
+- dsp
+- unity3d
+---
+
+Po dłuższej przerwie i zmotywowany paroma wydarzeniami, w tym tytułowym konkursem “[Daj Się Poznać 2017](http://devstyle.pl/daj-sie-poznac/)”, postanowiłem wrócić do sekcji programistycznej. Konkurs zainspirował mnie do pracy nad sobą i systematycznością przy “projektach do szuflady” .. znaczy na githuba :)
+<!-- more -->
+
+
+## Motyw działania
+
+
+Zainspirowany pracą znajomych oraz uwielbieniem do gier, moją tematyką jest gra w technologii **#Unity3D**. Liczę, że skoro kod zalicza się do kodów opensourcowych, a wykorzystywane oprogramowanie jest również darmowe do zastosowań domowych, jak i darmowych projektów, nic nie stało mi na przeszkodzie. Zacząłem od prostej gry-labiryntu, który jest w projekcie.. ale postanowiłem rozszerzyć to dalej ← **RogueLike** . Trochę zainspirowany #DoomRL od @ChaosForge ([Link](https://chaosforge.org/)) , oraz innymi tego typu grami, postaram się zostawić także swój ślad w tym świecie.
+Oczywiście - cały projekt dostępny jest na [githubie](https://github.com/aluspl/RogueLikeDSP).
+Posty będą czasami krótsze, ale z video a czasami po prostu kod :) Tak przy okazji, to nie przejmujcie się teksturami :) Kiedyś nastanie ten dzień, kiedy podmieniony zostanie sprite na coś lepszego.
+
+[![](http://szymonmotyka.pl/wp-content/uploads/2017/02/dsp2017_fb_cover-1024x379-300x111.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/02/dsp2017_fb_cover-1024x379.jpg)
+
+
+## Narzędzia
+
+
+Aplikacja tworzona jest w **Unity3d** tyle, że w technologii 2d, a kod piszę przez **InteliJ Rider**, ponieważ z **Mono Develop** …ani **Xamarin Develop** ... ani **Visual Studio for Mac** (Tak. To wciąż ten sam produkt), nie da się na Macu pracować.
+
+
+## Założenie projektu
+
+
+Fabularnie gra nie jest jeszcze ustawiona, ale będzie to **RPG** z widokiem z góry. Mapy będą głównie generowane losowo - przynajmniej te z podziemi oraz “questowe”, natomiast te, które będą kluczowe dla fabuły - będą ładowane, z ręcznie przygotowanej macierzy 2d :)
+Efekty, ekwipunek, rozwój postaci oraz mechanika poruszania będą rozwijane z czasem.
+Sterowanie będzie dostosowane do kontrolera, ale też przygotowane, aby łatwo było przeportować projekt na platformy mobilne.
+
+
+## Podsumowanie
+
+
+Posty postaram się wrzucać 2 razy w tygodniu, w międzyczasie, do przygotowań na Islandię, prowadzenia drugiego bloga na temat kaw, montowaniu filmików … oraz gdzieś w wolnym czasie odświeżania postów na temat programowania na platformę Android, które aż się o to proszą.
+
+
+
+Zapraszam : Daj się Poznać

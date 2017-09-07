@@ -1,0 +1,35 @@
+---
+author: admin
+comments: true
+date: 2011-03-09 21:11:53+00:00
+layout: post
+link: http://szymonmotyka.pl/planath/
+slug: planath
+title: PlanATH
+wordpress_id: 63
+categories:
+- Aplikacje
+- Aplikacje Mobilne
+- Aplikacje PC/MAC
+- Portfolio
+- Zainteresowania
+tags:
+- Aplikacje
+- Aplikacje Mobilne
+- Plan Zajęć
+---
+
+Jest to pierwsza poważniejsza aplikacja na Androida pisana przeze mnie.
+
+Informacje, changelog, i apk do pobrania znajduje się na stronie
+
+[http://plan.infaath.info/](http://plan.infaath.info/)
+
+![](http://plan.infaath.info/pics/beta.png)Jest to plan zajęć dla kierunku informatyka na uczelni ATH w Bielsku Białej dla roczników 2008/2009/2010.
+
+W przyszlości  w planach będzie dodawanie planów poprzez XML :), a  w następnych terminach wydana zostanie jako osobna aplikacja z dostosowanym pod siebie planem (wtedy zostanie wydana wersja standalone, w 2 wersjach, reklamy or bez za przysłowiową złotówkę ( 5 zł jakoś się ostatnio źle w polsce kojarzy ^^).
+
+
+
+
+![](http://plan.infaath.info/pics/screen.png)
