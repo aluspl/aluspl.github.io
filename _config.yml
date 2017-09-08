@@ -6,6 +6,24 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "aluspl.github.io" # the base hostname & protocol for your site
 twitter_username: aluspl
 github_username:  aluspl
+highlighter: rouge
 
 # Build settings
-markdown: kramdown
+ kramdown:
+   math_engine: mathjax
+   syntax_highlighter: rouge
+plugins:
+    - jekyll-mentions
+    - jemoji
+    - jekyll-redirect-from
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-coffeescript
+    - jekyll-gist
+    - jekyll-github-metadata
+    - jekyll-paginate
+    - jekyll-relative-links
+    - jekyll-optional-front-matter
+    - jekyll-readme-index
+    - jekyll-default-layout
+    - jekyll-titles-from-headings
