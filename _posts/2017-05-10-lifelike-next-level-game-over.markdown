@@ -29,7 +29,7 @@ W obecnej wersji gry wprowadziłem nową klasę postaci, która wkrótce otrzyma
 Problem, który poruszę w następnym wpisie. Dokładniej mówiąc problem z implementacją innego kontrolera oraz poprawnym skonfigurowaniu ruchów pada.
 Dodatkowo, na Macu jest inne bindowanie na przyciski pada, niż na Windowsie i Linuxie. O ustawieniu czułości już nawet nie mówię. Porusza się jak FLASH! (nie, nie ten od Adobe)
 
-[![LIfeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-10-22.01.39-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-10-22.01.39.png) Wersja Webowa
+(http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-10-22.01.39.png) Wersja Webowa
 
 
 ## Game Over
@@ -38,18 +38,14 @@ Dodatkowo, na Macu jest inne bindowanie na przyciski pada, niż na Windowsie i L
 W poprzedniej części można było zabić przeciwnika, ale gdy on nas dobił.. nic się nie działo.
 W tej wersji już to zmieniłem. W GameManagerze dodałem opcję GameOver, która czyści obiekty i wyrzuca nas do głównego menu. Możliwe , że ulepszę jeszcze zakończenie o okno statystyk z gry - takie podsumowanie.
 
-
- ```c# 
-
+[csharp]
  public void GameOver()
     {
         Destroy(_gameUI.gameObject);
         Destroy(Instance);
         SceneManager.LoadScene(0);
     }
-
- ```c# 
-
+[/csharp]
 
 Więc **GameOver**, koniec gry :) Jesteśmy zabici, musimy zacząć od początku … życie jest brutalne!
 
@@ -79,4 +75,4 @@ To tyle na dzisiaj. DSP zbliża się ku końcowi, ale gra będzie dalej rozwijan
 kod w aktualnej postaci dostępny jest na Githubie: [https://github.com/aluspl/RogueLikeDSP](https://github.com/aluspl/RogueLikeDSP)
 Niestety przed końcem konkursu nie uda mi się stworzyć ekwipunku, ale wierzę, że skończę jeszcze chociaż specjalne umiejętności. Mam jednak nadzieję, że nawet po DSP zostaniecie ze mną i będziecie śledzić kolejne etapy rozwoju, w tym powstawanie i wykorzystanie wyżej wspomnianego ekwipunku.
 
-[![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/05/giphy-1.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/05/giphy-1.gif) Kto zgasił światło ?
+(http://szymonmotyka.pl/wp-content/uploads/2017/05/giphy-1.gif) Kto zgasił światło ?

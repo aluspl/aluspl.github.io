@@ -31,9 +31,9 @@ Z racji wkurzających żółtych podpowiedzi w nowym Rider oraz paru pomysłów 
 
 W poprzednim wpisie wspominałem o inspiracji Superhot, w tym postanowiłem słowa zamienić w czyny i stworzyć tego wroga. Jest to, lekka modyfikacja naszego playera, który swoją drogą, również zmienił grafikę. W przyszłości, każdy zasłuży na swój własny wygląd.W tym, będzie po prostu Red Manem ..i wygląda tak:
 
-[![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Character.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Character.png) Jesteśmy Zieloni ... Ci dobrzy
+(http://szymonmotyka.pl/wp-content/uploads/2017/04/Character.png) Jesteśmy Zieloni ... Ci dobrzy
 
-[![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Enemy.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Enemy.png) Oni są Czerwoni ... są Be
+(http://szymonmotyka.pl/wp-content/uploads/2017/04/Enemy.png) Oni są Czerwoni ... są Be
 
 
 ## Przeciwniku, pojaw się na mapie!
@@ -42,9 +42,7 @@ W poprzednim wpisie wspominałem o inspiracji Superhot, w tym postanowiłem sło
 A przy okazji dodaj się do listy Przeciwników, aby łatwo Cię było potem wybrać … i zabić.
 …
 
-
- ```c# 
-
+[csharp]
 private void AddEnemy(MapElement[,] map, int x, int y)
 {
 if (MaxEnemies &lt;= 0) return;
@@ -57,14 +55,12 @@ GameManager.Instance.AddEnemy(enemy);
 
 MaxEnemies--;
 }
-
- ```c# 
-
+[/csharp]
 
 Założyłem sobie, że przeciwnik musi pojawić się na podłodze, a nie w ścianie. A i musi być w ograniczonej liczbie. :) Póki co, generator działa ze zbyt dużą częstotliwością, więc szansa na pojawienie się przeciwnika jest bardzo duża - za duża.
 Ale cóż, ważne, że takim oto sposobem, nasz czerwony wróg pojawił się na mapie !
 
-[![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-16-16.20.51.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-16-16.20.51.png) Luke ! I am Your Enemy
+(http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-16-16.20.51.png) Luke ! I am Your Enemy
 
 
 ## Przeciwniku, bądź Oznaczony!
@@ -74,9 +70,7 @@ Kolejnym kluczowym elementem, jest wiedza … kogo zaatakowaliśmy. :)
 …
 Przeciwnik dostał ten sam **shader**, co podłoga, więc nie jest widoczny w nocy, ale dodałem mu jakiś element oznaczenia. Małą lampkę, która oznacza, że przeciwnik jest zaznaczony. Zaznaczenia zmieniamy, przez kliknięcie TAB (lub innego przypisanego klawisza)
 
-
- ```c# 
-
+[csharp]
   private void SelectEnemy()
     {
         if (Enemies.Count < = 0) return;
@@ -89,9 +83,7 @@ Przeciwnik dostał ten sam **shader**, co podłoga, więc nie jest widoczny w no
         Enemies[EnemyUtils.EnemyIndex].IsSelected = true;
         EnemyUtils.EnemyIndex++;
     }
-
- ```c# 
-
+[/csharp]
 
 [![](http://szymonmotyka.pl/wp-content/uploads/2017/04/giphy-2.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/04/giphy-2.gif)
 

@@ -60,7 +60,7 @@ Aby utworzyć projekt wystarczy użyć komendy w terminalu:
 
 Teraz przejdźmy do omówienia stworzonego przez nas projektu, opiszę to na przykładzie wcześniej stworzonego projektu:
 
-[![](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.06.05-418x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.06.05.png) Drzewo projektu
+(http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.06.05.png) Drzewo projektu
 
 Tu mała ciekawostka, do tej pory Nuget (repozytorium bibliotek) przyzwyczaiło nas, że wszystkie paczki znajdują się w odpowiednim pliku, który był tylko listą paczek package.config. Nie ukrywam, brakuje mi tego pliku :)
 Tutaj, wszystkie paczki dodajemy w pliku projektu w grupie obiektu. Tak samo konfigurujemy obsługę **CLI** np. do **Entity Framework**, czy innych wybranych narzędzi.
@@ -88,46 +88,34 @@ Aby ułatwić sobie zapytania - “adresologię” (do zapytań) - w asp.net cor
 1. Startup.cs
 W metodzie Configure, dodajemy kolejne ścieżki:
 
-
- ```c# 
-
+[csharp]
      app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-
- ```c# 
-
+[/csharp]
 
 Ważne! nazwy routingów nie mogą się powtarzać :)
 
 2. Atrybuty w kontrolerze
 Ten sposób jest jak dla mnie bardziej intuicyjny i żałuję, że go wcześniej nie odkryłem. Przy nazwie klasy kontrolera, umieszczamy główne przekierowanie:
 
-
- ```c# 
-
+[csharp]
     [Route("Pogoda")]
     public class WeatherController: Controller
-
- ```c# 
-
+[/csharp]
 
 Dzięki czemu, zapytania zaczynają się od adres:port/Pogoda/
 A następnie przy metodach ustalamy szczegółowe zapytania, jak np:
 
-
- ```c# 
-
+[csharp]
         [HttpGet("{miasto}")]
         public async Task<IActionResult> Get(string miasto)
 	[HttpGet("Full/{miasto}")]
         public async Task<IActionResult> GetFull(string miasto)
-
- ```c# 
-
+[/csharp]
 
 Tak więc w 1. przykładzie mamy adres:port/Pogoda/{miasto} a w drugim adres:port/Pogoda/Full/{miasto}
 
@@ -139,59 +127,43 @@ Niektórzy wstrzykują sobie morfinę, inni kofeinę (np. **aeropressem**). W pr
 Dla przykładu: **WeatherService**
 Serwis, który implementuje interfejs IWeatherService ( w którym wrzuciliśmy metody: )
 
-
- ```c# 
-
+[csharp]
         Task<Weather> GetForCity(string city);
         Task<WeatherSummary>  StatusForCity(string city);
         Task<FileStream> ImageForCity(string city);
         Task<FileStream> ImageForCity(string city, int hour);
         Task<WeatherSummar>  StatusForCity(string city, int hour);
-
- ```c# 
-
+[/csharp]
 
 A następnie wrzuciliśmy do **Startup.cs** w **ConfigureService**:
 
-
- ```c# 
-
+[csharp]
             services.AddSingleton<IWeatherService, WeatherService>();
-
- ```c# 
-
+[/csharp]
 
 Równie dobrze, w **WeatherService** możemy wrzucić inne klasy, bazujące na tym samym interfejsie, ale korzystające np. z innego API pogodynki, czy z API testowego, podkładającego nam dane z kosmosu, czy nawet ze Słońca (na które podobno w Korei Północnej dolecieli w nocy oraz wrócili tego samego dnia) :)
 A teraz najlepsze, żeby dostać się do naszego serwisu, czy każdego innego istniejącego, w konstruktorze kontrolera (lub innego serwisu)
 dodajemy parametr **IWeatherService** oraz przypisujemy go do lokalnej zmiennej.
 O taaaak:
 
-
- ```c# 
-
+[csharp]
 public WeatherController(IWeatherService weather)
         {
             _weather = weather;
         }
         private readonly IWeatherService _weather;
-
- ```c# 
-
+[/csharp]
 
 Możemy pójść **GŁĘĘBIEJ** i wejść w kolejny stan snu!
 W lifelike.pl użyłem repozytoria do danych **ILinkRepository** , w **LinkRepository** odwołuję się do wstrzykniętej w startup.cs bazy:
 
-
- ```c# 
-
+[csharp]
   private readonly PortalContext _context;
         public LinkRepository(PortalContext context)
         {
             _context = context;
         }
-
- ```c# 
-
+[/csharp]
 
 Dzięki temu, warstwa operowania na danych jest pomiędzy, a bazę… zawsze można zmienić :) tak samo zapytania do bazy. Dzięki temu kontroler nie musi wiedzieć co głębiej dokładnie siedzi. Tylko dostaje metody, które może użyć :)
 
@@ -207,7 +179,7 @@ Jestem człowiekiem praktycznym, jeśli coś dobrze działa, to używam, jeśli 
 Przykład można znaleźć na [Swagger UI](http://czyjebnie.pl/swagger/)
 Instalacja tego jest prosta.
 Dodajemy paczki:
-[![](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23-785x604.png)](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23.png) Swagger
+(http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23.png) Swagger
 [code]
     <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="1.0.0" />
@@ -217,9 +189,7 @@ Dodajemy paczki:
 
 A następnie w startup w **ConfigureServices** dodajemy:
 
-
- ```c# 
-
+[csharp]
   services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "CzyJebnie API", 
@@ -230,15 +200,11 @@ A następnie w startup w **ConfigureServices** dodajemy:
                 });
             });
 }
-
- ```c# 
-
+[/csharp]
 
 oraz w **Configure**:
 
-
- ```c# 
-
+[csharp]
   app.UseSwagger();
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS etc.), specifying the Swagger JSON endpoint.
@@ -246,9 +212,7 @@ oraz w **Configure**:
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
-
- ```c# 
-
+[/csharp]
 
 A podgląd dostępny na adres:port/swagger/
 Proste, czyż nie :) ? Taki “rocket science” na poziomie Korei Północnej!

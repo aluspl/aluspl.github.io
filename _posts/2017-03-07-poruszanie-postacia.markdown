@@ -35,7 +35,7 @@ Postać malowana była w **Gimpie** - tym przestarzałym, mało intuicyjnym, je�
 Zamysł był prosty :) Nie mam graphic designera, czyli idę w pixel art. Nasza postać jest na grafice 100x100px i złożona jest z kółka i elipsy (ahh te barki). Dzięki prostej grafice, będzie łatwo dodać wszelkiego rodzaju animacje ruchu w przyszłości.
 Paaaanie i Paaanowie! Przedstawiamy naszego Ludka:
 
-[![Poruszanie Postacią](http://szymonmotyka.pl/wp-content/uploads/2017/03/Character.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Character.png) Ludek od góry
+(http://szymonmotyka.pl/wp-content/uploads/2017/03/Character.png) Ludek od góry
 
 Skoro już przestaliście się śmiać, zapraszam dalej :)
 
@@ -51,23 +51,17 @@ Gdy już zaimportowałem sprite (grafika 2D) z postacią i stworzyłem prefab (o
 
 Zacznijmy od metody Move oraz kluczowych punktów.
 
-
- ```c# 
-
+[csharp]
 	  _boxCollider2D.enabled = false;
             hit = Physics2D.Linecast(start, end, BlockingLayer);
             _boxCollider2D.enabled = true;
-
- ```c# 
-
+[/csharp]
 
 Wywołujemy ten fragment kodu, aby sprawdzić, czy początkowy punkt obiektu oraz końcowy nie będą nachodziły na element, który tą postać ma blokować.
 Jeśli nie, wywołujemy funkcję zwracającą IEnumerator o nazwie Movement (ależ jestem oryginalny) .
 Dodatkowo nasz **BlockingLayer** jest przypisany do ściany, ale można go też przypisać do innych rzeczy, czyli np. elementów otoczenia, zablokowanych drzwi czy przeciwników. W zależności od *blockingLayer*, będziemy później wykonywać określone akcje, typu włamywanie do pokoi, bezpośredni atak itp. lub próba spacyfikowania ściany za pomocą głowy lub innych skilli :)
 
-
- ```c# 
-
+[csharp]
             var remainingDistance = (transform.position - destination).sqrMagnitude;
             while (remainingDistance&amp;amp;gt;float.Epsilon)
             {
@@ -79,9 +73,7 @@ Dodatkowo nasz **BlockingLayer** jest przypisany do ściany, ale można go też 
         }
 
 
-
- ```c# 
-
+[/csharp]
 
 Powyższa metoda służy do poruszania naszym RigidBody (pamiętajcie, aby ustawić go jako **Kinematic**, chyba, że chcecie widzieć jak postać próbuje poruszać się po pionowej ścianie do góry, niczym **Deadpool** próbujący udawać **Spidermana** … czyli bezsktucznie :)
 
@@ -97,7 +89,7 @@ _InverseMoveTime * Time.deltaTIme określa czas ruchu. Aby naszą metodę urucho
 
 Tę klasę wywołujemy również w klasie Player, która dziedziczy po klasie **MovingObject**. Klasa ta obsługuję cały charakter postaci, czyli klasę postaci, atrybuty, poziom, hp, doświadczenie oraz listę dostępnych skilli. Tu też w Update sprawdzana jest reakcja na ruch postaci oraz logika z nią związan. Na obecnym etapie przejdźmy jednak do ruchu, czyli dylemat prawdziwego gracza - odwieczna bitwa - “Klawiatura (+ Mysz) Vs Pad). Nie pomogę rozwiązać tego, ponieważ jestem fanem obu typów i ani jednego nie dyskryminuję.
 
-[![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-05-at-16.24.46-409x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-05-at-16.24.46.png) Edytor postaci
+(http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-05-at-16.24.46.png) Edytor postaci
 
 
 ## Klawiatura vs Pad
@@ -105,9 +97,7 @@ Tę klasę wywołujemy również w klasie Player, która dziedziczy po klasie **
 
 Tu mam 2 sposoby :) Jeden: zmapowane klawisze i Input.GetKeyDown. Sposób dobry, zwłaszcza, gdy gra jest **turn based** (turowa), a wszystkie klawisze chcemy ręcznie zmapować (w GameManager Prefab mamy do tego edytor). Oczywiście są inne akcje w przypadku trzymania przycisku itp. Ogromną zaletą takiego rozwiązania jest szeroka konfiguralności, jednak minusem jest dodatkowy kod, w przypadku chęci przeportowania gry na coś innego niż klawiaturę.
 
-
- ```c# 
-
+[csharp]
 
 	const int horizontal = 1;
 	const int vertical = 1;
@@ -129,15 +119,11 @@ Tu mam 2 sposoby :) Jeden: zmapowane klawisze i Input.GetKeyDown. Sposób dobry,
                 return new Vector2(0,vertical*-1);
 
 
-
- ```c# 
-
+[/csharp]
 
 Oraz drugi sposób, uniwersalny, z pobraniem wartości z osi pionowej i poziomej -> co odpowiada albo za klawisze **Up/Down** i **Left/Right** (zwraca wartosc -1 -> 0 -> 1). Jest to dobre, ponieważ przy podpięciu pada, lewa gałka jest tego odpowiednikiem, także w przypadku telefonu, gałka odpowiada za horizontal i vertical. Czyli teoretycznie wypada idealnie, a jednak _“coś poszło nie tak”_. Czasami nie reaguje poprawnie na ruch gałką, a czasami rusza o 2 pola, zamiast o jedno. Czyli pobiera ciągle, ale nie w równym czasie. Jeśli macie jakieś sugestie, zapraszam do sprawdzenia kodu, przetestowania i podzielenia się radami :)
 
-
- ```c# 
-
+[csharp]
 
 
              var x = (int)Input.GetAxisRaw("Horizontal");
@@ -149,9 +135,7 @@ Oraz drugi sposób, uniwersalny, z pobraniem wartości z osi pionowej i poziomej
             return new Vector2(x,y);
 
 
-
- ```c# 
-
+[/csharp]
 
 Wybór zależy od was :) Ja eksperymentuję z opcją numer 1 i numer 2 :)
 
@@ -162,16 +146,12 @@ Wybór zależy od was :) Ja eksperymentuję z opcją numer 1 i numer 2 :)
 Skoro nasza postać się porusza, wypada także, aby kamera śledziła naszą postać :)
 Klasa FollowCamera, załączona jako komponent do Main Camera śledzi naszą postać - GameObject jest przypisany na podstawie taga.
 
-
- ```c# 
-
+[csharp]
 void LateUpdate ()
 {
 transform.position = player.transform.position + offset;
 }
-
- ```c# 
-
+[/csharp]
 
 
 
@@ -182,4 +162,4 @@ Następne posty pojawią się lekko opóźnione, po naszej wyprawie na Islandię
 
 [https://aluspl.github.io/RogueLikeDSP/Versions/](https://aluspl.github.io/RogueLikeDSP/Versions/) - Link do 1. wersji :)
 
-[![Postać](http://szymonmotyka.pl/wp-content/uploads/2017/03/LifeLike01-1.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/03/LifeLike01-1.gif) LifeLIke GIF
+(http://szymonmotyka.pl/wp-content/uploads/2017/03/LifeLike01-1.gif) LifeLIke GIF

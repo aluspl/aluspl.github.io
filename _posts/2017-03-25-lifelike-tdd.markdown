@@ -29,9 +29,9 @@ Jednocześnie odkryłem, że za pomocą Rider EAP, do solucji można dodać proj
 Wiem, że takim sposobem nie przetestuje funkcjonalnych funkcji z Unity, a ograniczę się do tych, typu generatory, tworzenie mapy czy sprawdzenia poprawności danych itp.
 Uwaga! Trzeba ustawić referencję do NUnit 3.5+. U mnie pojawiły się, gdy z AssetStore pobrałem Unity Test Tools. Albo z nuget albo innych źródeł. Jest to ważne dla kompatybilności z poniższym wpisem.
 
-[![TDD](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-23-at-19.03.22-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-23-at-19.03.22.png) Narzedzia do testow, nie obowiazkowe, ale zawiera m.in NUnit 3
+(http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-23-at-19.03.22.png) Narzedzia do testow, nie obowiazkowe, ale zawiera m.in NUnit 3
 
-[![TDD](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-23.34.01-785x458.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-23.34.01.png) Nowy projekt typu NUNit
+(http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-23.34.01.png) Nowy projekt typu NUNit
 
 
 ## Map Generator
@@ -46,17 +46,13 @@ Klasa dodatkowa implementuje IDisposable dla drobnej optymalizacji, gdy przestan
 
 Metoda z atrybutem TestFixtureSetup służy do inicjacji, czyli jeśli potrzebujemy ustawić potrzebne klasy, referencje, które użyjemy w testach i chcemy wywołać tylko raz, robimy to tutaj:
 
-
- ```c# 
-
+[csharp]
  [TestFixtureSetUp]
         public void Configure()
         {
             _generator=new MapGenerator();
         }
-
- ```c# 
-
+[/csharp]
 
 
 
@@ -66,17 +62,13 @@ Metoda z atrybutem TestFixtureSetup służy do inicjacji, czyli jeśli potrzebuj
 Przejdźmy do pierwszego podstawowego testu. Sprawdźmy, czy nasz wywołany generator jest nullem. Wywołujemy testy za pomocą klasy Assert, która jest w metodzie oznaczonej atrybutem [Test]. Oczywiście, można dodać wiele innych warunków, które chcemy sprawdzić. W końcu to podstawa TDD, aby podać warunki, nie tylko które ma spełnić, ale które również ma oblać, żeby być pewnym czy aplikacja działa poprawnie.
 Efekt wszystkich testów można sprawdzić uruchamiając projekt z testem np w Rider za pomocą prawego przycisku i “Run Unit Test”.
 
-
- ```c# 
-  
+[csharp]  
 [Test]
         public void IsGeneratorExist()
         {
             Assert.IsNotNull(_generator);
         }
-
- ```c# 
-
+[/csharp]
 
 Poniżej przykład wyniku takiego podstawowego testu.
 
@@ -87,15 +79,11 @@ Poniżej przykład wyniku takiego podstawowego testu.
 Skoro poprzedni test się udał, to wypadałoby sprawdzić, jakich warunków nie spełnia i co oblewa.
 Sprawdźmy, czy nasz array jest równy 0.
 
-
- ```c# 
-
+[csharp]
     int x = 10, y = 10;
             var map =  new MapElement[x,y];
                 Assert.AreEqual(map.GetLength(0), 0);
-
- ```c# 
-
+[/csharp]
 
 UUU … test Failed :( oczekiwało 0, a wyskoczyło 10.
 
@@ -106,27 +94,21 @@ UUU … test Failed :( oczekiwało 0, a wyskoczyło 10.
 Aby tak nie testować jednostkowo, wypada sprawdzić to bardziej zaawansowanie.
 Przejdźmy do *TestCase*:
 
-
- ```c# 
-
+[csharp]
 [Test, TestCaseSource(typeof(SampleData),"SizeCases")]
         public int IsValidSize(int x, int y, int element)
         {
             var map =  new MapElement[x,y];
             return map.GetLength(element);
         }
-
- ```c# 
-
+[/csharp]
 
 W tym przypadku tworzymy funkcję, w której określamy, co chcemy zwrócić, aby potem sprawdzić poprawność.
 Zwracam rozmiar danej ściany (map.GetLength(0) powinien zwrócić x, a GetLength(1) zwrócić y)
 Atrybut TestCaseSource ustawia z jakiej klasy oraz z której właściwości ma brać dane.
 Tworzymy więc nową klasę (u mnie SampleData), w której wrzucamy warunki testów w postaci właściwości typu IEnumerate
 
-
- ```c# 
-
+[csharp]
    public static IEnumerable SizeCases
         {
             get
@@ -137,9 +119,7 @@ Tworzymy więc nową klasę (u mnie SampleData), w której wrzucamy warunki test
                 yield return new TestCaseData( 12, 4,1).Returns( 4 );
             }
         }
-
- ```c# 
-
+[/csharp]
 
 TestCaseData jako parametry przyjmuje parametry do metody, którą wywołujemy a w Returns sprawdza, czy metoda zwraca wybrane elementy. Poniżej wyniki testów dla danego przykładu.
 

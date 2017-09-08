@@ -35,9 +35,7 @@ PIerwszym elementem dla rasowych Rogue Like i Oldschoolowych RPG jest ekran log�
 Jednak ekran logów trzeba było ograniczyć do określonej liczby linijek - tzn. czyścić te pierwsze, aby cały czas nie było więcej niż wybrana liczba linijek - u mnie 10. Logi dodaje się przez metodę **AddLog**(treść), a edytor przyjmuje podstawowe tagi html jak "b", "i" oraz \t i \n dla nowej linii.
 Cały kod zobaczycie na GitHubie, a fragment o którym mówię, zobaczycie poniżej.
 
-
- ```c# 
-
+[csharp]
     public void AddLog(string log)
     {
         ClearFirstLine();
@@ -45,9 +43,7 @@ Cały kod zobaczycie na GitHubie, a fragment o którym mówię, zobaczycie poni�
         _stringLog.AppendLine(log);
          GameLog.text = _stringLog.ToString();
     }
-
- ```c# 
-
+[/csharp]
 
 
 
@@ -57,9 +53,7 @@ Cały kod zobaczycie na GitHubie, a fragment o którym mówię, zobaczycie poni�
 W poprzedniej części nauczyliśmy się, jak zaznaczać przeciwnika i przełączać się pomiędzy nimi, dlatego też, aby to rozszerzyć, stworzyłem panel do wyświetlania danych wybranego wroga.
 Obecnie wyświetlane jest jego imię, lvl oraz coś, co poruszę w następnym punkcie, do którego potrzebny jest…
 
-
- ```c# 
-
+[csharp]
 private void SelectedEnemyPanel()
     {
         if (EnemyUtils.SelectedEnemy==null) return;
@@ -76,9 +70,7 @@ private void SelectedEnemyPanel()
         }
 
     }
-
- ```c# 
-
+[/csharp]
 
 
 
@@ -90,9 +82,7 @@ Tu by się przydała trochę wiedza z uczelni oraz wzór na odległość między
 
 Dystans dodałem do klasy Enemy. Pomaga to także posortować przeciwników ze względu na dystans od gracza.
 
-
- ```c# 
-
+[csharp]
  public  int Distance {
             get {
                 if (GameManager.Instance.PlayerObject != null)
@@ -105,11 +95,9 @@ Dystans dodałem do klasy Enemy. Pomaga to także posortować przeciwników ze w
                 //                  Mathf.Pow(Player.transform.position.y - SelectedEnemy.transform.position.y, 2));
             }
         }
+[/csharp]
 
- ```c# 
-
-
-[![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36.png) 1 wersja UI
+(http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36.png) 1 wersja UI
 
 
 ## Podsumowanie

@@ -34,7 +34,7 @@ Instalation of Android SDK + IDE is much easier now, than few years ago, when it
 
 We need to download installer from this page and install on our machine. It contains all dependency, that we need to program our Android Application. [Download Android Studio and SDK Tools | Android Studio](https://developer.android.com/studio/index.html).
 
-[![Android SDK](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-26-at-23.32.13-785x350-785x350.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-26-at-23.32.13-785x350.png) Android SDK
+(http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-26-at-23.32.13-785x350.png) Android SDK
 
 
 ## Homebrew

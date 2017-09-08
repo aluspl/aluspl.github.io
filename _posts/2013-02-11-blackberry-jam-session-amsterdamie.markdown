@@ -36,11 +36,11 @@ Dawno dawno temu w odległym Amsterdamie, gdzieś pomiędzy 3-7 dniem miesiąca 
 
 Tak więc około 17 godzinną podróż do Amsterdamu poprzedzała 6 godzinna trasa pełna różnych warunków atmosferycznych na trasie Żywiec - Bielsko - Warszawa. Różnych tzn: trasa Żywiec Bielsko po nieodśnieżonej drodze o charakterystycznym numerze 69 oraz 5 godzinne oczekiwanie (umilone dzięki @pgkrzywy oraz @czujny ) na autokar. Oczywiście podróż wesoła była, nie narzekałem na nudę, a miałem miejsca do spania :) i to nie mało, choć krzesła nie wygodne. Na granicy Polsko Niemieckiej zatrzymali nas "Polizei", którzy sprawdzali dokumenty każdego obiektu żywego w autobusie. Trasa przebiegła w przemiłym towarzystwie Julity, Jakuba oraz Mariusza czyli elity na tyle autokaru :) Przed 15 godziną wreszcie dojechaliśmy w stronę Amsterdamu oraz budynku RAI (A)
 
-[![Wejście na konferencje](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000015-300x168.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000015.jpg) Wejście na konferencje
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000015.jpg) Wejście na konferencje
 
-[![Ten budynek(a dokładniej kompleks za, którego zdjecia nie znalazłem) było częścią RAI](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_0149-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_0149.jpg) Ten budynek(a dokładniej kompleks za, którego zdjecia nie znalazłem) było częścią RAI
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_0149.jpg) Ten budynek(a dokładniej kompleks za, którego zdjecia nie znalazłem) było częścią RAI
 
-[![](http://szymonmotyka.pl/wp-content/uploads/2013/02/392552_399345190109492_1028024158_n.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/392552_399345190109492_1028024158_n.jpg) Mapa Amsterdamu z zaznaczeniem RAI i Hotel
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/392552_399345190109492_1028024158_n.jpg) Mapa Amsterdamu z zaznaczeniem RAI i Hotel
 
 
 Przyjechaliśmy jednak za wcześniej, ponieważ rejestracja ruszała o 17. Dostaliśmy karty miejskie i ruszyliśmy (po wyszukaniu stacji metra) do hotelu. Tu było moje ogromne pozytywne zaskoczenie, które warszawiaków nie dziwi. Są to karty miejskie. Kupuje się karnet na 72 h (jak my dostaliśmy ) czy już 24 h lub 1h i mamy w tym czasie dostęp do wszelkich środków komunikacji, na które czekać trzeba było maksymalnie 10-15 minut . [![20130204_165948](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130204_165948-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130204_165948.jpg)
@@ -48,9 +48,9 @@ Przyjechaliśmy jednak za wcześniej, ponieważ rejestracja ruszała o 17. Dosta
 
 W ciągu 2 godzin zdążyliśmy wskoczyć do hotelu (B)  zameldować, przebrać oraz wrócić(około 20-30 min trwała trasa do RAI (3 stacje tramwajem lub miejska i 8 stacji metra). Kolejnym ogromnym zaskoczeniem były rowery, które były wszędzie, tak samo jak ścieżki rowerowe. Można było się wszędzie dostać na rowerze, rowerzyści mieli jakieś prawa (większe niż piesi nawet^^). Naprawdę wielki plus dla mnie. Największe zdziwinie sprawił nam hotel po wyjściu z tramwaju
 
-[![To są drzwi do naszego hotelu. NIE KUPUJ KOTA W WORKU](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000022-300x168.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000022.jpg) To są drzwi do naszego hotelu. NIE KUPUJ KOTA W WORKU
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000022.jpg) To są drzwi do naszego hotelu. NIE KUPUJ KOTA W WORKU
 
-[![Nie no żart, to są drzwi do naszego hotelu, choć to niebieskie też jest częścią](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000023-300x168.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000023.jpg) Nie no żart, to są drzwi do naszego hotelu, choć to niebieskie też jest częścią
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000023.jpg) Nie no żart, to są drzwi do naszego hotelu, choć to niebieskie też jest częścią
 
 
 # **RAI Dzień 0:**
@@ -60,7 +60,7 @@ W ciągu 2 godzin zdążyliśmy wskoczyć do hotelu (B)  zameldować, przebrać
 
 Bogato, nie ? :)
 
-[![Imie Nazwisko a nawet Twitter :) oraz czesciowa nazwa uczelni:)](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_0174-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_0174.jpg) Imie Nazwisko a nawet Twitter :) oraz czesciowa nazwa uczelni:)
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_0174.jpg) Imie Nazwisko a nawet Twitter :) oraz czesciowa nazwa uczelni:)
 
 Zalana część jest od wina:) akurat jak piłem, ktoś musiał zahaczyć.
 
@@ -114,9 +114,9 @@ Tu niestety lekki minus - na sesjach rzadko pokazywali jak co zrobić. Pokazywa�
 
 Zostaliśmy poczęstowani też śniadaniem w ładnych i charakterystycznych pudełkach
 
-[![Pudełko z zestawem Launchowym](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_115828-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_115828.jpg) Pudełko z zestawem Launchowym
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_115828.jpg) Pudełko z zestawem Launchowym
 
-[![A to zawartość pudełka](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_120126-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_120126.jpg) A to zawartość pudełka
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_120126.jpg) A to zawartość pudełka
 
 Atrakcją dnia była też gra  pod Dev Alpha oraz Z10, polegająca na zbieraniu za pomocą NFC tagów z 7  częściami kodu. Jeden fragment był np przy stoiskach z Z10, drugi z Dev Alpha C, inny stoiska partnerów, Jam Space (czyli poczekalni na konferencji) ,oraz  jednym nie wiem skąd (dostałem od jakiegoś Azjaty  o czym potem powiem) oraz z plakietki Elite (czyli tych , co dużo wpłynęli na platformę BB swoją działalnością, aplikacjami czy serwisem i dostali jako pierwsi czerwone limitowane Z10).  Kodami poza zbieraniem z punktów można było się wymieniać z innymi uczestnikami (za co niby dodatkowo punktacje były). Zebranie wszystkich części przenosiło nas do zagadki z ułożeniem fragmentów kodu, gdzie nagrodą była tapeta z Sandersem przy mikrofonie (jeden ze smaczków Keynote) oraz udział w losowaniu pod koniec BBJam.
 
@@ -126,7 +126,7 @@ Atrakcją dnia była też gra  pod Dev Alpha oraz Z10, polegająca na zbieraniu
 
 Po cyklach prezentacji zostaliśmy zaproszeni na after party (może na moim kanale YT pojawi się film z tego wydarzenia, jak nie moim to na pewno na FanPage wrzuce filmiki), gdzie karmiono nas nielimitowana iloscia drunków oraz dań z różnych stref świata (nie, nie było sushi:( , ale i tak było fajnie). Główną atrakcją imprezy było karaoke z rockowymi utworami, które nie ukrywajmy zdobyli głównie Polacy i głównie Polacy na scenie oraz pod sceną rządzili. Tak samo z "Ona tańczy dla mnie". W każdym bądź razie zabawa trwała do 23 , gdzie już nas wygoniono. Ale warto było:)** programiści też się bawią.**
 
-[![:) Scena](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000059-168x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000059.jpg) :) Scena
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/IMG_00000059.jpg) :) Scena
 
 Bonus video nagrany przez Jakuba Hajosta (wiecej na jego kanale)
 
@@ -142,11 +142,11 @@ Po nie wielu godzinach snu, porannym pakowaniu i wymeldowaniu (ogromny żal był
 
 Główną atrakcją dnia, która została mi zaspoilerowana, to ankieta. Po każdej konferencji mieliśmy survey z opinią. Za uzupełnienie każdego oraz głónej konferencji (bardzo profesjonalnie, bo albo sami przy laptopach rozwiązywaliśmy (zdążyłem przed kolejką), albo mogliśmy na swoim sprzęcie(linki były w mailach) oraz odbiór nagród
 
-[![Koszulka  i pokrowiec na z10 lub figtcard 10 euro do wyboru](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130206_093734-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130206_093734.jpg) Koszulka i pokrowiec na z10 lub figtcard 10 euro do wyboru
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/20130206_093734.jpg) Koszulka i pokrowiec na z10 lub figtcard 10 euro do wyboru
 
 Dodatkowo standardowo Zestaw Śniadaniowy (z załatką, którą jak powiedział @Amnerox - z każdą łyżeczką coraz gorzej), kanapkami oraz owocami.
 
-[![Przykładowa sala konferencyjna,w której odbywała się sesja](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_132640-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_132640.jpg) Przykładowa sala konferencyjna,w której odbywała się sesja
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/20130205_132640.jpg) Przykładowa sala konferencyjna,w której odbywała się sesja
 
 Szkoda tylko, że większość z konferencji firmowych, to tak naprawdę reklama środowiska, a nie czysto naukowa treść dla kogoś kto chciałby się czegoś nauczyć). Po drodze jeszcze wyskoczyłem na miasto po zakupy na trasę powrotną. Wypiłem mnóstwo herbat. O 17:45 czekał nas powrót, tym razem bardziej zatłoczono w tyle autokaru (mam okazję zamordować za to jedną osobę). Podróż przebiegła w każdym razie wesoło i integracyjnie w miarę.
 
@@ -194,7 +194,7 @@ Twitterowo:
 
 oraz  reszta m.in z  twittującego autokaru)
 
-[![Autor wpisu](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130206_161434-300x225.jpg)](http://szymonmotyka.pl/wp-content/uploads/2013/02/20130206_161434.jpg) Autor wpisu
+(http://szymonmotyka.pl/wp-content/uploads/2013/02/20130206_161434.jpg) Autor wpisu
 
 wg Imienia
 

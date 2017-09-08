@@ -110,7 +110,7 @@ Nauczyć się dobrze  (albo przynajmniej poprawnie jeździć)
 
 Zaliczyć wszystkie ciekawe zamki na Dolnym i Górnym Ślasku:
 
-![Mapa pochodzi z http://szlakzamkowipalacow.eu/index.php/pl/szlak.html](http://szymonmotyka.pl/wp-content/uploads/2016/06/mapka_16_zamkow.png) Mapa pochodzi z http://szlakzamkowipalacow.eu/index.php/pl/szlak.html
+(http://szymonmotyka.pl/wp-content/uploads/2016/06/mapka_16_zamkow.png) Mapa pochodzi z http://szlakzamkowipalacow.eu/index.php/pl/szlak.html
 
 
 ## Podsumowanie:

@@ -24,7 +24,7 @@ Instalator
 
 Pierwsza część wpisu dotyczy instalacji narzędzi na system od Apple. Tak, system, którym tak długo gardziłem, aż po zakupie stwierdziłem “Wooow, to taki ładny i praktyczny w obsłudze linux, którego lubi Adobe i Unity”. Instalacja w obecnych czasach nie jest tak skomplikowana jak wcześniej. Pierwszy sposób ogranicza się do kilku kroków, ale niezależnie od platformy jest on prosty. Polega ona na pobraniu paczki Android Studio ze strony [Download Android Studio and SDK Tools | Android Studio](https://developer.android.com/studio/index.html).
 
-[![Android SDK](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-26-at-23.32.13-785x350-785x350.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-26-at-23.32.13-785x350.png) Android SDK
+(http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-26-at-23.32.13-785x350.png) Android SDK
 
 Strona, z której pobierzemy Android Studio z SDK
 Wystarczy zainstalować i już.

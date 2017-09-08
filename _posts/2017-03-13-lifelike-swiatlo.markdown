@@ -37,13 +37,9 @@ Po stronie edytora dodałem możliwość wybrania pomiędzy Input.GetButtownDown
 Przyznam, że początkowo miałem ten wpis ograniczyć tylko do tego zagadnienia, ale jak się za chwilę przekonacie rzeczywistość okazała się być inna, a to wszystko przez to, że przysiadłem troszkę dłużej przy kwestii oświetlenia/światła, które różni się w Unity2d w stosunku do 3d. Ale o tym będzie później, a teraz wróćmy do głównego gościa tego paragrafu, czyli obrotu. :)
 Obrót postacią odbywa się za pomocą metody:
 
-
- ```c# 
-   if (Input.GetKeyDown(GameManager.Instance.KeyLeft))
+[csharp]   if (Input.GetKeyDown(GameManager.Instance.KeyLeft))
       transform.eulerAngles=new Vector3(0,0,90); 
-
- ```c# 
-
+[/csharp]
 
 Wartość kąta zależy od tego, w którą stronę chcemy się obrócić, tutaj mamy przypadek dla skrętu w lewo.
 
@@ -85,9 +81,9 @@ W przypadku gracza, stworzyłem **gameobject** typu Light i skrypt, który takż
 To tyle na dzisiaj. Następny wpis będzie dostępny za tydzień, więc spokojnie, nie będziecie zaniedbani. W międzyczasie, zapraszam do testów na [2. Demo Technologiczne](https://aluspl.github.io/RogueLikeDSP/Versions/light/)
 Miłej zabawy ! :)
 
-[![Światło](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.37-785x489.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.37.png) Światło!
+(http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.37.png) Światło!
 
-[![Światło](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.19-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.19.png) Kliknij F aby przelaczyć na dzien/noc
+(http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.19.png) Kliknij F aby przelaczyć na dzien/noc
 
 
 
