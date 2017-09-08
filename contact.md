@@ -1,6 +1,7 @@
 ---
 layout: landing-page
 ---	
+
 # Blog na Jekyll
 Wkrotce nowe tresci
 
@@ -10,11 +11,11 @@ Laptop: Macbook Pro 13 (2014) i5, 8GB Ram, 256 ssd, intel iris
 
 PC: i7, GTX660TI, 16GB Ram, 2x128SSD + 1TB HDD
 
-Konsola: Xbox 1 (szymonmotyka) | 3ds XL | Switch
+Konsola: Xbox 1 (szymonmotyka),3ds XL,Switch
 
 Aparat: Nikon D7000 + pare obiektywow (np Samyang 8mm)
 
-Kamerka sportowa: Xiaomi Yi (1 Gen) | Xiaomi Yi 4k+ | Feiyu Tech G5
+Kamerka sportowa: Xiaomi Yi (1 Gen),Xiaomi Yi 4k+,Feiyu Tech G5
 
 Statyw : Velbon EX-Macro
 
