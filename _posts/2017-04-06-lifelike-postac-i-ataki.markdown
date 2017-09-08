@@ -31,25 +31,25 @@ W poprzednim wpisie, atak był dość uproszczony, powiedziałbym … mamy 100% 
 W **BaseCharacterClass** są 3 metody odpowiedzialne za atak:
 - **Critical Chance**, który sprawdza, czy mamy szansę, na zwiększenie liczby obrażeń dwukrotnie.
 
-[csharp]
+```c#
    public bool CriticalChance()
         {
             return _random.Next(100)*Agility>90;
         }
-[/csharp]
+```
 
 - **ChanceToAttack**, który w praktyce pokazuje, czy udało się nam trafić, czy może skutecznie minęliśmy się z celem. Im większa zręczność, tym większa szansa na atak lub unik.
 
-[csharp]
+```c#
   public bool ChanceToAttack(BaseCharacter enemy)
         {
             return _random.Next(Agility)>_random.Next(enemy.Agility);
         }
-[/csharp]
+```
 
 - **Attack** …czyli nasz atak, który jako parametr przyjmuje naszego przeciwnika - czyli mamy dostępne wszystkie informacje o przeciwniku, jest to czysta referencja do obiekt. Metoda ta zwraca string - z logiem, który wyświetlimy potem w odpowiedniej konsoli. Oczywiście atak będzie brał pod uwagę także ekwipunek zarówno nasz jak i przeciwnika.
 
-[csharp]
+```c#
  public virtual string Attack(BaseCharacter enemy)
         {
             if (!ChanceToAttack(enemy)) return GameLogSystem.MissAttack();
@@ -57,7 +57,7 @@ W **BaseCharacterClass** są 3 metody odpowiedzialne za atak:
             damage=enemy.Defense(damage);
             return GameLogSystem.Attack(damage);
         }
-[/csharp]
+```
 
 
 
@@ -68,16 +68,16 @@ Przykład pokazany w tym akapicie, został wykonany na pierwszej opracowanej kla
 
 Liczbę ataków pobieramy z metody przeciążonej:
 
-[csharp]
+```c#
 public override List SpecialActionsList()
 
-[/csharp]
+```
 
 U nas zwraca na obecną chwilę: “**Tech Talk**" i "**Phantom IT Device Attack**" ( w końcu, nikt nie wie, skąd oni tę klawiaturę biorą).
 
 Następnie po wybraniu ataku (np. context menu)
 
-[csharp]
+```c#
         public override string SpecialAction(BaseCharacter enemyCharacter, string actionName)
         {
             switch (actionName)
@@ -92,15 +92,15 @@ Następnie po wybraniu ataku (np. context menu)
                     return Attack(enemyCharacter);
             }
         }
-[/csharp]
+```
 
 I atakujemy Tech Talkiem, który w zależności od sukcesu zwraca:
 
-[csharp]
+```c#
             return success ? 
  "You are successfully bored enemy! He is sleeping now.  Good Job" :
  "You are not so boring for your enemy";
-[/csharp]
+```
 
 i … usypiamy przeciwnika! :)
 

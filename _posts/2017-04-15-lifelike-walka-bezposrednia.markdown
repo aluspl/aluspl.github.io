@@ -36,14 +36,14 @@ Ostatnio na slacku zarzucił mi ktoś, że brakuje mi podsumowań tego, co było
 
 Podobnie jak nasza postać, przeciwnik będzie opierał się na klasie abstrakcyjnej - MoveObjects, ale w przeciwieństwie do nas, będzie miał swoje statystyki w klasie Enemy. Podobnie jak nasz Gracz, będzie bazować na klasach, a tym samym na tych samych metodach. Będzie posiadać te same statystyki i na obecną chwilę … będą czerwoni. :) Jeśli ktoś ma zamiar zarzucić mi inspirację **SuperHot** … Ma rację!
 
-[code]
+```
  public BaseCharacter EnemyCharacter { get; set; }
 
         public Enemy()
         {
             EnemyCharacter = EnemyUtils.GenerateEnemy();
         }
-[/code]
+```
 
 
 
@@ -52,7 +52,7 @@ Podobnie jak nasza postać, przeciwnik będzie opierał się na klasie abstrakcy
 
 Wybaczcie, ale na obecną chwilę, przeciwnik będzie miał wszystkie statystyki równe 1. Imię jego to “Any Enemy” … i nie będzie się jeszcze dzisiaj poruszał. Ale będzie miał ładny generator. :)
 
-[code]
+```
    public static BaseCharacter GenerateEnemy()
         {
             var classes = CharacterFactory.EnemyClassList();
@@ -69,7 +69,7 @@ Wybaczcie, ale na obecną chwilę, przeciwnik będzie miał wszystkie statystyki
             };
             return CharacterFactory.GetPlayerClass(classes.FirstOrDefault().Key, statistic);
         }
-[/code]
+```
 
 
 

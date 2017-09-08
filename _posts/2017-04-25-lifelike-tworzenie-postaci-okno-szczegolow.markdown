@@ -34,16 +34,16 @@ Na swoim blogu i prezentacjach Arek ([http://www.benedykt.net/](http://www.bened
 Wiecie, czego najbardziej brakuje mi w tworzeniu UI do Unity? **MVVM** (**Model View ViewModel**), gdzie w warstwie **ViewModel** mamy tylko Properties i logikę biznesową. Naszym modelem byłby np. **CharacterStatisticDataModel**, a w warstwie **View** bindowalibyśmy elementy z Widoku. Wiecie ile zaoszczędziło by to kodu i pracy w implementacji okien, które mają dość dużo pól? … Sporo. Marudzę na to, ponieważ w oknie tworzenia postaci dodałem nowe pola i kontrolki - do ustawiania statystyk. Na tę chwilę wszystkie nasze statystyki zaczynają się od 1. Limit punktów dla postaci wynosi 10. Poniżej 0 nie stworzymy postaci. Wyżej niż 10 .. no way!
 Jak zauważyliście w poprzedniej części, dla kontrolek tworzy się listenery z delegatami zamiast akcji z delegatami. Dla Sliderów, których używamy do rozdysponowania punktów dla każdej wartości używamy onValueChanged.
 
-[csharp]
+```c#
 StrengthSlider.onValueChanged.AddListener(StrengthChanged);
-[/csharp]
+```
 
 Brakuje trochę wpf parametru, do jakiej kontrolki się odwołujemy. Uprościłoby to trochę kod.[![Tworzenie Postaci](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-25-21.07.40-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-25-21.07.40.png)
 
 Następnym kluczowym dla projektu elementem jest okno postaci. W obecnej wersji tylko ze statystykami i imieniem. W przyszłości -> z ekwipunkiem i dodatkowym atrybutami.
 Pod klawiszem **i** otwieramy nasze okienko z postacią. Kiedy je otwieramy, wyłączamy obsługę klawiszy i wyłączamy UI gry.
 
-[csharp]
+```c#
  if (!OpenedWindow)
         {
             if (Input.GetKeyDown(LightKey)) IsDay = !IsDay;
@@ -57,7 +57,7 @@ Pod klawiszem **i** otwieramy nasze okienko z postacią. Kiedy je otwieramy, wy
         {
             _gameUI.enabled = false;
         }
-[/csharp]
+```
 
 Dotyczy to również okna kreatora postaci (w końcu, kto chce manipulować światłem w trakcie wpisywania swojego imienia).
 Na obecną chwilę, zamknięcie Okna ze szczegółami postaci lub kreatora polega na … zabiciu go i Zmianie *OpenedWindow* na false.

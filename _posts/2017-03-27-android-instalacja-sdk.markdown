@@ -36,15 +36,15 @@ Pewnie wiele pamięta z ubuntu “apt-get install” do instalacji aplikacji, wt
 Instalacja jest prosta. Uruchamiamy terminal, wklejamy komendę ze strony Android i enter!
 Po zainstalowaniu, wpisujemy w linii komend aby pobrać sdk:
 
-[code]
+```
 brew install android-sdk
-[/code]
+```
 
 Homebrew pobiera android-sdk i instaluje go na naszym urządzeniu. Jeśli potrzebujecie dodać sdk do PATH, aby mieć dostęp do narzędzi z platformy, wpisujemy w konsoli :
 
-[code]
+```
 export PATH=$PATH:/usr/local/Cellar/android-sdk/&lt;VERSION&gt;/tools:/usr/local/Cellar/android-sdk/&lt;VERSION&gt;/platform-tools
-[/code]
+```
 
 gdzie to wersja naszego SDK.
 

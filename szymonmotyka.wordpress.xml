@@ -42909,15 +42909,15 @@ Pewnie wiele pamięta z ubuntu “apt-get install” do instalacji aplikacji, wt
 Instalacja jest prosta. Uruchamiamy terminal, wklejamy komendę ze strony Android i enter!
 Po zainstalowaniu, wpisujemy w linii komend aby pobrać sdk:
 
-[code]
+```
 brew install android-sdk
-[/code]
+```
 
 Homebrew pobiera android-sdk i instaluje go na naszym urządzeniu. Jeśli potrzebujecie dodać sdk do PATH, aby mieć dostęp do narzędzi z platformy, wpisujemy w konsoli :
 
-[code]
+```
 export PATH=$PATH:/usr/local/Cellar/android-sdk/&amp;lt;VERSION&amp;gt;/tools:/usr/local/Cellar/android-sdk/&amp;lt;VERSION&amp;gt;/platform-tools
-[/code]
+```
 
 gdzie to wersja naszego SDK.
 
@@ -43140,16 +43140,16 @@ Second option will be useful for every developer, not only the Android ones. Eve
 <a href="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-27-at-18.50.09-785x168.png"><img class="aligncenter size-large wp-image-1673" src="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-27-at-18.50.09-785x168-785x168.png" alt="" width="785" height="168" /></a>
 We need to install it from command, which we can find on page (there is a link to actual version). After installation process, we need to open terminal and insert following command:
 
-[code]
+```
 brew install android-sdk
-[/code]
+```
 
 Homebrew will start downloading android sdk + needed dependencies, but it will skip installing IDE. So we need to install it manually (we can do it the way I have described it above - Android Studio or just download inteliJ from .jetBrains. Android Studio is based on inteliJ.
 If you need to add the PATH to your SDK, insert in command line:
 
-[code]
+```
 export PATH=$PATH:/usr/local/Cellar/android-sdk/&amp;amp;amp;lt;VERSION&amp;amp;amp;gt;/tools:/usr/local/Cellar/android-sdk/&amp;amp;amp;lt;VERSION&amp;amp;amp;gt;/platform-tools
-[/code]
+```
 
 where VERSION is version of our sdk (we will find it after installation process sdk)
 <h2>Summary</h2>
@@ -43441,19 +43441,19 @@ Ostatnio na slacku zarzucił mi ktoś, że brakuje mi podsumowań tego, co było
 <h2>Wróg!</h2>
 Podobnie jak nasza postać, przeciwnik będzie opierał się na klasie abstrakcyjnej - MoveObjects, ale w przeciwieństwie do nas, będzie miał swoje statystyki w klasie Enemy. Podobnie jak nasz Gracz, będzie bazować na klasach, a tym samym na tych samych metodach. Będzie posiadać te same statystyki i na obecną chwilę … będą czerwoni. :) Jeśli ktoś ma zamiar zarzucić mi inspirację <strong>SuperHot</strong> … Ma rację!
 
-[code]
+```
  public BaseCharacter EnemyCharacter { get; set; }
 
         public Enemy()
         {
             EnemyCharacter = EnemyUtils.GenerateEnemy();
         }
-[/code]
+```
 
 <h2>Statystyki i Klasa</h2>
 Wybaczcie, ale na obecną chwilę, przeciwnik będzie miał wszystkie statystyki równe 1. Imię jego to “Any Enemy” … i nie będzie się jeszcze dzisiaj poruszał. Ale będzie miał ładny generator. :)
 
-[code]
+```
    public static BaseCharacter GenerateEnemy()
         {
             var classes = CharacterFactory.EnemyClassList();
@@ -43470,7 +43470,7 @@ Wybaczcie, ale na obecną chwilę, przeciwnik będzie miał wszystkie statystyki
             };
             return CharacterFactory.GetPlayerClass(classes.FirstOrDefault().Key, statistic);
         }
-[/code]
+```
 
 <h2>Podsumowanie</h2>
 To tyle na dzisiaj, wybaczcie, że jeszcze was nie ugoszczę ładnym screenem, ani kolejnym demem, ale obiecuję, że doczekacie się wkrótce skromnego gifa, web playera, a kto wie, może i w najbliższym czasie jakiegoś gameplaya na kanale YT.
@@ -45603,9 +45603,9 @@ Domena http://czyjebnie.pl była dostępna i kupiłem na thecamels.org za 10 zł
 Użyłem więc <strong>DigitalOcean</strong>: (<a href="https://m.do.co/c/a0ee3602fd94">https://m.do.co/c/a0ee3602fd94</a>) , gdzie na start z ref linka dostałem 10$ dolarów (to jakieś 2 miesiące serwera ubuntu z 20GB dyskiem). Do 2-3 mikroserwisów nada się idealnie.
 Ponownie wykorzystałem <strong>ASP.NET Core</strong> jako technologię. Tym razem jednak będę się ograniczał z razerem. Głównie będzie to API plus strona z instrukcją :)
 
-[code]
+```
 http://czyjebnie.pl/Pogoda/{Miasto} 
-[/code]
+```
 
 Powyższe zapytanie pobierze stan dla danego miasta. Obecnie zwraca najbliższą pogodę, w której będzie padać, jeśli nie będzie - zwraca słoneczko :)
 
@@ -45748,9 +45748,9 @@ W przypadku tego projektu, użyłem template’u zwanego ASP.NET Core Web API.
 
 Aby utworzyć projekt wystarczy użyć komendy w terminalu:
 
-[code]
+```
 	dotnet new webapi -n nazwaprojektu -o scieżkaprojektu
-[/code]
+```
 
 <h2>Omówienie projektu</h2>
 Teraz przejdźmy do omówienia stworzonego przez nas projektu, opiszę to na przykładzie wcześniej stworzonego projektu:
@@ -45760,11 +45760,11 @@ Teraz przejdźmy do omówienia stworzonego przez nas projektu, opiszę to na prz
 Tu mała ciekawostka, do tej pory Nuget (repozytorium bibliotek) przyzwyczaiło nas, że wszystkie paczki znajdują się w odpowiednim pliku, który był tylko listą paczek package.config. Nie ukrywam, brakuje mi tego pliku :)
 Tutaj, wszystkie paczki dodajemy w pliku projektu w grupie obiektu. Tak samo konfigurujemy obsługę <strong>CLI</strong> np. do <strong>Entity Framework</strong>, czy innych wybranych narzędzi.
 
-[code]
+```
 	&lt;ItemGroup&gt;
     		&lt;PackageReference Include=&quot;Microsoft.AspNetCore&quot; Version=&quot;2.0.0&quot; /&gt;
 	&lt;/ItemGroup&gt;
-[/code]
+```
 
 W dokumencie program.cs ustalamy parametry do inicjacji serwera, a w startup.cs możemy “wczepić” nasze moduły, oraz konfigurację serwera, zawierającą takie informacje jak lokalizacja plików, przekierowywanie czy ustawienia.
 <h2>Kontrolery</h2>
@@ -45887,12 +45887,12 @@ Przykład można znaleźć na [Swagger UI](http://czyjebnie.pl/swagger/)
 Instalacja tego jest prosta.
 Dodajemy paczki:
 <a href="http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23.png"><img src="http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23-785x604.png" alt="" width="720" height="554" class="size-large wp-image-1861" /></a> Swagger
-[code]
+```
     &lt;PackageReference Include=&quot;Swashbuckle.AspNetCore&quot; Version=&quot;1.0.0&quot; /&gt;
     &lt;PackageReference Include=&quot;Swashbuckle.AspNetCore.Swagger&quot; Version=&quot;1.0.0&quot; /&gt;
     &lt;PackageReference Include=&quot;Swashbuckle.AspNetCore.SwaggerGen&quot; Version=&quot;1.0.0&quot; /&gt;
     &lt;PackageReference Include=&quot;Swashbuckle.AspNetCore.SwaggerUI&quot; Version=&quot;1.0.0&quot; /&gt;
-[/code]
+```
 
 A następnie w startup w <strong>ConfigureServices</strong> dodajemy:
 

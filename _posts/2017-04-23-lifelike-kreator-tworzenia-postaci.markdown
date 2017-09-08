@@ -31,7 +31,7 @@ Kod prezentowany w dalszej części, jak zwykle dostępny w całości na [GitHub
 Kreator zacząłem od stworzenia Obiektu CharacterCreator ze skryptem do zarządzania oraz z canvas od UI do okna w środku. Przyznam, że długo myślałem, jak to rozwiązać od strony Unity, a nie jako typowy desktopowy UI z użyciem WPF i MVVM. Czytaj - praca po staremu, akcje na wybór elementu z menu rozwijanego. A także wkrótce statystyki.
 Tak, o to wygląda kod do tworzenia widoku oraz wszelkich ustawień dla kontrolek, typu listenery dla zmieniającego się tekstu, klikania w przyciski czy wybór postaci.
 
-[csharp]
+```c#
 private void SetupView()
     {
         GameManager.Instance.GameUI.enabled = false;
@@ -55,17 +55,17 @@ private void SetupView()
         }
 
     }
-[/csharp]
+```
 
 Dodatkowo przy zamykaniu okna, wyłączamy ten Canvas i włączamy nowy poprzez:
 
-[csharp]
+```c#
     public void OnDestroy()
     {
         GameManager.Instance.GameUI.enabled = true;
         _characterUiCanvas.enabled = false;
     }
-[/csharp]
+```
 
 [![UI](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.28.52-785x402.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.28.52.png)
 
@@ -75,9 +75,9 @@ Dodatkowo przy zamykaniu okna, wyłączamy ten Canvas i włączamy nowy poprzez:
 
 Jak wspominałem przy tworzeniu CharacterFactory, powstał słownik z listą klas postaci -> Klucz to nazwa skrócona (dla fabryki) oraz Wartość - jako dłuższa i widoczna nazwa klasy. Tak więc SuperHobo - Super Hobo itp. Pobrałem więc listę i przekształciłem w:
 
-[csharp]
+```c#
 ClassListDropdown.options = _characterClasses.Select(p => new Dropdown.OptionData(name=p.Value)).ToList();
-[/csharp]
+```
 
 _CharacterClasses jest dodatkowo potrzebne po to, aby pobrać wartość dla wybranego elementu z dropdown elementu.
 

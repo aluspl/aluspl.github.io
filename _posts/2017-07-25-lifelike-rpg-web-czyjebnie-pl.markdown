@@ -67,9 +67,9 @@ Domena http://czyjebnie.pl była dostępna i kupiłem na thecamels.org za 10 zł
 Użyłem więc **DigitalOcean**: ([https://m.do.co/c/a0ee3602fd94](https://m.do.co/c/a0ee3602fd94)) , gdzie na start z ref linka dostałem 10$ dolarów (to jakieś 2 miesiące serwera ubuntu z 20GB dyskiem). Do 2-3 mikroserwisów nada się idealnie.
 Ponownie wykorzystałem **ASP.NET Core** jako technologię. Tym razem jednak będę się ograniczał z razerem. Głównie będzie to API plus strona z instrukcją :)
 
-[code]
+```
 http://czyjebnie.pl/Pogoda/{Miasto} 
-[/code]
+```
 
 Powyższe zapytanie pobierze stan dla danego miasta. Obecnie zwraca najbliższą pogodę, w której będzie padać, jeśli nie będzie - zwraca słoneczko :)
 

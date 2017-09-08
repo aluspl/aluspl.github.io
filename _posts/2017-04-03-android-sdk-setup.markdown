@@ -47,16 +47,16 @@ Second option will be useful for every developer, not only the Android ones. Eve
 [![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-27-at-18.50.09-785x168-785x168.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screen-Shot-2017-03-27-at-18.50.09-785x168.png)
 We need to install it from command, which we can find on page (there is a link to actual version). After installation process, we need to open terminal and insert following command:
 
-[code]
+```
 brew install android-sdk
-[/code]
+```
 
 Homebrew will start downloading android sdk + needed dependencies, but it will skip installing IDE. So we need to install it manually (we can do it the way I have described it above - Android Studio or just download inteliJ from .jetBrains. Android Studio is based on inteliJ.
 If you need to add the PATH to your SDK, insert in command line:
 
-[code]
+```
 export PATH=$PATH:/usr/local/Cellar/android-sdk/&amp;amp;lt;VERSION&amp;amp;gt;/tools:/usr/local/Cellar/android-sdk/&amp;amp;lt;VERSION&amp;amp;gt;/platform-tools
-[/code]
+```
 
 where VERSION is version of our sdk (we will find it after installation process sdk)
 
