@@ -27,11 +27,13 @@ W tej części zajmijmy się 2. rzeczami. 1. -sterowaniem (własny Input Manager
 
 Trochę ulepszony system turowy pozwolił rozwiązać problem ze zbyt dalekim poruszaniem się w jednym ruchu. Rozwiązaniem tym okazało się WaitForSecond i wrzucenie ruchów przeciwnika w IEnumerator, który zwraca właśnie to WaitForSecond. Po wszystkim nastaje tura gracza.
 
-```c# 
+
+ ```c# 
 
 	  var coroutine = EnemyUtils.EnemiesMove(PlayerObject);
            StartCoroutine(coroutine);
-```c# 
+
+ ```c# 
 
 
 W wyniku tej operacji, możemy ruszać się trzymając klawisz, ale tylko w swojej turze, co określony czas.

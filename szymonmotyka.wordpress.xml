@@ -483,9 +483,11 @@ Zapraszam do obserwowania tego działu :)
 	</wp:tag>
 	<wp:tag>
 		<wp:term_id>250</wp:term_id>
-		<wp:tag_slug><![CDATA```c# 
+		<wp:tag_slug><![CDATA
+ ```c# 
 ]></wp:tag_slug>
-		<wp:tag_name><![CDATA```c# 
+		<wp:tag_name><![CDATA
+ ```c# 
 ]></wp:tag_name>
 	</wp:tag>
 	<wp:tag>
@@ -1769,10 +1771,12 @@ Zapraszam do obserwowania tego działu :)
 	<wp:term>
 		<wp:term_id><![CDATA[250]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA```c# 
+		<wp:term_slug><![CDATA
+ ```c# 
 ]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA```c# 
+		<wp:term_name><![CDATA
+ ```c# 
 ]></wp:term_name>
 	</wp:term>
 	<wp:term>
@@ -42048,7 +42052,8 @@ Takim oto sposobem przyjąłem inny scenariusz.
 Z racji, że pokoje muszą mieścić się w określonym limicie, zacząłem od przypisania wartości do zmiennej *<strong>LeftValueY</strong>* -&gt; Wysokość Mapy -1 (Array liczy się od 0 do podanego rozmiaru -1 [taka informacja dla mniej technicznych] ).
 Następnie w pętli (ta sama pętla będzie też używana do nakładania wartości w array), o określonej liczbie powtórzeń (liczba z parametru) generowałem pokoje w zakresie od 20 [Stała Minimum] do <strong>LeftValue</strong>. Dodatkowo, wartość <strong>LeftValueY</strong> zmniejszałem o tą wylosowaną liczbę. Jedyny wyjątek, co do rozmiaru był wtedy, gdy LeftValue był mniejszy niż stała minimum.
 
-```c# 
+
+ ```c# 
 
 private static int GetWallSize(ref int left)
 {
@@ -42063,13 +42068,15 @@ private static int GetWallSize(ref int left)
 
     return randomX;
 }
-```c# 
+
+ ```c# 
 
 
 Takim o to sposobem dostaliśmy, wysokość, na której będzie rysowana linia pozioma.
 A jest to sposób bardzo prosty :)
 
-```c# 
+
+ ```c# 
 
 private static void GetHorizontalWall(MapElement[,] map, ref int posY, int ySize)
 {
@@ -42084,7 +42091,8 @@ private static void GetHorizontalWall(MapElement[,] map, ref int posY, int ySize
             map[x, posY] = MapElement.Wall;
     }
 }
-```c# 
+
+ ```c# 
 
 
 Tradycyjny <strong>for</strong> od 0 do szerokość mapy pomniejszonej o 1 i wstawienie elementu ściany na określonej pozycji.
@@ -42094,7 +42102,8 @@ Tradycyjny <strong>for</strong> od 0 do szerokość mapy pomniejszonej o 1 i ws
 <h2>Linie Pionowe!</h2>
 A żeby nam w głowie się nie poprzewracało od zbyt dużej przestrzeni, podzielimy każde “piętro” na mniejsze pokoiki. Procedura generowania ścian pionowych nie różni się niemal w ogóle od procedur generowania lini poziomych.
 
-```c# 
+
+ ```c# 
 
 private static void GetVerticalWall(MapElement[,] map, ref int posX,  int posY, int xSize, int ySize)
 {
@@ -42107,7 +42116,8 @@ private static void GetVerticalWall(MapElement[,] map, ref int posX,  int posY, 
             map[posX, y] = MapElement.Wall;
     }
 
-}```c# 
+}
+ ```c# 
 
 
 W obecnej metodzie tworzymy zmienną <strong>LeftValueX</strong>, której przypisujemy wartość równą szerokości mapy pomniejszoną o 1. Wartość ta będzie się resetować przy każdym poziomie. W pętli wewnątrz procedury, mamy tę samą metodę, co wcześniej(<strong>GetWallSize</strong>) i zmniejszamy <strong>LeftValueX</strong>, generując określoną ilość ścian o losowych wymiarach. Różnica następuje jednak w nakładaniu tych linii na mapę. Tutaj pod uwagę bierzemy <strong>Wysokość</strong> obecnego poziomu -&gt;
@@ -42252,19 +42262,22 @@ Gdy już zaimportowałem sprite (grafika 2D) z postacią i stworzyłem prefab (o
 <h2>Poruszanie w praktyce</h2>
 Zacznijmy od metody Move oraz kluczowych punktów.
 
-```c# 
+
+ ```c# 
 
 	  _boxCollider2D.enabled = false;
             hit = Physics2D.Linecast(start, end, BlockingLayer);
             _boxCollider2D.enabled = true;
-```c# 
+
+ ```c# 
 
 
 Wywołujemy ten fragment kodu, aby sprawdzić, czy początkowy punkt obiektu oraz końcowy nie będą nachodziły na element, który tą postać ma blokować.
 Jeśli nie, wywołujemy funkcję zwracającą IEnumerator o nazwie Movement (ależ jestem oryginalny) .
 Dodatkowo nasz <strong>BlockingLayer</strong> jest przypisany do ściany, ale można go też przypisać do innych rzeczy, czyli np. elementów otoczenia, zablokowanych drzwi czy przeciwników. W zależności od *blockingLayer*, będziemy później wykonywać określone akcje, typu włamywanie do pokoi, bezpośredni atak itp. lub próba spacyfikowania ściany za pomocą głowy lub innych skilli :)
 
-```c# 
+
+ ```c# 
 
             var remainingDistance = (transform.position - destination).sqrMagnitude;
             while (remainingDistance&amp;amp;amp;gt;float.Epsilon)
@@ -42277,7 +42290,8 @@ Dodatkowo nasz <strong>BlockingLayer</strong> jest przypisany do ściany, ale mo
         }
 
 
-```c# 
+
+ ```c# 
 
 
 Powyższa metoda służy do poruszania naszym RigidBody (pamiętajcie, aby ustawić go jako <strong>Kinematic</strong>, chyba, że chcecie widzieć jak postać próbuje poruszać się po pionowej ścianie do góry, niczym <strong>Deadpool</strong> próbujący udawać <strong>Spidermana</strong> … czyli bezsktucznie :)
@@ -42294,7 +42308,8 @@ Tę klasę wywołujemy również w klasie Player, która dziedziczy po klasie <s
 <h2>Klawiatura vs Pad</h2>
 Tu mam 2 sposoby :) Jeden: zmapowane klawisze i Input.GetKeyDown. Sposób dobry, zwłaszcza, gdy gra jest <strong>turn based</strong> (turowa), a wszystkie klawisze chcemy ręcznie zmapować (w GameManager Prefab mamy do tego edytor). Oczywiście są inne akcje w przypadku trzymania przycisku itp. Ogromną zaletą takiego rozwiązania jest szeroka konfiguralności, jednak minusem jest dodatkowy kod, w przypadku chęci przeportowania gry na coś innego niż klawiaturę.
 
-```c# 
+
+ ```c# 
 
 
 	const int horizontal = 1;
@@ -42317,12 +42332,14 @@ Tu mam 2 sposoby :) Jeden: zmapowane klawisze i Input.GetKeyDown. Sposób dobry,
                 return new Vector2(0,vertical*-1);
 
 
-```c# 
+
+ ```c# 
 
 
 Oraz drugi sposób, uniwersalny, z pobraniem wartości z osi pionowej i poziomej -&gt; co odpowiada albo za klawisze <strong>Up/Down</strong> i <strong>Left/Right</strong> (zwraca wartosc -1 -&gt; 0 -&gt; 1). Jest to dobre, ponieważ przy podpięciu pada, lewa gałka jest tego odpowiednikiem, także w przypadku telefonu, gałka odpowiada za horizontal i vertical. Czyli teoretycznie wypada idealnie, a jednak <em>“coś poszło nie tak”</em>. Czasami nie reaguje poprawnie na ruch gałką, a czasami rusza o 2 pola, zamiast o jedno. Czyli pobiera ciągle, ale nie w równym czasie. Jeśli macie jakieś sugestie, zapraszam do sprawdzenia kodu, przetestowania i podzielenia się radami :)
 
-```c# 
+
+ ```c# 
 
 
 
@@ -42335,7 +42352,8 @@ Oraz drugi sposób, uniwersalny, z pobraniem wartości z osi pionowej i poziomej
             return new Vector2(x,y);
 
 
-```c# 
+
+ ```c# 
 
 
 Wybór zależy od was :) Ja eksperymentuję z opcją numer 1 i numer 2 :)
@@ -42343,13 +42361,15 @@ Wybór zależy od was :) Ja eksperymentuję z opcją numer 1 i numer 2 :)
 Skoro nasza postać się porusza, wypada także, aby kamera śledziła naszą postać :)
 Klasa FollowCamera, załączona jako komponent do Main Camera śledzi naszą postać - GameObject jest przypisany na podstawie taga.
 
-```c# 
+
+ ```c# 
 
 void LateUpdate ()
 {
 transform.position = player.transform.position + offset;
 }
-```c# 
+
+ ```c# 
 
 
 <h2>Podsumowanie</h2>
@@ -42518,10 +42538,12 @@ Po stronie edytora dodałem możliwość wybrania pomiędzy Input.GetButtownDown
 Przyznam, że początkowo miałem ten wpis ograniczyć tylko do tego zagadnienia, ale jak się za chwilę przekonacie rzeczywistość okazała się być inna, a to wszystko przez to, że przysiadłem troszkę dłużej przy kwestii oświetlenia/światła, które różni się w Unity2d w stosunku do 3d. Ale o tym będzie później, a teraz wróćmy do głównego gościa tego paragrafu, czyli obrotu. :)
 Obrót postacią odbywa się za pomocą metody:
 
-```c# 
+
+ ```c# 
    if (Input.GetKeyDown(GameManager.Instance.KeyLeft))
       transform.eulerAngles=new Vector3(0,0,90); 
-```c# 
+
+ ```c# 
 
 
 Wartość kąta zależy od tego, w którą stronę chcemy się obrócić, tutaj mamy przypadek dla skrętu w lewo.
@@ -42574,7 +42596,8 @@ Bonus:
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="csharp"><![CDATA```c# 
+		<category domain="post_tag" nicename="csharp"><![CDATA
+ ```c# 
 ]></category>
 		<category domain="category" nicename="dsp"><![CDATA[Daj Się poznać]]></category>
 		<category domain="post_tag" nicename="dsp"><![CDATA[dsp]]></category>
@@ -42677,28 +42700,32 @@ Klasa dodatkowa implementuje IDisposable dla drobnej optymalizacji, gdy przestan
 <h2>Konfiguracja</h2>
 Metoda z atrybutem TestFixtureSetup służy do inicjacji, czyli jeśli potrzebujemy ustawić potrzebne klasy, referencje, które użyjemy w testach i chcemy wywołać tylko raz, robimy to tutaj:
 
-```c# 
+
+ ```c# 
 
  [TestFixtureSetUp]
         public void Configure()
         {
             _generator=new MapGenerator();
         }
-```c# 
+
+ ```c# 
 
 
 <h2>Pierwszy Test</h2>
 Przejdźmy do pierwszego podstawowego testu. Sprawdźmy, czy nasz wywołany generator jest nullem. Wywołujemy testy za pomocą klasy Assert, która jest w metodzie oznaczonej atrybutem [Test]. Oczywiście, można dodać wiele innych warunków, które chcemy sprawdzić. W końcu to podstawa TDD, aby podać warunki, nie tylko które ma spełnić, ale które również ma oblać, żeby być pewnym czy aplikacja działa poprawnie.
 Efekt wszystkich testów można sprawdzić uruchamiając projekt z testem np w Rider za pomocą prawego przycisku i “Run Unit Test”.
 
-```c# 
+
+ ```c# 
   
 [Test]
         public void IsGeneratorExist()
         {
             Assert.IsNotNull(_generator);
         }
-```c# 
+
+ ```c# 
 
 
 Poniżej przykład wyniku takiego podstawowego testu.
@@ -42706,12 +42733,14 @@ Poniżej przykład wyniku takiego podstawowego testu.
 Skoro poprzedni test się udał, to wypadałoby sprawdzić, jakich warunków nie spełnia i co oblewa.
 Sprawdźmy, czy nasz array jest równy 0.
 
-```c# 
+
+ ```c# 
 
     int x = 10, y = 10;
             var map =  new MapElement[x,y];
                 Assert.AreEqual(map.GetLength(0), 0);
-```c# 
+
+ ```c# 
 
 
 UUU … test Failed :( oczekiwało 0, a wyskoczyło 10.
@@ -42719,7 +42748,8 @@ UUU … test Failed :( oczekiwało 0, a wyskoczyło 10.
 Aby tak nie testować jednostkowo, wypada sprawdzić to bardziej zaawansowanie.
 Przejdźmy do *TestCase*:
 
-```c# 
+
+ ```c# 
 
 [Test, TestCaseSource(typeof(SampleData),&quot;SizeCases&quot;)]
         public int IsValidSize(int x, int y, int element)
@@ -42727,7 +42757,8 @@ Przejdźmy do *TestCase*:
             var map =  new MapElement[x,y];
             return map.GetLength(element);
         }
-```c# 
+
+ ```c# 
 
 
 W tym przypadku tworzymy funkcję, w której określamy, co chcemy zwrócić, aby potem sprawdzić poprawność.
@@ -42735,7 +42766,8 @@ Zwracam rozmiar danej ściany (map.GetLength(0) powinien zwrócić x, a GetLengt
 Atrybut TestCaseSource ustawia z jakiej klasy oraz z której właściwości ma brać dane.
 Tworzymy więc nową klasę (u mnie SampleData), w której wrzucamy warunki testów w postaci właściwości typu IEnumerate
 
-```c# 
+
+ ```c# 
 
    public static IEnumerable SizeCases
         {
@@ -42747,7 +42779,8 @@ Tworzymy więc nową klasę (u mnie SampleData), w której wrzucamy warunki test
                 yield return new TestCaseData( 12, 4,1).Returns( 4 );
             }
         }
-```c# 
+
+ ```c# 
 
 
 TestCaseData jako parametry przyjmuje parametry do metody, którą wywołujemy a w Returns sprawdza, czy metoda zwraca wybrane elementy. Poniżej wyniki testów dla danego przykładu.
@@ -42971,7 +43004,8 @@ Na tworzenie postaci, stworzyłem testy większości funkcji, choć nie są komp
 W każdym bądź razie, system walki ma swoje zaczątki, jednak będzie brane pod uwagę coś więcej niż siła, a każde wyliczenie do podstawowej walki będzie brane pod unit testy, więc spokojnie :)
 
 Przy okazji stworzyłem nowe klasy : Super Hobo (styl małpy, wiedźmińskie alkohole itp)  oraz klasy, które będą skupione na przeciwnikach jak Boss, Hobo itp
-```c# 
+
+ ```c# 
 
  public static BaseCharacter GetPlayerClass(string classType, CharacterStatisticDataModel statistic )
         {
@@ -42992,13 +43026,15 @@ Przy okazji stworzyłem nowe klasy : Super Hobo (styl małpy, wiedźmińskie alk
                     return  null;
             }
         }
-```c# 
+
+ ```c# 
 
 <h2>Atak</h2>
 W początkowej fazie <strong>Damage</strong> = <strong>Siła</strong>.
 Lecz w następnych etapach rozgrywki, powodzenie ataku będzie zależne od zręczności obu postaci, a siła ataku będzie liczbą losową zmniejszoną o przyszły ekwipunek postaci. Oczywiście szansa uniku będzie tym większa, im większa różnica zręczności, a sam atak będzie liczbą losową (taaak, grało się w <strong>RPG</strong>).
 
-```c# 
+
+ ```c# 
 
     public virtual string Attack(BaseCharacter enemy)
         {
@@ -43006,7 +43042,8 @@ Lecz w następnych etapach rozgrywki, powodzenie ataku będzie zależne od zręc
             enemy.HealthPoint -= damage;
             return GameLogSystem.Attack(damage, enemy);
         }
-```c# 
+
+ ```c# 
 
 <h2>Podsumowanie</h2>
 To tyle na dzisiaj, postać będzie rozwijana przez co najmniej 2-3 części, ale nie pominę oczywiście tworzenia przeciwnika na mapie oraz UI przygotowanego do walki (wyświetlanie logów, ataku itp).
@@ -43220,29 +43257,34 @@ W poprzednim wpisie, atak był dość uproszczony, powiedziałbym … mamy 100% 
 W <strong>BaseCharacterClass</strong> są 3 metody odpowiedzialne za atak:
 - <strong>Critical Chance</strong>, który sprawdza, czy mamy szansę, na zwiększenie liczby obrażeń dwukrotnie.
 
-```c# 
+
+ ```c# 
 
    public bool CriticalChance()
         {
             return _random.Next(100)*Agility&gt;90;
         }
-```c# 
+
+ ```c# 
 
 
 - <strong>ChanceToAttack</strong>, który w praktyce pokazuje, czy udało się nam trafić, czy może skutecznie minęliśmy się z celem. Im większa zręczność, tym większa szansa na atak lub unik.
 
-```c# 
+
+ ```c# 
 
   public bool ChanceToAttack(BaseCharacter enemy)
         {
             return _random.Next(Agility)&gt;_random.Next(enemy.Agility);
         }
-```c# 
+
+ ```c# 
 
 
 - <strong>Attack</strong> …czyli nasz atak, który jako parametr przyjmuje naszego przeciwnika - czyli mamy dostępne wszystkie informacje o przeciwniku, jest to czysta referencja do obiekt. Metoda ta zwraca string - z logiem, który wyświetlimy potem w odpowiedniej konsoli. Oczywiście atak będzie brał pod uwagę także ekwipunek zarówno nasz jak i przeciwnika.
 
-```c# 
+
+ ```c# 
 
  public virtual string Attack(BaseCharacter enemy)
         {
@@ -43251,7 +43293,8 @@ W <strong>BaseCharacterClass</strong> są 3 metody odpowiedzialne za atak:
             damage=enemy.Defense(damage);
             return GameLogSystem.Attack(damage);
         }
-```c# 
+
+ ```c# 
 
 
 <h2>Atak specjalny</h2>
@@ -43259,18 +43302,21 @@ Przykład pokazany w tym akapicie, został wykonany na pierwszej opracowanej kla
 
 Liczbę ataków pobieramy z metody przeciążonej:
 
-```c# 
+
+ ```c# 
 
 public override List SpecialActionsList()
 
-```c# 
+
+ ```c# 
 
 
 U nas zwraca na obecną chwilę: “<strong>Tech Talk</strong>" i "<strong>Phantom IT Device Attack</strong>" ( w końcu, nikt nie wie, skąd oni tę klawiaturę biorą).
 
 Następnie po wybraniu ataku (np. context menu)
 
-```c# 
+
+ ```c# 
 
         public override string SpecialAction(BaseCharacter enemyCharacter, string actionName)
         {
@@ -43286,17 +43332,20 @@ Następnie po wybraniu ataku (np. context menu)
                     return Attack(enemyCharacter);
             }
         }
-```c# 
+
+ ```c# 
 
 
 I atakujemy Tech Talkiem, który w zależności od sukcesu zwraca:
 
-```c# 
+
+ ```c# 
 
             return success ? 
  &quot;You are successfully bored enemy! He is sleeping now.  Good Job&quot; :
  &quot;You are not so boring for your enemy&quot;;
-```c# 
+
+ ```c# 
 
 
 i … usypiamy przeciwnika! :)
@@ -43510,7 +43559,8 @@ W poprzednim wpisie wspominałem o inspiracji Superhot, w tym postanowiłem sło
 A przy okazji dodaj się do listy Przeciwników, aby łatwo Cię było potem wybrać … i zabić.
 …
 
-```c# 
+
+ ```c# 
 
 private void AddEnemy(MapElement[,] map, int x, int y)
 {
@@ -43524,7 +43574,8 @@ GameManager.Instance.AddEnemy(enemy);
 
 MaxEnemies--;
 }
-```c# 
+
+ ```c# 
 
 
 Założyłem sobie, że przeciwnik musi pojawić się na podłodze, a nie w ścianie. A i musi być w ograniczonej liczbie. :) Póki co, generator działa ze zbyt dużą częstotliwością, więc szansa na pojawienie się przeciwnika jest bardzo duża - za duża.
@@ -43536,7 +43587,8 @@ Kolejnym kluczowym elementem, jest wiedza … kogo zaatakowaliśmy. :)
 …
 Przeciwnik dostał ten sam <strong>shader</strong>, co podłoga, więc nie jest widoczny w nocy, ale dodałem mu jakiś element oznaczenia. Małą lampkę, która oznacza, że przeciwnik jest zaznaczony. Zaznaczenia zmieniamy, przez kliknięcie TAB (lub innego przypisanego klawisza)
 
-```c# 
+
+ ```c# 
 
   private void SelectEnemy()
     {
@@ -43550,7 +43602,8 @@ Przeciwnik dostał ten sam <strong>shader</strong>, co podłoga, więc nie jest 
         Enemies[EnemyUtils.EnemyIndex].IsSelected = true;
         EnemyUtils.EnemyIndex++;
     }
-```c# 
+
+ ```c# 
 
 
 <a href="http://szymonmotyka.pl/wp-content/uploads/2017/04/giphy-2.gif"><img class="aligncenter size-full wp-image-1707" src="http://szymonmotyka.pl/wp-content/uploads/2017/04/giphy-2.gif" alt="" width="480" height="300" /></a>
@@ -43634,7 +43687,8 @@ PIerwszym elementem dla rasowych Rogue Like i Oldschoolowych RPG jest ekran log�
 Jednak ekran logów trzeba było ograniczyć do określonej liczby linijek - tzn. czyścić te pierwsze, aby cały czas nie było więcej niż wybrana liczba linijek - u mnie 10. Logi dodaje się przez metodę <strong>AddLog</strong>(treść), a edytor przyjmuje podstawowe tagi html jak "b", "i" oraz \t i \n dla nowej linii.
 Cały kod zobaczycie na GitHubie, a fragment o którym mówię, zobaczycie poniżej.
 
-```c# 
+
+ ```c# 
 
     public void AddLog(string log)
     {
@@ -43643,14 +43697,16 @@ Cały kod zobaczycie na GitHubie, a fragment o którym mówię, zobaczycie poni�
         _stringLog.AppendLine(log);
          GameLog.text = _stringLog.ToString();
     }
-```c# 
+
+ ```c# 
 
 
 <h2>Zaznaczony Przeciwnik</h2>
 W poprzedniej części nauczyliśmy się, jak zaznaczać przeciwnika i przełączać się pomiędzy nimi, dlatego też, aby to rozszerzyć, stworzyłem panel do wyświetlania danych wybranego wroga.
 Obecnie wyświetlane jest jego imię, lvl oraz coś, co poruszę w następnym punkcie, do którego potrzebny jest…
 
-```c# 
+
+ ```c# 
 
 private void SelectedEnemyPanel()
     {
@@ -43668,7 +43724,8 @@ private void SelectedEnemyPanel()
         }
 
     }
-```c# 
+
+ ```c# 
 
 
 <h2>Dystans</h2>
@@ -43677,7 +43734,8 @@ Tu by się przydała trochę wiedza z uczelni oraz wzór na odległość między
 
 Dystans dodałem do klasy Enemy. Pomaga to także posortować przeciwników ze względu na dystans od gracza.
 
-```c# 
+
+ ```c# 
 
  public  int Distance {
             get {
@@ -43691,7 +43749,8 @@ Dystans dodałem do klasy Enemy. Pomaga to także posortować przeciwników ze w
                 //                  Mathf.Pow(Player.transform.position.y - SelectedEnemy.transform.position.y, 2));
             }
         }
-```c# 
+
+ ```c# 
 
 
 <a href="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36.png"><img class="size-large wp-image-1715" src="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36-785x490.png" alt="LifeLIke" width="785" height="490" /></a> 1 wersja UI
@@ -43777,7 +43836,8 @@ Kod prezentowany w dalszej części, jak zwykle dostępny w całości na <a href
 Kreator zacząłem od stworzenia Obiektu CharacterCreator ze skryptem do zarządzania oraz z canvas od UI do okna w środku. Przyznam, że długo myślałem, jak to rozwiązać od strony Unity, a nie jako typowy desktopowy UI z użyciem WPF i MVVM. Czytaj - praca po staremu, akcje na wybór elementu z menu rozwijanego. A także wkrótce statystyki.
 Tak, o to wygląda kod do tworzenia widoku oraz wszelkich ustawień dla kontrolek, typu listenery dla zmieniającego się tekstu, klikania w przyciski czy wybór postaci.
 
-```c# 
+
+ ```c# 
 
 private void SetupView()
     {
@@ -43802,29 +43862,34 @@ private void SetupView()
         }
 
     }
-```c# 
+
+ ```c# 
 
 
 Dodatkowo przy zamykaniu okna, wyłączamy ten Canvas i włączamy nowy poprzez:
 
-```c# 
+
+ ```c# 
 
     public void OnDestroy()
     {
         GameManager.Instance.GameUI.enabled = true;
         _characterUiCanvas.enabled = false;
     }
-```c# 
+
+ ```c# 
 
 
 <a href="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.28.52.png"><img class="aligncenter wp-image-1722 size-large" src="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.28.52-785x402.png" alt="UI" width="785" height="402" /></a>
 <h2>Lista klas dla tworzenia postaci</h2>
 Jak wspominałem przy tworzeniu CharacterFactory, powstał słownik z listą klas postaci -&gt; Klucz to nazwa skrócona (dla fabryki) oraz Wartość - jako dłuższa i widoczna nazwa klasy. Tak więc SuperHobo - Super Hobo itp. Pobrałem więc listę i przekształciłem w:
 
-```c# 
+
+ ```c# 
 
 ClassListDropdown.options = _characterClasses.Select(p =&gt; new Dropdown.OptionData(name=p.Value)).ToList();
-```c# 
+
+ ```c# 
 
 
 _CharacterClasses jest dodatkowo potrzebne po to, aby pobrać wartość dla wybranego elementu z dropdown elementu.
@@ -43915,10 +43980,12 @@ Na swoim blogu i prezentacjach Arek (<a href="http://www.benedykt.net/">http://w
 Wiecie, czego najbardziej brakuje mi w tworzeniu UI do Unity? <strong>MVVM</strong> (<strong>Model View ViewModel</strong>), gdzie w warstwie <strong>ViewModel</strong> mamy tylko Properties i logikę biznesową. Naszym modelem byłby np. <strong>CharacterStatisticDataModel</strong>, a w warstwie <strong>View</strong> bindowalibyśmy elementy z Widoku. Wiecie ile zaoszczędziło by to kodu i pracy w implementacji okien, które mają dość dużo pól? … Sporo. Marudzę na to, ponieważ w oknie tworzenia postaci dodałem nowe pola i kontrolki - do ustawiania statystyk. Na tę chwilę wszystkie nasze statystyki zaczynają się od 1. Limit punktów dla postaci wynosi 10. Poniżej 0 nie stworzymy postaci. Wyżej niż 10 .. no way!
 Jak zauważyliście w poprzedniej części, dla kontrolek tworzy się listenery z delegatami zamiast akcji z delegatami. Dla Sliderów, których używamy do rozdysponowania punktów dla każdej wartości używamy onValueChanged.
 
-```c# 
+
+ ```c# 
 
 StrengthSlider.onValueChanged.AddListener(StrengthChanged);
-```c# 
+
+ ```c# 
 
 
 Brakuje trochę wpf parametru, do jakiej kontrolki się odwołujemy. Uprościłoby to trochę kod.<a href="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-25-21.07.40.png"><img class="aligncenter size-large wp-image-1732" src="http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-25-21.07.40-785x491.png" alt="Tworzenie Postaci" width="785" height="491" /></a>
@@ -43926,7 +43993,8 @@ Brakuje trochę wpf parametru, do jakiej kontrolki się odwołujemy. Uprościło
 Następnym kluczowym dla projektu elementem jest okno postaci. W obecnej wersji tylko ze statystykami i imieniem. W przyszłości -&gt; z ekwipunkiem i dodatkowym atrybutami.
 Pod klawiszem <strong>i</strong> otwieramy nasze okienko z postacią. Kiedy je otwieramy, wyłączamy obsługę klawiszy i wyłączamy UI gry.
 
-```c# 
+
+ ```c# 
 
  if (!OpenedWindow)
         {
@@ -43941,7 +44009,8 @@ Pod klawiszem <strong>i</strong> otwieramy nasze okienko z postacią. Kiedy je 
         {
             _gameUI.enabled = false;
         }
-```c# 
+
+ ```c# 
 
 
 Dotyczy to również okna kreatora postaci (w końcu, kto chce manipulować światłem w trakcie wpisywania swojego imienia).
@@ -44035,15 +44104,18 @@ W tym temacie chciałbym się skupić bardziej na walce bezpośredniej. W kodzie
 <h2>Zaznaczanie najbliższego przeciwnika</h2>
 Skoro już poruszyłem temat zaznaczania przeciwnika (link), warto by było umożliwić graczowi podświetlenie tych, których możemy zaatakować, czyż nie? Ulepszyłem więc metodę do zaznaczania przeciwników, tylko tych, co są w ustalonym zasięgu:
 
-```c# 
+
+ ```c# 
 
             var nearby = GameManager.Instance.Enemies.Where(p=&gt;p.Distance&lt;=MAXDISTANCE).OrderBy(p =&gt; p.Distance).ToList();
-```c# 
+
+ ```c# 
 
 
 Wypadało także zmienić zaznaczonego przeciwnika. W końcu ciężko zaznaczyć index przeciwnika, gdy bazujemy na liście tylko tych, co są nam najbliżsi! Obecnie wartość dla MAXDISTANCE wynosi 1 :)
 
-```c# 
+
+ ```c# 
 
   public static Enemy SelectedEnemy
         {
@@ -44054,14 +44126,16 @@ Wypadało także zmienić zaznaczonego przeciwnika. W końcu ciężko zaznaczyć
                     : null;
             }
         }
-```c# 
+
+ ```c# 
 
 
 <h2>Walka!</h2>
 Gdy już mamy zaznaczonego przeciwnika, starczy kliknąć spacje, aby zaatakować. Szczerze, w obecnej sytuacji liczy się tylko <strong>Agility</strong> i <strong>Strength</strong>. Ok, jeszcze <strong>Endurance</strong> ma znaczenie dla naszej ilości punktów życia.
 A to też ważne, choć w obecnej sytuacji tylko dla wroga (huehue). Dodałem procedurę śmierci przeciwnika z doświadczeniem dla nas:
 
-```c# 
+
+ ```c# 
 
   public void KillEnemy(Enemy enemy)
     {
@@ -44076,7 +44150,8 @@ A to też ważne, choć w obecnej sytuacji tylko dla wroga (huehue). Dodałem pr
             Debug.Log(&quot;Enemy shouldn't be here!&quot;);
         }
     }
-```c# 
+
+ ```c# 
 
 
 A więc po kliknięciu w spacje, sprawdza szansę na zaatakowanie i atakuje! Zresztą, tematykę już poruszyłem, tylko zmodernizowałem o …
@@ -44207,7 +44282,8 @@ Od ostatniego odcinka zmieniłem IDE. Wiecie, na Macu mam średni wybór do c#, 
 <h2>Ruch</h2>
 Poprzedni model ruchu inspirowany był kursem od Unity - Rogue Like. Nie był on doskonały, ponieważ, gdy naciśnęliśmy zbyt dużo klawiszy na raz, nasza postać poruszała się zbyt niestabilnie i wychodziła poza kratkę. Tym razem poruszamy się my oraz przeciwnik o całą klatkę.
 
-```c# 
+
+ ```c# 
 
   public IEnumerator Movement(Vector3 destination)
         {
@@ -44224,14 +44300,16 @@ Poprzedni model ruchu inspirowany był kursem od Unity - Rogue Like. Nie był on
             transform.position=destination;
             yield return null;
         }
-```c# 
+
+ ```c# 
 
 
 <h2>System Turowy</h2>
 Jest to prosty system - On atakuje albo my atakujemy. Życie jest Proste! :)
 W GameManagerze dodałem nową zmienną “IsPlayerTurn”, od której zależy, do kogo należy obecnie tura. Tzn. ruch jest zablokowany, a przeciwnicy jeden po drugim się poruszają.
 
-```c# 
+
+ ```c# 
 
    public void EndPlayerTurn()
     {  
@@ -44244,14 +44322,16 @@ W GameManagerze dodałem nową zmienną “IsPlayerTurn”, od której zależy, 
       	UiUtils.AddLog(&quot;Player Turn&quot;);
         IsPlayerTurn = true;
     }
-```c# 
+
+ ```c# 
 
 
 Dodatkowo parametr PlayerObject zostanie omówiony w następnym punkcie.
 <h2>Poruszanie się za nami</h2>
 Skoro już wiemy, za kim mają się ruszać, to przejdźmy do ruchu za nami. W klasie <strong>Enemy</strong>, dodałem metodę <strong>MoveToPlayer</strong>, w której pobieramy vector ruchu pomiędzy graczem a przeciwnikiem, a następnie skracamy do wartości -1,0,1 ( w zależności, do strony, w którą ma się poruszać). Odbywa się to w metodzie <strong>RoundEnemyMoves</strong>
 
-```c# 
+
+ ```c# 
 
  public void MoveToPlayer(GameObject playerObject)
         {       
@@ -44262,18 +44342,21 @@ Skoro już wiemy, za kim mają się ruszać, to przejdźmy do ruchu za nami. W k
            if (Math.Abs(moveVector.x) &gt; TOLERANCE || Math.Abs(moveVector.y) &gt; TOLERANCE)
                 AttemtMove&lt;MovingObject&gt;(moveVector);        
         }
-```c# 
+
+ ```c# 
 
 
 <h2>Atak na gracza</h2>
 Jak wspominałem na wstępie, wprowadziłem także kolizję, gdy przeciwnik wejdzie na gracza. Dodatkowo, dzięki nowemu systemowi walki musiałem sporo zmienić logi. :) Ze względu na charakter, jakbyśmy mówili sami do siebie. Wypadałoby to przebudować bardziej, ale to już, gdy będę pracował nad system słownika.
 W każdym razie, jeśli przeciwnik natknie się na nas, a dystans między nami wyniesie 1 (w przypadku walki bezpośrednie) … to wówczas przystępuje do ataku na nas.
 
-```c# 
+
+ ```c# 
  
  if (Distance==1)
     GameManager.Instance.FightSystem.AttackPlayer(EnemyCharacter);
-```c# 
+
+ ```c# 
 
 
 <h2>Update UI</h2>
@@ -44542,7 +44625,8 @@ Dodatkowo, na Macu jest inne bindowanie na przyciski pada, niż na Windowsie i L
 W poprzedniej części można było zabić przeciwnika, ale gdy on nas dobił.. nic się nie działo.
 W tej wersji już to zmieniłem. W GameManagerze dodałem opcję GameOver, która czyści obiekty i wyrzuca nas do głównego menu. Możliwe , że ulepszę jeszcze zakończenie o okno statystyk z gry - takie podsumowanie.
 
-```c# 
+
+ ```c# 
 
  public void GameOver()
     {
@@ -44550,7 +44634,8 @@ W tej wersji już to zmieniłem. W GameManagerze dodałem opcję GameOver, któr
         Destroy(Instance);
         SceneManager.LoadScene(0);
     }
-```c# 
+
+ ```c# 
 
 
 Więc <strong>GameOver</strong>, koniec gry :) Jesteśmy zabici, musimy zacząć od początku … życie jest brutalne!
@@ -44648,11 +44733,13 @@ Niestety przed końcem konkursu nie uda mi się stworzyć ekwipunku, ale wierzę
 <h2>System Turowy</h2>
 Trochę ulepszony system turowy pozwolił rozwiązać problem ze zbyt dalekim poruszaniem się w jednym ruchu. Rozwiązaniem tym okazało się WaitForSecond i wrzucenie ruchów przeciwnika w IEnumerator, który zwraca właśnie to WaitForSecond. Po wszystkim nastaje tura gracza.
 
-```c# 
+
+ ```c# 
 
 	  var coroutine = EnemyUtils.EnemiesMove(PlayerObject);
            StartCoroutine(coroutine);
-```c# 
+
+ ```c# 
 
 
 W wyniku tej operacji, możemy ruszać się trzymając klawisz, ale tylko w swojej turze, co określony czas.
@@ -45688,7 +45775,8 @@ Aby ułatwić sobie zapytania - “adresologię” (do zapytań) - w asp.net cor
 1. Startup.cs
 W metodzie Configure, dodajemy kolejne ścieżki:
 
-```c# 
+
+ ```c# 
 
      app.UseMvc(routes =&gt;
             {
@@ -45696,7 +45784,8 @@ W metodzie Configure, dodajemy kolejne ścieżki:
                     name: &quot;default&quot;,
                     template: &quot;{controller=Home}/{action=Index}/{id?}&quot;);
             });
-```c# 
+
+ ```c# 
 
 
 Ważne! nazwy routingów nie mogą się powtarzać :)
@@ -45704,23 +45793,27 @@ Ważne! nazwy routingów nie mogą się powtarzać :)
 2. Atrybuty w kontrolerze
 Ten sposób jest jak dla mnie bardziej intuicyjny i żałuję, że go wcześniej nie odkryłem. Przy nazwie klasy kontrolera, umieszczamy główne przekierowanie:
 
-```c# 
+
+ ```c# 
 
     [Route(&quot;Pogoda&quot;)]
     public class WeatherController: Controller
-```c# 
+
+ ```c# 
 
 
 Dzięki czemu, zapytania zaczynają się od adres:port/Pogoda/
 A następnie przy metodach ustalamy szczegółowe zapytania, jak np:
 
-```c# 
+
+ ```c# 
 
         [HttpGet(&quot;{miasto}&quot;)]
         public async Task&lt;IActionResult&gt; Get(string miasto)
 	[HttpGet(&quot;Full/{miasto}&quot;)]
         public async Task&lt;IActionResult&gt; GetFull(string miasto)
-```c# 
+
+ ```c# 
 
 
 Tak więc w 1. przykładzie mamy adres:port/Pogoda/{miasto} a w drugim adres:port/Pogoda/Full/{miasto}
@@ -45729,22 +45822,26 @@ Niektórzy wstrzykują sobie morfinę, inni kofeinę (np. <strong>aeropressem</s
 Dla przykładu: <strong>WeatherService</strong>
 Serwis, który implementuje interfejs IWeatherService ( w którym wrzuciliśmy metody: )
 
-```c# 
+
+ ```c# 
 
         Task&lt;Weather&gt; GetForCity(string city);
         Task&lt;WeatherSummary&gt;  StatusForCity(string city);
         Task&lt;FileStream&gt; ImageForCity(string city);
         Task&lt;FileStream&gt; ImageForCity(string city, int hour);
         Task&lt;WeatherSummar&gt;  StatusForCity(string city, int hour);
-```c# 
+
+ ```c# 
 
 
 A następnie wrzuciliśmy do <strong>Startup.cs</strong> w <strong>ConfigureService</strong>:
 
-```c# 
+
+ ```c# 
 
             services.AddSingleton&lt;IWeatherService, WeatherService&gt;();
-```c# 
+
+ ```c# 
 
 
 Równie dobrze, w <strong>WeatherService</strong> możemy wrzucić inne klasy, bazujące na tym samym interfejsie, ale korzystające np. z innego API pogodynki, czy z API testowego, podkładającego nam dane z kosmosu, czy nawet ze Słońca (na które podobno w Korei Północnej dolecieli w nocy oraz wrócili tego samego dnia) :)
@@ -45752,27 +45849,31 @@ A teraz najlepsze, żeby dostać się do naszego serwisu, czy każdego innego is
 dodajemy parametr <strong>IWeatherService</strong> oraz przypisujemy go do lokalnej zmiennej.
 O taaaak:
 
-```c# 
+
+ ```c# 
 
 public WeatherController(IWeatherService weather)
         {
             _weather = weather;
         }
         private readonly IWeatherService _weather;
-```c# 
+
+ ```c# 
 
 
 Możemy pójść <strong>GŁĘĘBIEJ</strong> i wejść w kolejny stan snu!
 W lifelike.pl użyłem repozytoria do danych <strong>ILinkRepository</strong> , w <strong>LinkRepository</strong> odwołuję się do wstrzykniętej w startup.cs bazy:
 
-```c# 
+
+ ```c# 
 
   private readonly PortalContext _context;
         public LinkRepository(PortalContext context)
         {
             _context = context;
         }
-```c# 
+
+ ```c# 
 
 
 Dzięki temu, warstwa operowania na danych jest pomiędzy, a bazę… zawsze można zmienić :) tak samo zapytania do bazy. Dzięki temu kontroler nie musi wiedzieć co głębiej dokładnie siedzi. Tylko dostaje metody, które może użyć :)
@@ -45795,7 +45896,8 @@ Dodajemy paczki:
 
 A następnie w startup w <strong>ConfigureServices</strong> dodajemy:
 
-```c# 
+
+ ```c# 
 
   services.AddSwaggerGen(c =&gt;
             {
@@ -45807,12 +45909,14 @@ A następnie w startup w <strong>ConfigureServices</strong> dodajemy:
                 });
             });
 }
-```c# 
+
+ ```c# 
 
 
 oraz w <strong>Configure</strong>:
 
-```c# 
+
+ ```c# 
 
   app.UseSwagger();
 
@@ -45821,7 +45925,8 @@ oraz w <strong>Configure</strong>:
             {
                 c.SwaggerEndpoint(&quot;/swagger/v1/swagger.json&quot;, &quot;My API V1&quot;);
             });
-```c# 
+
+ ```c# 
 
 
 A podgląd dostępny na adres:port/swagger/

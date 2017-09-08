@@ -38,7 +38,8 @@ Dodatkowo, na Macu jest inne bindowanie na przyciski pada, niż na Windowsie i L
 W poprzedniej części można było zabić przeciwnika, ale gdy on nas dobił.. nic się nie działo.
 W tej wersji już to zmieniłem. W GameManagerze dodałem opcję GameOver, która czyści obiekty i wyrzuca nas do głównego menu. Możliwe , że ulepszę jeszcze zakończenie o okno statystyk z gry - takie podsumowanie.
 
-```c# 
+
+ ```c# 
 
  public void GameOver()
     {
@@ -46,7 +47,8 @@ W tej wersji już to zmieniłem. W GameManagerze dodałem opcję GameOver, któr
         Destroy(Instance);
         SceneManager.LoadScene(0);
     }
-```c# 
+
+ ```c# 
 
 
 Więc **GameOver**, koniec gry :) Jesteśmy zabici, musimy zacząć od początku … życie jest brutalne!

@@ -46,14 +46,16 @@ Klasa dodatkowa implementuje IDisposable dla drobnej optymalizacji, gdy przestan
 
 Metoda z atrybutem TestFixtureSetup służy do inicjacji, czyli jeśli potrzebujemy ustawić potrzebne klasy, referencje, które użyjemy w testach i chcemy wywołać tylko raz, robimy to tutaj:
 
-```c# 
+
+ ```c# 
 
  [TestFixtureSetUp]
         public void Configure()
         {
             _generator=new MapGenerator();
         }
-```c# 
+
+ ```c# 
 
 
 
@@ -64,14 +66,16 @@ Metoda z atrybutem TestFixtureSetup służy do inicjacji, czyli jeśli potrzebuj
 Przejdźmy do pierwszego podstawowego testu. Sprawdźmy, czy nasz wywołany generator jest nullem. Wywołujemy testy za pomocą klasy Assert, która jest w metodzie oznaczonej atrybutem [Test]. Oczywiście, można dodać wiele innych warunków, które chcemy sprawdzić. W końcu to podstawa TDD, aby podać warunki, nie tylko które ma spełnić, ale które również ma oblać, żeby być pewnym czy aplikacja działa poprawnie.
 Efekt wszystkich testów można sprawdzić uruchamiając projekt z testem np w Rider za pomocą prawego przycisku i “Run Unit Test”.
 
-```c# 
+
+ ```c# 
   
 [Test]
         public void IsGeneratorExist()
         {
             Assert.IsNotNull(_generator);
         }
-```c# 
+
+ ```c# 
 
 
 Poniżej przykład wyniku takiego podstawowego testu.
@@ -83,12 +87,14 @@ Poniżej przykład wyniku takiego podstawowego testu.
 Skoro poprzedni test się udał, to wypadałoby sprawdzić, jakich warunków nie spełnia i co oblewa.
 Sprawdźmy, czy nasz array jest równy 0.
 
-```c# 
+
+ ```c# 
 
     int x = 10, y = 10;
             var map =  new MapElement[x,y];
                 Assert.AreEqual(map.GetLength(0), 0);
-```c# 
+
+ ```c# 
 
 
 UUU … test Failed :( oczekiwało 0, a wyskoczyło 10.
@@ -100,7 +106,8 @@ UUU … test Failed :( oczekiwało 0, a wyskoczyło 10.
 Aby tak nie testować jednostkowo, wypada sprawdzić to bardziej zaawansowanie.
 Przejdźmy do *TestCase*:
 
-```c# 
+
+ ```c# 
 
 [Test, TestCaseSource(typeof(SampleData),"SizeCases")]
         public int IsValidSize(int x, int y, int element)
@@ -108,7 +115,8 @@ Przejdźmy do *TestCase*:
             var map =  new MapElement[x,y];
             return map.GetLength(element);
         }
-```c# 
+
+ ```c# 
 
 
 W tym przypadku tworzymy funkcję, w której określamy, co chcemy zwrócić, aby potem sprawdzić poprawność.
@@ -116,7 +124,8 @@ Zwracam rozmiar danej ściany (map.GetLength(0) powinien zwrócić x, a GetLengt
 Atrybut TestCaseSource ustawia z jakiej klasy oraz z której właściwości ma brać dane.
 Tworzymy więc nową klasę (u mnie SampleData), w której wrzucamy warunki testów w postaci właściwości typu IEnumerate
 
-```c# 
+
+ ```c# 
 
    public static IEnumerable SizeCases
         {
@@ -128,7 +137,8 @@ Tworzymy więc nową klasę (u mnie SampleData), w której wrzucamy warunki test
                 yield return new TestCaseData( 12, 4,1).Returns( 4 );
             }
         }
-```c# 
+
+ ```c# 
 
 
 TestCaseData jako parametry przyjmuje parametry do metody, którą wywołujemy a w Returns sprawdza, czy metoda zwraca wybrane elementy. Poniżej wyniki testów dla danego przykładu.

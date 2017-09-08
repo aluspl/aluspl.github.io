@@ -42,7 +42,8 @@ W poprzednim wpisie wspominałem o inspiracji Superhot, w tym postanowiłem sło
 A przy okazji dodaj się do listy Przeciwników, aby łatwo Cię było potem wybrać … i zabić.
 …
 
-```c# 
+
+ ```c# 
 
 private void AddEnemy(MapElement[,] map, int x, int y)
 {
@@ -56,7 +57,8 @@ GameManager.Instance.AddEnemy(enemy);
 
 MaxEnemies--;
 }
-```c# 
+
+ ```c# 
 
 
 Założyłem sobie, że przeciwnik musi pojawić się na podłodze, a nie w ścianie. A i musi być w ograniczonej liczbie. :) Póki co, generator działa ze zbyt dużą częstotliwością, więc szansa na pojawienie się przeciwnika jest bardzo duża - za duża.
@@ -72,7 +74,8 @@ Kolejnym kluczowym elementem, jest wiedza … kogo zaatakowaliśmy. :)
 …
 Przeciwnik dostał ten sam **shader**, co podłoga, więc nie jest widoczny w nocy, ale dodałem mu jakiś element oznaczenia. Małą lampkę, która oznacza, że przeciwnik jest zaznaczony. Zaznaczenia zmieniamy, przez kliknięcie TAB (lub innego przypisanego klawisza)
 
-```c# 
+
+ ```c# 
 
   private void SelectEnemy()
     {
@@ -86,7 +89,8 @@ Przeciwnik dostał ten sam **shader**, co podłoga, więc nie jest widoczny w no
         Enemies[EnemyUtils.EnemyIndex].IsSelected = true;
         EnemyUtils.EnemyIndex++;
     }
-```c# 
+
+ ```c# 
 
 
 [![](http://szymonmotyka.pl/wp-content/uploads/2017/04/giphy-2.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/04/giphy-2.gif)

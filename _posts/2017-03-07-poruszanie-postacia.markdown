@@ -51,19 +51,22 @@ Gdy już zaimportowałem sprite (grafika 2D) z postacią i stworzyłem prefab (o
 
 Zacznijmy od metody Move oraz kluczowych punktów.
 
-```c# 
+
+ ```c# 
 
 	  _boxCollider2D.enabled = false;
             hit = Physics2D.Linecast(start, end, BlockingLayer);
             _boxCollider2D.enabled = true;
-```c# 
+
+ ```c# 
 
 
 Wywołujemy ten fragment kodu, aby sprawdzić, czy początkowy punkt obiektu oraz końcowy nie będą nachodziły na element, który tą postać ma blokować.
 Jeśli nie, wywołujemy funkcję zwracającą IEnumerator o nazwie Movement (ależ jestem oryginalny) .
 Dodatkowo nasz **BlockingLayer** jest przypisany do ściany, ale można go też przypisać do innych rzeczy, czyli np. elementów otoczenia, zablokowanych drzwi czy przeciwników. W zależności od *blockingLayer*, będziemy później wykonywać określone akcje, typu włamywanie do pokoi, bezpośredni atak itp. lub próba spacyfikowania ściany za pomocą głowy lub innych skilli :)
 
-```c# 
+
+ ```c# 
 
             var remainingDistance = (transform.position - destination).sqrMagnitude;
             while (remainingDistance&amp;amp;gt;float.Epsilon)
@@ -76,7 +79,8 @@ Dodatkowo nasz **BlockingLayer** jest przypisany do ściany, ale można go też 
         }
 
 
-```c# 
+
+ ```c# 
 
 
 Powyższa metoda służy do poruszania naszym RigidBody (pamiętajcie, aby ustawić go jako **Kinematic**, chyba, że chcecie widzieć jak postać próbuje poruszać się po pionowej ścianie do góry, niczym **Deadpool** próbujący udawać **Spidermana** … czyli bezsktucznie :)
@@ -101,7 +105,8 @@ Tę klasę wywołujemy również w klasie Player, która dziedziczy po klasie **
 
 Tu mam 2 sposoby :) Jeden: zmapowane klawisze i Input.GetKeyDown. Sposób dobry, zwłaszcza, gdy gra jest **turn based** (turowa), a wszystkie klawisze chcemy ręcznie zmapować (w GameManager Prefab mamy do tego edytor). Oczywiście są inne akcje w przypadku trzymania przycisku itp. Ogromną zaletą takiego rozwiązania jest szeroka konfiguralności, jednak minusem jest dodatkowy kod, w przypadku chęci przeportowania gry na coś innego niż klawiaturę.
 
-```c# 
+
+ ```c# 
 
 
 	const int horizontal = 1;
@@ -124,12 +129,14 @@ Tu mam 2 sposoby :) Jeden: zmapowane klawisze i Input.GetKeyDown. Sposób dobry,
                 return new Vector2(0,vertical*-1);
 
 
-```c# 
+
+ ```c# 
 
 
 Oraz drugi sposób, uniwersalny, z pobraniem wartości z osi pionowej i poziomej -> co odpowiada albo za klawisze **Up/Down** i **Left/Right** (zwraca wartosc -1 -> 0 -> 1). Jest to dobre, ponieważ przy podpięciu pada, lewa gałka jest tego odpowiednikiem, także w przypadku telefonu, gałka odpowiada za horizontal i vertical. Czyli teoretycznie wypada idealnie, a jednak _“coś poszło nie tak”_. Czasami nie reaguje poprawnie na ruch gałką, a czasami rusza o 2 pola, zamiast o jedno. Czyli pobiera ciągle, ale nie w równym czasie. Jeśli macie jakieś sugestie, zapraszam do sprawdzenia kodu, przetestowania i podzielenia się radami :)
 
-```c# 
+
+ ```c# 
 
 
 
@@ -142,7 +149,8 @@ Oraz drugi sposób, uniwersalny, z pobraniem wartości z osi pionowej i poziomej
             return new Vector2(x,y);
 
 
-```c# 
+
+ ```c# 
 
 
 Wybór zależy od was :) Ja eksperymentuję z opcją numer 1 i numer 2 :)
@@ -154,13 +162,15 @@ Wybór zależy od was :) Ja eksperymentuję z opcją numer 1 i numer 2 :)
 Skoro nasza postać się porusza, wypada także, aby kamera śledziła naszą postać :)
 Klasa FollowCamera, załączona jako komponent do Main Camera śledzi naszą postać - GameObject jest przypisany na podstawie taga.
 
-```c# 
+
+ ```c# 
 
 void LateUpdate ()
 {
 transform.position = player.transform.position + offset;
 }
-```c# 
+
+ ```c# 
 
 
 

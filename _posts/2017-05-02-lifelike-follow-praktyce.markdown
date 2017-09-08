@@ -40,7 +40,8 @@ Od ostatniego odcinka zmieniłem IDE. Wiecie, na Macu mam średni wybór do c#, 
 
 Poprzedni model ruchu inspirowany był kursem od Unity - Rogue Like. Nie był on doskonały, ponieważ, gdy naciśnęliśmy zbyt dużo klawiszy na raz, nasza postać poruszała się zbyt niestabilnie i wychodziła poza kratkę. Tym razem poruszamy się my oraz przeciwnik o całą klatkę.
 
-```c# 
+
+ ```c# 
 
   public IEnumerator Movement(Vector3 destination)
         {
@@ -57,7 +58,8 @@ Poprzedni model ruchu inspirowany był kursem od Unity - Rogue Like. Nie był on
             transform.position=destination;
             yield return null;
         }
-```c# 
+
+ ```c# 
 
 
 
@@ -68,7 +70,8 @@ Poprzedni model ruchu inspirowany był kursem od Unity - Rogue Like. Nie był on
 Jest to prosty system - On atakuje albo my atakujemy. Życie jest Proste! :)
 W GameManagerze dodałem nową zmienną “IsPlayerTurn”, od której zależy, do kogo należy obecnie tura. Tzn. ruch jest zablokowany, a przeciwnicy jeden po drugim się poruszają.
 
-```c# 
+
+ ```c# 
 
    public void EndPlayerTurn()
     {  
@@ -81,7 +84,8 @@ W GameManagerze dodałem nową zmienną “IsPlayerTurn”, od której zależy, 
       	UiUtils.AddLog("Player Turn");
         IsPlayerTurn = true;
     }
-```c# 
+
+ ```c# 
 
 
 Dodatkowo parametr PlayerObject zostanie omówiony w następnym punkcie.
@@ -92,7 +96,8 @@ Dodatkowo parametr PlayerObject zostanie omówiony w następnym punkcie.
 
 Skoro już wiemy, za kim mają się ruszać, to przejdźmy do ruchu za nami. W klasie **Enemy**, dodałem metodę **MoveToPlayer**, w której pobieramy vector ruchu pomiędzy graczem a przeciwnikiem, a następnie skracamy do wartości -1,0,1 ( w zależności, do strony, w którą ma się poruszać). Odbywa się to w metodzie **RoundEnemyMoves**
 
-```c# 
+
+ ```c# 
 
  public void MoveToPlayer(GameObject playerObject)
         {       
@@ -103,7 +108,8 @@ Skoro już wiemy, za kim mają się ruszać, to przejdźmy do ruchu za nami. W k
            if (Math.Abs(moveVector.x) > TOLERANCE || Math.Abs(moveVector.y) > TOLERANCE)
                 AttemtMove<MovingObject>(moveVector);        
         }
-```c# 
+
+ ```c# 
 
 
 
@@ -114,11 +120,13 @@ Skoro już wiemy, za kim mają się ruszać, to przejdźmy do ruchu za nami. W k
 Jak wspominałem na wstępie, wprowadziłem także kolizję, gdy przeciwnik wejdzie na gracza. Dodatkowo, dzięki nowemu systemowi walki musiałem sporo zmienić logi. :) Ze względu na charakter, jakbyśmy mówili sami do siebie. Wypadałoby to przebudować bardziej, ale to już, gdy będę pracował nad system słownika.
 W każdym razie, jeśli przeciwnik natknie się na nas, a dystans między nami wyniesie 1 (w przypadku walki bezpośrednie) … to wówczas przystępuje do ataku na nas.
 
-```c# 
+
+ ```c# 
  
  if (Distance==1)
     GameManager.Instance.FightSystem.AttackPlayer(EnemyCharacter);
-```c# 
+
+ ```c# 
 
 
 
