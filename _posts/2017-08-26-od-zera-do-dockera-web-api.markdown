@@ -88,34 +88,40 @@ Aby ułatwić sobie zapytania - “adresologię” (do zapytań) - w asp.net cor
 1. Startup.cs
 W metodzie Configure, dodajemy kolejne ścieżki:
 
-```
+```c# 
+
      app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-```
+```c# 
+
 
 Ważne! nazwy routingów nie mogą się powtarzać :)
 
 2. Atrybuty w kontrolerze
 Ten sposób jest jak dla mnie bardziej intuicyjny i żałuję, że go wcześniej nie odkryłem. Przy nazwie klasy kontrolera, umieszczamy główne przekierowanie:
 
-```
+```c# 
+
     [Route("Pogoda")]
     public class WeatherController: Controller
-```
+```c# 
+
 
 Dzięki czemu, zapytania zaczynają się od adres:port/Pogoda/
 A następnie przy metodach ustalamy szczegółowe zapytania, jak np:
 
-```
+```c# 
+
         [HttpGet("{miasto}")]
         public async Task<IActionResult> Get(string miasto)
 	[HttpGet("Full/{miasto}")]
         public async Task<IActionResult> GetFull(string miasto)
-```
+```c# 
+
 
 Tak więc w 1. przykładzie mamy adres:port/Pogoda/{miasto} a w drugim adres:port/Pogoda/Full/{miasto}
 
@@ -127,43 +133,51 @@ Niektórzy wstrzykują sobie morfinę, inni kofeinę (np. **aeropressem**). W pr
 Dla przykładu: **WeatherService**
 Serwis, który implementuje interfejs IWeatherService ( w którym wrzuciliśmy metody: )
 
-```
+```c# 
+
         Task<Weather> GetForCity(string city);
         Task<WeatherSummary>  StatusForCity(string city);
         Task<FileStream> ImageForCity(string city);
         Task<FileStream> ImageForCity(string city, int hour);
         Task<WeatherSummar>  StatusForCity(string city, int hour);
-```
+```c# 
+
 
 A następnie wrzuciliśmy do **Startup.cs** w **ConfigureService**:
 
-```
+```c# 
+
             services.AddSingleton<IWeatherService, WeatherService>();
-```
+```c# 
+
 
 Równie dobrze, w **WeatherService** możemy wrzucić inne klasy, bazujące na tym samym interfejsie, ale korzystające np. z innego API pogodynki, czy z API testowego, podkładającego nam dane z kosmosu, czy nawet ze Słońca (na które podobno w Korei Północnej dolecieli w nocy oraz wrócili tego samego dnia) :)
 A teraz najlepsze, żeby dostać się do naszego serwisu, czy każdego innego istniejącego, w konstruktorze kontrolera (lub innego serwisu)
 dodajemy parametr **IWeatherService** oraz przypisujemy go do lokalnej zmiennej.
 O taaaak:
 
-```
+```c# 
+
 public WeatherController(IWeatherService weather)
         {
             _weather = weather;
         }
         private readonly IWeatherService _weather;
-```
+```c# 
+
 
 Możemy pójść **GŁĘĘBIEJ** i wejść w kolejny stan snu!
 W lifelike.pl użyłem repozytoria do danych **ILinkRepository** , w **LinkRepository** odwołuję się do wstrzykniętej w startup.cs bazy:
 
-```
+```c# 
+
   private readonly PortalContext _context;
         public LinkRepository(PortalContext context)
         {
             _context = context;
         }
-```
+```c# 
+
 
 Dzięki temu, warstwa operowania na danych jest pomiędzy, a bazę… zawsze można zmienić :) tak samo zapytania do bazy. Dzięki temu kontroler nie musi wiedzieć co głębiej dokładnie siedzi. Tylko dostaje metody, które może użyć :)
 
@@ -189,7 +203,8 @@ Dodajemy paczki:
 
 A następnie w startup w **ConfigureServices** dodajemy:
 
-```
+```c# 
+
   services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "CzyJebnie API", 
@@ -200,11 +215,13 @@ A następnie w startup w **ConfigureServices** dodajemy:
                 });
             });
 }
-```
+```c# 
+
 
 oraz w **Configure**:
 
-```
+```c# 
+
   app.UseSwagger();
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS etc.), specifying the Swagger JSON endpoint.
@@ -212,7 +229,8 @@ oraz w **Configure**:
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
-```
+```c# 
+
 
 A podgląd dostępny na adres:port/swagger/
 Proste, czyż nie :) ? Taki “rocket science” na poziomie Korei Północnej!

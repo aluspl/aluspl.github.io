@@ -43,7 +43,8 @@ Na tworzenie postaci, stworzyłem testy większości funkcji, choć nie są komp
 W każdym bądź razie, system walki ma swoje zaczątki, jednak będzie brane pod uwagę coś więcej niż siła, a każde wyliczenie do podstawowej walki będzie brane pod unit testy, więc spokojnie :)
 
 Przy okazji stworzyłem nowe klasy : Super Hobo (styl małpy, wiedźmińskie alkohole itp)  oraz klasy, które będą skupione na przeciwnikach jak Boss, Hobo itp
-```
+```c# 
+
  public static BaseCharacter GetPlayerClass(string classType, CharacterStatisticDataModel statistic )
         {
             switch (classType)
@@ -63,7 +64,8 @@ Przy okazji stworzyłem nowe klasy : Super Hobo (styl małpy, wiedźmińskie alk
                     return  null;
             }
         }
-```
+```c# 
+
 
 
 ## Atak
@@ -72,14 +74,16 @@ Przy okazji stworzyłem nowe klasy : Super Hobo (styl małpy, wiedźmińskie alk
 W początkowej fazie **Damage** = **Siła**.
 Lecz w następnych etapach rozgrywki, powodzenie ataku będzie zależne od zręczności obu postaci, a siła ataku będzie liczbą losową zmniejszoną o przyszły ekwipunek postaci. Oczywiście szansa uniku będzie tym większa, im większa różnica zręczności, a sam atak będzie liczbą losową (taaak, grało się w **RPG**).
 
-```
+```c# 
+
     public virtual string Attack(BaseCharacter enemy)
         {
             var damage = Strength;
             enemy.HealthPoint -= damage;
             return GameLogSystem.Attack(damage, enemy);
         }
-```
+```c# 
+
 
 
 ## Podsumowanie

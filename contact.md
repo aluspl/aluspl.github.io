@@ -7,11 +7,11 @@ Laptop: Macbook Pro 13 (2014) i5, 8GB Ram, 256 ssd, intel iris
 
 PC: i7, GTX660TI, 16GB Ram, 2x128SSD + 1TB HDD
 
-Konsola: Xbox 1 (szymonmotyka) 3ds XL
+Konsola: Xbox 1 (szymonmotyka) | 3ds XL | Switch
 
 Aparat: Nikon D7000 + pare obiektywow (np Samyang 8mm)
 
-Kamerka sportowa: Xiaomi Yi (1 Gen)
+Kamerka sportowa: Xiaomi Yi (1 Gen) | Xiaomi Yi 4k+ | Feiyu Tech G5
 
 Statyw : Velbon EX-Macro
 
@@ -19,9 +19,9 @@ Latający: DJI Mavic Pro
 
 Podręczny: Samsung S7 Edge
 
-Powerbank: Xiaomi 10 000 mAh
+Powerbank: Xiaomi 10 000 mAh | TP Link 10 000 mAh
 
-Kawa: Młynek Rhino, Aeropress, Chemex, Drip Hario
+Kawa: Młynek Rhinoware, Aeropress, Chemex, Drip Hario
 
 # Software
 
