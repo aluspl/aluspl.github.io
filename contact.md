@@ -1,6 +1,9 @@
 ---
 layout: landing-page
 ---	
+# Blog na Jekyll
+Wkrotce nowe tresci
+
 # Hardware
 
 Laptop: Macbook Pro 13 (2014) i5, 8GB Ram, 256 ssd, intel iris
