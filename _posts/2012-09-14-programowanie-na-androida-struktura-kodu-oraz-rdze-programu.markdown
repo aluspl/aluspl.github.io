@@ -33,7 +33,7 @@ historia obrazkowa w 3 aktach.
 
 
 
-[caption id="attachment_504" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/09/kreator-projektu-300x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/09/kreator-projektu.jpg) Package Name jest w pewnym sensie wizytówką naszego projektu oraz ścieżką do PlayStore. Nazwa projektu i aplikacji można dowolnie zmienić w przyszłości[/caption]
+[![](http://szymonmotyka.pl/wp-content/uploads/2012/09/kreator-projektu-300x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/09/kreator-projektu.jpg) Package Name jest w pewnym sensie wizytówką naszego projektu oraz ścieżką do PlayStore. Nazwa projektu i aplikacji można dowolnie zmienić w przyszłości
 
 Dalej poprowadzi nas tutorial za rękę (łącznie z tworzeniem ikony aplikacji o ile zaznaczyliśmy Create Custom Icons).
 
@@ -218,7 +218,7 @@ Zanim zaczniemy uzupełniać nasz fragment, zaprojektujmy, co chcemy zrobić. Pr
 Nasz layout wygląda tak:
 
 
-[caption id="attachment_521" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/09/lotto-300x267.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/09/lotto.jpg) Screen z przykładowej aplikacji[/caption]
+[![](http://szymonmotyka.pl/wp-content/uploads/2012/09/lotto-300x267.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/09/lotto.jpg) Screen z przykładowej aplikacji
 
 [sourcecode language="xml"]&lt;/pre&gt;
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;

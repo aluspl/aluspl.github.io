@@ -60,7 +60,7 @@ Aby utworzyć projekt wystarczy użyć komendy w terminalu:
 
 Teraz przejdźmy do omówienia stworzonego przez nas projektu, opiszę to na przykładzie wcześniej stworzonego projektu:
 
-[caption id="attachment_1859" align="aligncenter" width="418"][![](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.06.05-418x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.06.05.png) Drzewo projektu[/caption]
+[![](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.06.05-418x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.06.05.png) Drzewo projektu
 
 Tu mała ciekawostka, do tej pory Nuget (repozytorium bibliotek) przyzwyczaiło nas, że wszystkie paczki znajdują się w odpowiednim pliku, który był tylko listą paczek package.config. Nie ukrywam, brakuje mi tego pliku :)
 Tutaj, wszystkie paczki dodajemy w pliku projektu w grupie obiektu. Tak samo konfigurujemy obsługę **CLI** np. do **Entity Framework**, czy innych wybranych narzędzi.
@@ -179,7 +179,7 @@ Jestem człowiekiem praktycznym, jeśli coś dobrze działa, to używam, jeśli 
 Przykład można znaleźć na [Swagger UI](http://czyjebnie.pl/swagger/)
 Instalacja tego jest prosta.
 Dodajemy paczki:
-[caption id="attachment_1861" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23-785x604.png)](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23.png) Swagger[/caption]
+[![](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23-785x604.png)](http://szymonmotyka.pl/wp-content/uploads/2017/08/Screenshot-2017-08-25-15.08.23.png) Swagger
 [code]
     <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="1.0.0" />

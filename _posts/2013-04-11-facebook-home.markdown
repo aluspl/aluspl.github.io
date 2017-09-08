@@ -36,7 +36,7 @@ Został stworzony przez Facebook, a jego głównym celem jest bezpośredni konta
 # **Siatka aplikacji:**
 
 
-[caption id="attachment_741" align="aligncenter" width="180"][![device-2013-04-08-224323](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-224323-180x300.png)](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-224323.png) Siatka zz wszystkimi aplikacjami[/caption]
+[![device-2013-04-08-224323](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-224323-180x300.png)](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-224323.png) Siatka zz wszystkimi aplikacjami
 
 Siatka z skrótami do aplikacji(która swoją drogą sprawiała wrażenie za czułej, gdy sie ją konfigurowało):
 
@@ -46,7 +46,7 @@ Siatka z skrótami do aplikacji(która swoją drogą sprawiała wrażenie za czu
 # **POWIADOMIENIA:**
 
 
-[caption id="" align="aligncenter" width="180"]![device-2013-04-08-224300](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-224300-180x300.png) Okno powiadomień w przypadku wielu wiadomości z odkrytym status barem[/caption]
+![device-2013-04-08-224300](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-224300-180x300.png) Okno powiadomień w przypadku wielu wiadomości z odkrytym status barem
 
 
 <!-- more -->
@@ -54,7 +54,7 @@ Siatka z skrótami do aplikacji(która swoją drogą sprawiała wrażenie za czu
 
 
 
-[caption id="attachment_737" align="aligncenter" width="180"]![device-2013-04-08-160353](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-160353-180x300.png) Przykłady powiadomień[/caption]
+![device-2013-04-08-160353](http://szymonmotyka.pl/wp-content/uploads/2013/04/device-2013-04-08-160353-180x300.png) Przykłady powiadomień
 
 Kolejną ciekawostką, niestety ograniczoną w wycieku, są powiadomienia. Widać je na ekranie blokady (Screeny powyżej).  Niestety w tym wypadku tylko te z poziomu serwisu społecznościowego Facebook.
 

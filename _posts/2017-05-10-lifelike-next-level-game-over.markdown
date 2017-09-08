@@ -29,7 +29,7 @@ W obecnej wersji gry wprowadziłem nową klasę postaci, która wkrótce otrzyma
 Problem, który poruszę w następnym wpisie. Dokładniej mówiąc problem z implementacją innego kontrolera oraz poprawnym skonfigurowaniu ruchów pada.
 Dodatkowo, na Macu jest inne bindowanie na przyciski pada, niż na Windowsie i Linuxie. O ustawieniu czułości już nawet nie mówię. Porusza się jak FLASH! (nie, nie ten od Adobe)
 
-[caption id="attachment_1772" align="aligncenter" width="640"][![LIfeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-10-22.01.39-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-10-22.01.39.png) Wersja Webowa[/caption]
+[![LIfeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-10-22.01.39-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-10-22.01.39.png) Wersja Webowa
 
 
 ## Game Over
@@ -75,4 +75,4 @@ To tyle na dzisiaj. DSP zbliża się ku końcowi, ale gra będzie dalej rozwijan
 kod w aktualnej postaci dostępny jest na Githubie: [https://github.com/aluspl/RogueLikeDSP](https://github.com/aluspl/RogueLikeDSP)
 Niestety przed końcem konkursu nie uda mi się stworzyć ekwipunku, ale wierzę, że skończę jeszcze chociaż specjalne umiejętności. Mam jednak nadzieję, że nawet po DSP zostaniecie ze mną i będziecie śledzić kolejne etapy rozwoju, w tym powstawanie i wykorzystanie wyżej wspomnianego ekwipunku.
 
-[caption id="attachment_1773" align="aligncenter" width="480"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/05/giphy-1.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/05/giphy-1.gif) Kto zgasił światło ?[/caption]
+[![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/05/giphy-1.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/05/giphy-1.gif) Kto zgasił światło ?

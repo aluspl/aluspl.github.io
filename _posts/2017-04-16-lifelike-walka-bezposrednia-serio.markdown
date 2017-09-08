@@ -31,9 +31,9 @@ Z racji wkurzających żółtych podpowiedzi w nowym Rider oraz paru pomysłów 
 
 W poprzednim wpisie wspominałem o inspiracji Superhot, w tym postanowiłem słowa zamienić w czyny i stworzyć tego wroga. Jest to, lekka modyfikacja naszego playera, który swoją drogą, również zmienił grafikę. W przyszłości, każdy zasłuży na swój własny wygląd.W tym, będzie po prostu Red Manem ..i wygląda tak:
 
-[caption id="attachment_1700" align="aligncenter" width="100"][![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Character.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Character.png) Jesteśmy Zieloni ... Ci dobrzy[/caption]
+[![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Character.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Character.png) Jesteśmy Zieloni ... Ci dobrzy
 
-[caption id="attachment_1701" align="aligncenter" width="100"][![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Enemy.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Enemy.png) Oni są Czerwoni ... są Be[/caption]
+[![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Enemy.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Enemy.png) Oni są Czerwoni ... są Be
 
 
 ## Przeciwniku, pojaw się na mapie!
@@ -60,7 +60,7 @@ MaxEnemies--;
 Założyłem sobie, że przeciwnik musi pojawić się na podłodze, a nie w ścianie. A i musi być w ograniczonej liczbie. :) Póki co, generator działa ze zbyt dużą częstotliwością, więc szansa na pojawienie się przeciwnika jest bardzo duża - za duża.
 Ale cóż, ważne, że takim oto sposobem, nasz czerwony wróg pojawił się na mapie !
 
-[caption id="attachment_1699" align="aligncenter" width="744"][![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-16-16.20.51.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-16-16.20.51.png) Luke ! I am Your Enemy[/caption]
+[![](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-16-16.20.51.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-16-16.20.51.png) Luke ! I am Your Enemy
 
 
 ## Przeciwniku, bądź Oznaczony!

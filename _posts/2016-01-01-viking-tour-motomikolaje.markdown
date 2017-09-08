@@ -48,7 +48,7 @@ Gotenborg
 ### Oslo mocno mnie oczarowało widokami zwłaszcza po zmroku, co widać na załączonych zdjęciach, m.in z Opery w Oslo:
 
 
-[caption id="attachment_1187" align="aligncenter" width="4160"]![Opera Narodowa w Oslo](http://szymonmotyka.pl/wp-content/uploads/2015/12/IMG_20151201_163024.jpg) Opera Narodowa w Oslo    [/caption]
+![Opera Narodowa w Oslo](http://szymonmotyka.pl/wp-content/uploads/2015/12/IMG_20151201_163024.jpg) Opera Narodowa w Oslo    
 
 [gallery ids="1180,1181,1182,1183,1184,1185,1187,1188,1189,1190,1191,1192,1193,1194,1195,1196,1197,1198,1199,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1217,1218,1219,1220,1223,1224,1225,1226,1227,1228,1229,1230"]
 

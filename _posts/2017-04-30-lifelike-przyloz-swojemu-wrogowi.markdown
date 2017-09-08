@@ -80,7 +80,7 @@ A to też ważne, choć w obecnej sytuacji tylko dla wroga (huehue). Dodałem pr
 
 A więc po kliknięciu w spacje, sprawdza szansę na zaatakowanie i atakuje! Zresztą, tematykę już poruszyłem, tylko zmodernizowałem o …
 
-[caption id="attachment_1746" align="aligncenter" width="640"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-30-01.00.14-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-30-01.00.14.png) Okno gry[/caption]
+[![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-30-01.00.14-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-30-01.00.14.png) Okno gry
 
 
 ## Logi Ataku w LifeLike

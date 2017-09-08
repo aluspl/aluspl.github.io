@@ -114,4 +114,4 @@ P.S. będę przymierzał się do grafiki pixelart dla postaci :)
 
 Resztę wpisów znajdziesz tu
 
-[caption id="attachment_1685" align="aligncenter" width="785"][![Postać i Ataki](http://szymonmotyka.pl/wp-content/uploads/2017/04/20170406_100620-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/04/20170406_100620.jpg) No to w drogę[/caption]
+[![Postać i Ataki](http://szymonmotyka.pl/wp-content/uploads/2017/04/20170406_100620-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/04/20170406_100620.jpg) No to w drogę
