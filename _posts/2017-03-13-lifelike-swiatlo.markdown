@@ -37,9 +37,9 @@ Po stronie edytora dodałem możliwość wybrania pomiędzy Input.GetButtownDown
 Przyznam, że początkowo miałem ten wpis ograniczyć tylko do tego zagadnienia, ale jak się za chwilę przekonacie rzeczywistość okazała się być inna, a to wszystko przez to, że przysiadłem troszkę dłużej przy kwestii oświetlenia/światła, które różni się w Unity2d w stosunku do 3d. Ale o tym będzie później, a teraz wróćmy do głównego gościa tego paragrafu, czyli obrotu. :)
 Obrót postacią odbywa się za pomocą metody:
 
-[csharp]   if (Input.GetKeyDown(GameManager.Instance.KeyLeft))
+'''   if (Input.GetKeyDown(GameManager.Instance.KeyLeft))
       transform.eulerAngles=new Vector3(0,0,90); 
-[/csharp]
+'''
 
 Wartość kąta zależy od tego, w którą stronę chcemy się obrócić, tutaj mamy przypadek dla skrętu w lewo.
 

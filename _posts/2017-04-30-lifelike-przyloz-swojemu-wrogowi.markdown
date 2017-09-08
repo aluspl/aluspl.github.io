@@ -36,13 +36,13 @@ W tym temacie chciałbym się skupić bardziej na walce bezpośredniej. W kodzie
 
 Skoro już poruszyłem temat zaznaczania przeciwnika (link), warto by było umożliwić graczowi podświetlenie tych, których możemy zaatakować, czyż nie? Ulepszyłem więc metodę do zaznaczania przeciwników, tylko tych, co są w ustalonym zasięgu:
 
-[csharp]
+'''
             var nearby = GameManager.Instance.Enemies.Where(p=>p.Distance<=MAXDISTANCE).OrderBy(p => p.Distance).ToList();
-[/csharp]
+'''
 
 Wypadało także zmienić zaznaczonego przeciwnika. W końcu ciężko zaznaczyć index przeciwnika, gdy bazujemy na liście tylko tych, co są nam najbliżsi! Obecnie wartość dla MAXDISTANCE wynosi 1 :)
 
-[csharp]
+'''
   public static Enemy SelectedEnemy
         {
             get
@@ -52,7 +52,7 @@ Wypadało także zmienić zaznaczonego przeciwnika. W końcu ciężko zaznaczyć
                     : null;
             }
         }
-[/csharp]
+'''
 
 
 
@@ -62,7 +62,7 @@ Wypadało także zmienić zaznaczonego przeciwnika. W końcu ciężko zaznaczyć
 Gdy już mamy zaznaczonego przeciwnika, starczy kliknąć spacje, aby zaatakować. Szczerze, w obecnej sytuacji liczy się tylko **Agility** i **Strength**. Ok, jeszcze **Endurance** ma znaczenie dla naszej ilości punktów życia.
 A to też ważne, choć w obecnej sytuacji tylko dla wroga (huehue). Dodałem procedurę śmierci przeciwnika z doświadczeniem dla nas:
 
-[csharp]
+'''
   public void KillEnemy(Enemy enemy)
     {
         try
@@ -76,7 +76,7 @@ A to też ważne, choć w obecnej sytuacji tylko dla wroga (huehue). Dodałem pr
             Debug.Log("Enemy shouldn't be here!");
         }
     }
-[/csharp]
+'''
 
 A więc po kliknięciu w spacje, sprawdza szansę na zaatakowanie i atakuje! Zresztą, tematykę już poruszyłem, tylko zmodernizowałem o …
 
