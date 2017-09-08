@@ -36,7 +36,8 @@ Takim oto sposobem przyjąłem inny scenariusz.
 Z racji, że pokoje muszą mieścić się w określonym limicie, zacząłem od przypisania wartości do zmiennej ***LeftValueY*** -> Wysokość Mapy -1 (Array liczy się od 0 do podanego rozmiaru -1 [taka informacja dla mniej technicznych] ).
 Następnie w pętli (ta sama pętla będzie też używana do nakładania wartości w array), o określonej liczbie powtórzeń (liczba z parametru) generowałem pokoje w zakresie od 20 [Stała Minimum] do **LeftValue**. Dodatkowo, wartość **LeftValueY** zmniejszałem o tą wylosowaną liczbę. Jedyny wyjątek, co do rozmiaru był wtedy, gdy LeftValue był mniejszy niż stała minimum.
 
-```
+```c# 
+
 private static int GetWallSize(ref int left)
 {
   
@@ -50,12 +51,14 @@ private static int GetWallSize(ref int left)
 
     return randomX;
 }
-```
+```c# 
+
 
 Takim o to sposobem dostaliśmy, wysokość, na której będzie rysowana linia pozioma.
 A jest to sposób bardzo prosty :)
 
-```
+```c# 
+
 private static void GetHorizontalWall(MapElement[,] map, ref int posY, int ySize)
 {
     posY += ySize;
@@ -69,7 +72,8 @@ private static void GetHorizontalWall(MapElement[,] map, ref int posY, int ySize
             map[x, posY] = MapElement.Wall;
     }
 }
-```
+```c# 
+
 
 Tradycyjny **for** od 0 do szerokość mapy pomniejszonej o 1 i wstawienie elementu ściany na określonej pozycji.
 :) I takim oto sposobem mamy ładną mapkę z poziomymi liniami :) czyli określoną liczbę poziomów. :)
@@ -82,7 +86,8 @@ Tradycyjny **for** od 0 do szerokość mapy pomniejszonej o 1 i wstawienie elem
 
 A żeby nam w głowie się nie poprzewracało od zbyt dużej przestrzeni, podzielimy każde “piętro” na mniejsze pokoiki. Procedura generowania ścian pionowych nie różni się niemal w ogóle od procedur generowania lini poziomych.
 
-```
+```c# 
+
 private static void GetVerticalWall(MapElement[,] map, ref int posX,  int posY, int xSize, int ySize)
 {
     posX += xSize;
@@ -94,7 +99,8 @@ private static void GetVerticalWall(MapElement[,] map, ref int posX,  int posY, 
             map[posX, y] = MapElement.Wall;
     }
 
-}```
+}```c# 
+
 
 W obecnej metodzie tworzymy zmienną **LeftValueX**, której przypisujemy wartość równą szerokości mapy pomniejszoną o 1. Wartość ta będzie się resetować przy każdym poziomie. W pętli wewnątrz procedury, mamy tę samą metodę, co wcześniej(**GetWallSize**) i zmniejszamy **LeftValueX**, generując określoną ilość ścian o losowych wymiarach. Różnica następuje jednak w nakładaniu tych linii na mapę. Tutaj pod uwagę bierzemy **Wysokość** obecnego poziomu ->
 **for** od pozycji poprzedniej linii do pozycji następnej linii (y). A w następnym kroku wstawiamy ścianę z wykorzystaniem Map[pozycja linii pionowej, y] =MapElement.Wall;
