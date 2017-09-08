@@ -35,7 +35,7 @@ Postać malowana była w **Gimpie** - tym przestarzałym, mało intuicyjnym, je�
 Zamysł był prosty :) Nie mam graphic designera, czyli idę w pixel art. Nasza postać jest na grafice 100x100px i złożona jest z kółka i elipsy (ahh te barki). Dzięki prostej grafice, będzie łatwo dodać wszelkiego rodzaju animacje ruchu w przyszłości.
 Paaaanie i Paaanowie! Przedstawiamy naszego Ludka:
 
-```id="attachment_1626" align="aligncenter" width="100"][![Poruszanie Postacią](http://szymonmotyka.pl/wp-content/uploads/2017/03/Character.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Character.png) Ludek od góry```
+[caption id="attachment_1626" align="aligncenter" width="100"][![Poruszanie Postacią](http://szymonmotyka.pl/wp-content/uploads/2017/03/Character.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Character.png) Ludek od góry[/caption]
 
 Skoro już przestaliście się śmiać, zapraszam dalej :)
 
@@ -89,7 +89,7 @@ _InverseMoveTime * Time.deltaTIme określa czas ruchu. Aby naszą metodę urucho
 
 Tę klasę wywołujemy również w klasie Player, która dziedziczy po klasie **MovingObject**. Klasa ta obsługuję cały charakter postaci, czyli klasę postaci, atrybuty, poziom, hp, doświadczenie oraz listę dostępnych skilli. Tu też w Update sprawdzana jest reakcja na ruch postaci oraz logika z nią związan. Na obecnym etapie przejdźmy jednak do ruchu, czyli dylemat prawdziwego gracza - odwieczna bitwa - “Klawiatura (+ Mysz) Vs Pad). Nie pomogę rozwiązać tego, ponieważ jestem fanem obu typów i ani jednego nie dyskryminuję.
 
-```id="attachment_1625" align="aligncenter" width="409"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-05-at-16.24.46-409x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-05-at-16.24.46.png) Edytor postaci```
+[caption id="attachment_1625" align="aligncenter" width="409"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-05-at-16.24.46-409x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-05-at-16.24.46.png) Edytor postaci[/caption]
 
 
 ## Klawiatura vs Pad
@@ -162,4 +162,4 @@ Następne posty pojawią się lekko opóźnione, po naszej wyprawie na Islandię
 
 [https://aluspl.github.io/RogueLikeDSP/Versions/](https://aluspl.github.io/RogueLikeDSP/Versions/) - Link do 1. wersji :)
 
-```id="attachment_1624" align="aligncenter" width="480"][![Postać](http://szymonmotyka.pl/wp-content/uploads/2017/03/LifeLike01-1.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/03/LifeLike01-1.gif) LifeLIke GIF```
+[caption id="attachment_1624" align="aligncenter" width="480"][![Postać](http://szymonmotyka.pl/wp-content/uploads/2017/03/LifeLike01-1.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/03/LifeLike01-1.gif) LifeLIke GIF[/caption]

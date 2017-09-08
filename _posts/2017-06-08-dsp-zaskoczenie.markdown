@@ -33,7 +33,7 @@ Jest to o tyle większym szokiem, poniewa zwycięstwem dla mnie było zakończen
 
 Na podstawie poniższego screena, można zobaczyć, że dostałem się cudem - 13 pkt. Ale to wciąż wielkie zaskoczenie dla mnie.
 
-```id="attachment_1797" align="aligncenter" width="785"][![DSP](http://szymonmotyka.pl/wp-content/uploads/2017/06/dsppunkty-785x836.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/dsppunkty.png) Wyniki```
+[caption id="attachment_1797" align="aligncenter" width="785"][![DSP](http://szymonmotyka.pl/wp-content/uploads/2017/06/dsppunkty-785x836.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/dsppunkty.png) Wyniki[/caption]
 
 Na tym etapie głosowanie stało się zewnętrzne - a to znaczy , że ja jak i reszta finalistów oczekujemy na Waszą pomoc.
 Głosować można do 15 czerwca na stronie [http://uczestnicy.dajsiepoznac.pl/ankieta](http://uczestnicy.dajsiepoznac.pl/ankieta)
@@ -143,4 +143,4 @@ A poza tym :) Zapraszam do obserowania bloga oraz kanału na YT.
 
 Btw był to naprawdę  ciekawy czas. W trakcie 3 miesięcy DSP zdążyłem zmienić pracę 2. (kto wie, ten wie jak długo trwała sytuacja z Capgemini oraz założenie DG), zwiedzić Islandię <3 (http://kawowipodroznicy.pl) i Grecję!
 
-```id="attachment_1790" align="aligncenter" width="480"][![](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif) Toast po raz 2. :)```
+[caption id="attachment_1790" align="aligncenter" width="480"][![](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif) Toast po raz 2. :)[/caption]

@@ -74,7 +74,7 @@ private static void GetHorizontalWall(MapElement[,] map, ref int posY, int ySize
 Tradycyjny **for** od 0 do szerokość mapy pomniejszonej o 1 i wstawienie elementu ściany na określonej pozycji.
 :) I takim oto sposobem mamy ładną mapkę z poziomymi liniami :) czyli określoną liczbę poziomów. :)
 
-```id="attachment_1607" align="aligncenter" width="785"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.10-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.10.png) Ściany Poziome```
+[caption id="attachment_1607" align="aligncenter" width="785"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.10-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.10.png) Ściany Poziome[/caption]
 
 
 ## Linie Pionowe!
@@ -99,7 +99,7 @@ private static void GetVerticalWall(MapElement[,] map, ref int posX,  int posY, 
 W obecnej metodzie tworzymy zmienną **LeftValueX**, której przypisujemy wartość równą szerokości mapy pomniejszoną o 1. Wartość ta będzie się resetować przy każdym poziomie. W pętli wewnątrz procedury, mamy tę samą metodę, co wcześniej(**GetWallSize**) i zmniejszamy **LeftValueX**, generując określoną ilość ścian o losowych wymiarach. Różnica następuje jednak w nakładaniu tych linii na mapę. Tutaj pod uwagę bierzemy **Wysokość** obecnego poziomu ->
 **for** od pozycji poprzedniej linii do pozycji następnej linii (y). A w następnym kroku wstawiamy ścianę z wykorzystaniem Map[pozycja linii pionowej, y] =MapElement.Wall;
 
-```id="attachment_1608" align="aligncenter" width="785"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.27-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.27.png) Ściany Pionowe - te punkciki to drzwi```
+[caption id="attachment_1608" align="aligncenter" width="785"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.27-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-26-at-19.57.27.png) Ściany Pionowe - te punkciki to drzwi[/caption]
 
 
 ## Losowość pokoi
@@ -138,7 +138,7 @@ Na koniec, do edytora graficznego dodałem edycję takich elementów jak:
 
 Staram się zarządzać wszystkim z kodu, ale czasami dla eksperymentów, pokazów lub zarządzania teksturami, warto posłużyć się edytorem. Tym bardziej, że daje nam on wizualną możliwość ustawienia detali. :)
 
-```id="attachment_1609" align="aligncenter" width="785"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-25-at-01.24.40-785x499.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-25-at-01.24.40.png) Parametry Mapy```
+[caption id="attachment_1609" align="aligncenter" width="785"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-25-at-01.24.40-785x499.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-25-at-01.24.40.png) Parametry Mapy[/caption]
 
 
 ## Podsumowanie
@@ -150,6 +150,6 @@ Następny cel przed nami to: Postać, jej statystyki oraz poruszanie kamerą za 
 
 P.S. kod jak zwykle dostępny na [https://github.com/aluspl/RogueLikeDSP](https://github.com/aluspl/RogueLikeDSP)
 
-```id="attachment_1605" align="aligncenter" width="480"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/02/20170225_123800.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/02/20170225_123800.gif) Developer Approved It!```
+[caption id="attachment_1605" align="aligncenter" width="480"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/02/20170225_123800.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/02/20170225_123800.gif) Developer Approved It![/caption]
 
 

@@ -81,17 +81,17 @@ Tablet jest niewiele węższy od Transformera, ale cięższy. Tylna pokrywa wyko
 
 **T**u niestety spotkało mnie nie małe rozczarowanie. Nasycenie i kontrast na tym ekranie są tragiczne, co uwidacznia się w filmach i w grach.  Ciężko niestety uchwycić to na zdjęciu, lecz w porównaniu do SAMOLED z SGS II, ekran wydaje się wyblakły. Muszę za to pochwalić kąt widzenia oraz czułość dotyku.
 
-```id="attachment_619" align="aligncenter" width="225"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.01.26-225x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.01.26.jpg) A510 VS Transformer Vs Playbook```
+[caption id="attachment_619" align="aligncenter" width="225"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.01.26-225x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.01.26.jpg) A510 VS Transformer Vs Playbook[/caption]
 
 **Wydajność**
 
 Tu jest najmocniejsza strona tego tabletu, ponieważ wyposażony został on w układ Nvidia Tegra 3. Gry (takie jak Horn , Dead Trigger, Shadowgun) działają płynnie i na pełnych detalach. Wyglądają one wręcz wspaniale:
 
-```id="attachment_620" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/IMG_20121001_225045-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/IMG_20121001_225045.jpg) Jedna z piękniejszych i wspanialszych gier opartych na Unreal Engine```
+[caption id="attachment_620" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/IMG_20121001_225045-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/IMG_20121001_225045.jpg) Jedna z piękniejszych i wspanialszych gier opartych na Unreal Engine[/caption]
 
-```id="attachment_621" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.43.31-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.43.31.jpg) Jedyne 3.5 GB w przypadku Tegra 3```
+[caption id="attachment_621" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.43.31-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.43.31.jpg) Jedyne 3.5 GB w przypadku Tegra 3[/caption]
 
-```id="attachment_622" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.42.26-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.42.26.jpg) Kolejna świetnie wyglądajaca gra, tyle, że na 10 calach lepiej grać na padzie (obsługuje pady USB m.in Logitecha, Do pada od xboxa czy ps3 Root i specjalna appka wymagana)```
+[caption id="attachment_622" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.42.26-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-16.42.26.jpg) Kolejna świetnie wyglądajaca gra, tyle, że na 10 calach lepiej grać na padzie (obsługuje pady USB m.in Logitecha, Do pada od xboxa czy ps3 Root i specjalna appka wymagana)[/caption]
 
 **Multimedia**
 
@@ -107,7 +107,7 @@ A skoro o muzyce mowa. Acer A510 wyposażony jest w System Dolby Mobile, który 
 
 Acer, podobnie do Asusa nie obciązył systemu swoimi nakładkami. Nawet aplikacje w standardzie nie powalają objętością. Na czysty system nałożył swój ring. Jest to autorskie dla rodziny Iconia (także tej Windwoskiej) koło, z którego możemy robić screeny dostać szybko do ustawionych aplikacji oraz zakładek ze stron. Dodatkowo znalazła się aplikacja do czytania LumiRead(nie używałem), AUPEO! (Radio internetowe), clear.fi czyli odtwarzacz multimediów z wbudowanym DLNA oraz coś co  pokazało Acera z dobrej strony: Acer Print(za jej pomocą wykryjesz oraz wydrukujesz dokumenty na sieciowej drukarce). Miłym  uzupełnieniem jest dołożenie do zestawu dobrego pakietu Polaris Office. Niestety, jeden minus jest dołączany FileManager. Jest nim Astro. Mimo że jest użyteczny, praktyczny to reklamy w aplikacji fabrycznie dołączonej do tabletu nie są mile widziane.
 
-```id="attachment_626" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-15.47.15-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-15.47.15.jpg) Muzyka, zdjęcia, filmy i klient DLNA w jednym```
+[caption id="attachment_626" align="aligncenter" width="300"][![](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-15.47.15-300x187.jpg)](http://szymonmotyka.pl/wp-content/uploads/2012/10/2012-10-08-15.47.15.jpg) Muzyka, zdjęcia, filmy i klient DLNA w jednym[/caption]
 
 **Aparat**
 

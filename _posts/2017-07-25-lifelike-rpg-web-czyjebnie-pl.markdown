@@ -34,7 +34,7 @@ Trochę dawno nie robiłem aktualizacji w tym temacie, ale w końcu skończyłem
 
 Tzn. jest okno pod klawiszem "i" z wyborem ekwipunku (lista) na razie z predefiniowanymi elementami, które możemy wybrać do naszego ekwipunku.
 
-```id="attachment_1840" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-06-23.05.38-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-06-23.05.38.png) Ekwipunek v 0.1```
+[caption id="attachment_1840" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-06-23.05.38-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-06-23.05.38.png) Ekwipunek v 0.1[/caption]
 
 Link do repo:[ https://github.com/aluspl/RogueLikeDSP](https://github.com/aluspl/RogueLikeDSP)
 
@@ -45,7 +45,7 @@ Link do repo:[ https://github.com/aluspl/RogueLikeDSP](https://github.com/alusp
 Ostatnio zamiast na rozwijaniu gry, skupiam się na projekcie strony, o czym ostatnio wspominałem.
 Obecnie najnowszą zmianą jest dodanie dynamicznych stron na bazie znaczników **markdown** oraz galerii. Dodatkowo zmieniłem cały CSS na jaśniejszy motyw.
 
-```id="attachment_1838" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.09.59-785x438.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.09.59.png) Nowa strona główna Lifelike.pl```
+[caption id="attachment_1838" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.09.59-785x438.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.09.59.png) Nowa strona główna Lifelike.pl[/caption]
 
 Strona może korzystać też opcjonalnie z bazy **SQLite** (w startup.cs wystarczy odkomentować fragment z SQLite).
 Dodatkowo galeria posiada początkowe formatowanie - tu dodanie tekstu w markdown.
@@ -73,7 +73,7 @@ http://czyjebnie.pl/Pogoda/{Miasto}
 
 Powyższe zapytanie pobierze stan dla danego miasta. Obecnie zwraca najbliższą pogodę, w której będzie padać, jeśli nie będzie - zwraca słoneczko :)
 
-```id="attachment_1842" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.24.52-785x893.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.24.52.png) Andrzej, to jebnie: Użyj Parasola```
+[caption id="attachment_1842" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.24.52-785x893.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot-2017-07-26-23.24.52.png) Andrzej, to jebnie: Użyj Parasola[/caption]
 
 Link do repo: [https://github.com/aluspl/MicroServiceToJebnie](https://github.com/aluspl/MicroServiceToJebnie)
 
@@ -101,7 +101,7 @@ Generalnie, samą kamerą byłoby znacznie stabilnych więcej ujęć z Grecji, a
 ### Gimbal:
 
 
-```id="attachment_1847" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/20170717_191028-e1501105220151-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/07/20170717_191028.jpg) Feiyu Tech G5 z Xiaomi Yi 4k+```
+[caption id="attachment_1847" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/20170717_191028-e1501105220151-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/07/20170717_191028.jpg) Feiyu Tech G5 z Xiaomi Yi 4k+[/caption]
 
 Feiyu Tech 5G. Na początku myślałem o SPG Live, którego użyłbym też do telefonu, ale jak to się mówi “Co jest do wszystkiego to jest do niczego”, więc skupiłem się tylko na jednym celu. Póki, co jestem zadowolony z wszystkiego poza dwoma funkcjami:
 * Aplikacja na androida wygląda strasznie
@@ -109,7 +109,7 @@ Feiyu Tech 5G. Na początku myślałem o SPG Live, którego użyłbym też do te
 
 Więcej o nim powiem, w następnym odcinku  ;)
 
-```id="attachment_1846" align="aligncenter" width="576"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot_20170718-091545-576x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot_20170718-091545.png) Appka pisana na kolanie chyba ;)```
+[caption id="attachment_1846" align="aligncenter" width="576"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot_20170718-091545-576x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2017/07/Screenshot_20170718-091545.png) Appka pisana na kolanie chyba ;)[/caption]
 
 
 
@@ -119,7 +119,7 @@ Więcej o nim powiem, w następnym odcinku  ;)
 
 Inicjatywa Slackowo - Wrocławska. Więcej o niej powiem wkrótce :) póki co przedstawiam wam etap planowania:
 
-```id="attachment_1844" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/padbar-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/07/padbar.jpg) Projektowanie Gry: Faza pomysłów z pokemonową Inspiracją```
+[caption id="attachment_1844" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/07/padbar-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/07/padbar.jpg) Projektowanie Gry: Faza pomysłów z pokemonową Inspiracją[/caption]
 
 
 ## Podsumowanie

@@ -81,7 +81,7 @@ ClassListDropdown.options = _characterClasses.Select(p => new Dropdown.OptionDat
 
 _CharacterClasses jest dodatkowo potrzebne po to, aby pobrać wartość dla wybranego elementu z dropdown elementu.
 
-```id="attachment_1723" align="aligncenter" width="785"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.29.06-785x394.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.29.06.png) Okno Wyboru Postaci```
+[caption id="attachment_1723" align="aligncenter" width="785"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.29.06-785x394.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-23-23.29.06.png) Okno Wyboru Postaci[/caption]
 
 
 ## Statystyki

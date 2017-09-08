@@ -39,9 +39,9 @@ Na dzień dobry, chicałbym poszczuć was filmikiem, którym męczymłem znajomy
 
 Filmikowi można jeszcze wiele zarzucić, słaby montaż, źle umiejscowiona kamerka (Planuje nakleić Xiaomi Yi do kasku, ale boje sie, że przy 100 będzie psuć aerodynamike).
 
-```id="attachment_1115" align="aligncenter" width="768"][![Masz jakis problem, Bro? A nagrac Cie! ? Zla Chinska Kamera :D ](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150811_192902-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150811_192902.jpg) Masz jakis problem, Bro? A nagrac Cie! ? Zla Chinska Kamera :D```
+[caption id="attachment_1115" align="aligncenter" width="768"][![Masz jakis problem, Bro? A nagrac Cie! ? Zla Chinska Kamera :D ](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150811_192902-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150811_192902.jpg) Masz jakis problem, Bro? A nagrac Cie! ? Zla Chinska Kamera :D[/caption]
 
-```id="attachment_1111" align="aligncenter" width="768"][![Xiaomi Yi z Montażem](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150813_215302-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150813_215302.jpg) Xiaomi Yi z Montażem```
+[caption id="attachment_1111" align="aligncenter" width="768"][![Xiaomi Yi z Montażem](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150813_215302-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150813_215302.jpg) Xiaomi Yi z Montażem[/caption]
 
 Muszę dodać jakieś własne intro, komentarze itp. Drugi filmik skończył gorzej, ponieważ, część, w której bateria w Xiaomi dawała radę składała się z  burzy, deszczów i remontów czyli  Słowacji jakiej nie pamiętałem :(
 
@@ -61,7 +61,7 @@ Nie jest ciężka, jest przyjemna i jest co podziwiac (nie, nie panie w topless 
 
 [![IMG_20150814_123040](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_123040-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_123040.jpg)
 
-```id="attachment_1150" align="aligncenter" width="785"][![Gdzies miedzy Wegierska Gorka a Koniakowem ](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_110559-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_110559.jpg) Gdzies miedzy Wegierska Gorka a Koniakowem```
+[caption id="attachment_1150" align="aligncenter" width="785"][![Gdzies miedzy Wegierska Gorka a Koniakowem ](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_110559-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_110559.jpg) Gdzies miedzy Wegierska Gorka a Koniakowem[/caption]
 
 [![IMG_20150814_110551](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_110551-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150814_110551.jpg)
 
@@ -85,17 +85,17 @@ Trasa, która tam prowadzi jest jednokierunkowa, więc uwagę na nadjeżdzające
 
 
 
-```id="attachment_1118" align="aligncenter" width="785"][![IMG_20150815_112347](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_112347-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_112347.jpg) Plecak Super Złoczyńcy```
+[caption id="attachment_1118" align="aligncenter" width="785"][![IMG_20150815_112347](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_112347-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_112347.jpg) Plecak Super Złoczyńcy[/caption]
 
-```id="attachment_1131" align="aligncenter" width="785"][![IMG_20150815_173947](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173947-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173947.jpg) Widoki z Beskidziego Raju (pare zdjec)```
+[caption id="attachment_1131" align="aligncenter" width="785"][![IMG_20150815_173947](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173947-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173947.jpg) Widoki z Beskidziego Raju (pare zdjec)[/caption]
 
 [![IMG_20150815_173943](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173943-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173943.jpg) [![IMG_20150815_173855](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173855-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173855.jpg) [![IMG_20150815_173842](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173842-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173842.jpg) [![IMG_20150815_173838](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173838-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173838.jpg) [![IMG_20150815_173836](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173836-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173836.jpg) [![IMG_20150815_173827](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173827-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173827.jpg) [![IMG_20150815_173823](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173823-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173823.jpg) [![IMG_20150815_173812](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173812-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_173812.jpg) [![IMG_20150815_172630](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_172630-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_172630.jpg) [![IMG_20150815_172547](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_172547-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_172547.jpg) [![IMG_20150815_164736](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_164736-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_164736.jpg) [![IMG_20150815_144727](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_144727-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150815_144727.jpg)
 
 Ostatni trip to okolo 300km na trasie Żywiec - Wroclaw, gdzie obecnie przebywa Bandzior, choc tesknie za gorami.
 
-```id="attachment_1140" align="aligncenter" width="785"][![IMG_20150830_124151](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_124151-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_124151.jpg) Rekawiczki wypozyczone, ale nadaly sie poza tym ze obdzieraly kolo kciuka```
+[caption id="attachment_1140" align="aligncenter" width="785"][![IMG_20150830_124151](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_124151-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_124151.jpg) Rekawiczki wypozyczone, ale nadaly sie poza tym ze obdzieraly kolo kciuka[/caption]
 
-```id="attachment_1141" align="aligncenter" width="785"][![IMG_20150830_172304](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_172304-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_172304.jpg) Pogoda do Wroclawia dopisala```
+[caption id="attachment_1141" align="aligncenter" width="785"][![IMG_20150830_172304](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_172304-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150830_172304.jpg) Pogoda do Wroclawia dopisala[/caption]
 
 [![IMG_20150829_174856](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150829_174856-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/IMG_20150829_174856.jpg)
 
@@ -137,6 +137,6 @@ I mały bonus w postaci panoram:
 
 [![PANO_20150815_173727](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173727-785x125.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173727.jpg) [![PANO_20150815_173705](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173705-785x155.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173705.jpg) [![PANO_20150815_173642](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173642-785x177.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173642.jpg)
 
-```id="attachment_1143" align="aligncenter" width="785"][![Widok z wieży na Beskidzkim Raju](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173625-785x186.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173625.jpg) Widok z wieży na Beskidzkim Raju```
+[caption id="attachment_1143" align="aligncenter" width="785"][![Widok z wieży na Beskidzkim Raju](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173625-785x186.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/09/PANO_20150815_173625.jpg) Widok z wieży na Beskidzkim Raju[/caption]
 
 #CHEEERS

@@ -97,7 +97,7 @@ Dystans dodałem do klasy Enemy. Pomaga to także posortować przeciwników ze w
         }
 ```
 
-```id="attachment_1715" align="aligncenter" width="785"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36.png) 1 wersja UI```
+[caption id="attachment_1715" align="aligncenter" width="785"][![LifeLIke](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/04/Screenshot-2017-04-20-23.44.36.png) 1 wersja UI[/caption]
 
 
 ## Podsumowanie
