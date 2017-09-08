@@ -28,7 +28,7 @@ Daj Się Poznać się skończyło, ale nie planuję przez to kończyć “pogodz
 
 Dnia 17.06 udaliśmy się z drugą połówką do Warszawy na Galę **Daj Się Poznać 2017**, gdzie wysłuchaliśmy licznych prezwntacji, poznaliśmy innych uczestników przy pizzy i kanapkach z Subway, a organizator oraz sponsorzy ogłosili swoich faworytów.
 
-[caption id="attachment_1827" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/06/clip_image001-1-785x524.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/06/clip_image001-1.jpg) Cała Ferajna[/caption]
+```id="attachment_1827" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/06/clip_image001-1-785x524.jpg)](http://szymonmotyka.pl/wp-content/uploads/2017/06/clip_image001-1.jpg) Cała Ferajna```
 
 Ku mojemu zaskoczeniu zająłem 7 miejsce, tuż obok **Programmer_girl** i **JavaDevMatt** za co serdecznie Wam dziękuje. Oczywiście zwycięzcom serdecznie gratuluję zajęcia wyższych miejsc:
 
@@ -49,7 +49,7 @@ Dodatkowo wielkie dzięki dla organizatora - Maćka Aniserowicza ([devstyle.pl](
 
 Poniżej znajdziecie wykres, jak szło głosowanie. Wykres wygenerował KrzaQ:
 
-[caption id="attachment_1819" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/06/DSPWykres-785x458.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/DSPWykres.png) Wykres Głosowań by KrzaQ[/caption]
+```id="attachment_1819" align="aligncenter" width="720"][![](http://szymonmotyka.pl/wp-content/uploads/2017/06/DSPWykres-785x458.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/DSPWykres.png) Wykres Głosowań by KrzaQ```
 
 
 ## Projekt LifeLike: RPG
@@ -59,7 +59,7 @@ Jak zauważyliście, projekt jest wciąż daleki od ukończenia, ale nie jest za
 Oczywiście zmieniłem trochę zabarwienie dnia, na bardziej szary i stworzyłem **WindowManager** do obsługi okien.
 Jak wspominałem w poprzednich postach z podsumowaniem ( [Tutaj](http://szymonmotyka.pl/lifelike-podsumowanie/) ) będę brał się za to pełną gębą, ale przed tym:
 
-[caption id="attachment_1822" align="aligncenter" width="720"][![Podsumowanie](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.31.04-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.31.04.png) LifeLIke.pl[/caption]
+```id="attachment_1822" align="aligncenter" width="720"][![Podsumowanie](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.31.04-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.31.04.png) LifeLIke.pl```
 
 
 ## Projekt LifeLike: CMS
@@ -93,7 +93,7 @@ Podsumowując projekt: ([https://github.com/aluspl/LifeLIke](https://github.com/
   * **IDE**: JetBrains Rider
 
 
-[caption id="attachment_1821" align="aligncenter" width="720"][![Podsumowanie](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.25.21-785x509.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.25.21.png) Strona główna lifelike.pl wkrótce wszystko będzie konfigurowane[/caption]
+```id="attachment_1821" align="aligncenter" width="720"][![Podsumowanie](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.25.21-785x509.png)](http://szymonmotyka.pl/wp-content/uploads/2017/06/Screenshot-2017-06-27-18.25.21.png) Strona główna lifelike.pl wkrótce wszystko będzie konfigurowane```
 
 
 ## VLOG
@@ -124,4 +124,4 @@ To tyle w tym poście. W chwili pisania powinienem skupić się na obróbce zdj�
 
 KEEP CALM AND DRINK COOFEE!
 
-[caption id="attachment_1790" align="aligncenter" width="480"][![Podsumowanie](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif) Toast po raz 3. :)[/caption]
+```id="attachment_1790" align="aligncenter" width="480"][![Podsumowanie](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif)](http://szymonmotyka.pl/wp-content/uploads/2017/05/20170531_203833.gif) Toast po raz 3. :)```

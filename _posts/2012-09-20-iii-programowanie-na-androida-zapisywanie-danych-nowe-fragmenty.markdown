@@ -412,6 +412,6 @@ Na końcu dodajemy naszą metodę save()  na koniec onClick przy btnRandom();
 
 I to tyle na dzisiaj Wasz uniżony programista ma do przekazania. W następnych częściach kursu postanowię pokazać głębszą zabawę layoutami, wykorzystanie zewnętrzne API czy użycie bazy SQLite. Jestem otwarty na propozycję. Jak widać poniżej. Tak aplikacja wygląda poniżej, więc następnym krokiem wypadałoby ją upiększyć
 
-[caption id="attachment_554" align="aligncenter" width="180"][![](http://szymonmotyka.pl/wp-content/uploads/2012/09/device-2012-09-20-141729-180x300.png)](http://szymonmotyka.pl/wp-content/uploads/2012/09/device-2012-09-20-141729.png) Tak aplikacja wygląda pod koniec tej części kursu[/caption]
+```id="attachment_554" align="aligncenter" width="180"][![](http://szymonmotyka.pl/wp-content/uploads/2012/09/device-2012-09-20-141729-180x300.png)](http://szymonmotyka.pl/wp-content/uploads/2012/09/device-2012-09-20-141729.png) Tak aplikacja wygląda pod koniec tej części kursu```
 
 a i na koniec: https://dl.dropbox.com/u/14815030/tutorialrandomizerpt2.zip

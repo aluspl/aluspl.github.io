@@ -70,7 +70,7 @@ Do trasy w Czeską Palavę przygotowałem się jak rumun w perfumy na dni targo
 
 -Aeropress + Młynek + Kawa Kolumbia   (100% Arabica)
 
-[caption id="attachment_1461" align="aligncenter" width="785"][![Zestaw nomada. Tylklo namiotu brakuje :) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_211124-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_211124.jpg) Zestaw nomada. Tylklo namiotu brakuje :)[/caption]
+```id="attachment_1461" align="aligncenter" width="785"][![Zestaw nomada. Tylklo namiotu brakuje :) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_211124-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_211124.jpg) Zestaw nomada. Tylklo namiotu brakuje :)```
 
 
 # Podróż:
@@ -83,20 +83,20 @@ Do trasy w Czeską Palavę przygotowałem się jak rumun w perfumy na dni targo
 
 Ze względu na wymogi do trasy, podam wam w 2 częściach screeny z google maps:
 
-[caption id="attachment_1447" align="aligncenter" width="693"][![Droga do celu](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.36.58-693x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.36.58.png) Droga do celu[/caption]
+```id="attachment_1447" align="aligncenter" width="693"][![Droga do celu](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.36.58-693x1024.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.36.58.png) Droga do celu```
 
 Pierwsza przebiegała przez Kłodzko, Boboszów i  Brno  i zaczęła się We Wrocławiu około 10 (miałem wcześniej wyjechać, ale pogoda mówiła mi :”Nieee. będę twoja przeszkoda… „ ) Co ciekawe,  wyjechałem we Wrocławiu po 1 porannym deszczu, ale jak się dowiedziałem, zaraz po moim wyjeździe, była druga fala).
 
 Z paroma przystankami na tankowanie, ustabilizowanie bagażu za pomocą uniwersalnego zastępcy  szarych taśm klejących, które skomentowała znajoma:
 
-[caption id="attachment_1450" align="aligncenter" width="785"][![Diana: "Hahaha tak mi dopomóż trytko"](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_104652-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_104652.jpg) Diana:  
-"Hahaha tak mi dopomóż trytko"[/caption]
+```id="attachment_1450" align="aligncenter" width="785"][![Diana: "Hahaha tak mi dopomóż trytko"](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_104652-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_104652.jpg) Diana:  
+"Hahaha tak mi dopomóż trytko"```
 
 Dojechałem do Międzylesia (około 30km od Kłodzka), gdzie przy  próbie otwarcia baku spotkała mnie taka dziwna niespodzianka:
 
 
 
-[caption id="attachment_1462" align="aligncenter" width="785"][![„Tak, ten kluczyk odpalił moto, ale przekrecal sie przy  probie otwarcia baku”. ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160814_132847-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160814_132847.jpg) „Tak, ten kluczyk odpalił moto, ale przekrecal sie przy  probie otwarcia baku”.[/caption]
+```id="attachment_1462" align="aligncenter" width="785"][![„Tak, ten kluczyk odpalił moto, ale przekrecal sie przy  probie otwarcia baku”. ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160814_132847-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160814_132847.jpg) „Tak, ten kluczyk odpalił moto, ale przekrecal sie przy  probie otwarcia baku”.```
 
 Dzięki Google Maps i pomocy pań w Orlenie, dowiedziałem się, że najbliższy punkt dorobienia kluczy znajduje się w Kłodzku. Co warto dodać. Here Maps pokazywał, że planowo  na miejscu mogłem być o 14 :)
 
@@ -112,7 +112,7 @@ Z ciekawostek dodam, że trasa na Palave wskazywala w Here wioske nad Brnem, a w
 
 Na miejsce dojechałem tak , jak Here wskazywał. PrzeBRNĄłem przez BRNO (swoją drogą, całkiem nowoczesne miasto) i trafiłem do tego raju 40km  na południe od. Mikolov był wyznaczonym celem, do którego dojechałem mijając 2 wielkie jeziora, z czego jedno miało kościół na wysepce. Zahaczyłem wcześniej do miejsca oznaczonego jako Palava (zbiór miasteczek z uprawami winogron). Dokładnie pojechałem do Perma, gdzie w jednej winnicy zakupiłem 2 wina:
 
-[caption id="attachment_1451" align="aligncenter" width="785"][![Winiarnia](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_175309-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_175309.jpg) Winiarnia, z której pochodzą całkiem dobre wina[/caption]
+```id="attachment_1451" align="aligncenter" width="785"][![Winiarnia](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_175309-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_175309.jpg) Winiarnia, z której pochodzą całkiem dobre wina```
 
 Niestety, nie zatrzymałem się na tyle długo,  bo trochę z racji godziny, czas mnie gonił, aby dokładnie pozwiedzać regiony.  Trochę żałuję, że nie wynająłem czegoś na noc, aby pozwiedzać dokładnie regiony, porobić więcej zdjęć, nagrań video oraz spacerów. Liczę , że będzie okazja nadrobić oraz liczę, że to co zobaczyłem i udało się nagrać, przynajmniej nagrania sprawia satysfakcję.
 
@@ -122,13 +122,13 @@ Ale nie ma tego złego, co by na złe wyszło. Było , nie poddałem się i  co
 
 [embed]https://youtu.be/J9FerMs5A2Q[/embed]
 
-[caption id="attachment_1456" align="aligncenter" width="785"][![Nie ma wyjazdu do Czech bez Smażonego Sera (spokojnie, spaliłem to) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_184932-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_184932.jpg) Nie ma wyjazdu do Czech bez Smażonego Sera (spokojnie, spaliłem to)[/caption]
+```id="attachment_1456" align="aligncenter" width="785"][![Nie ma wyjazdu do Czech bez Smażonego Sera (spokojnie, spaliłem to) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_184932-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_184932.jpg) Nie ma wyjazdu do Czech bez Smażonego Sera (spokojnie, spaliłem to)```
 
 [embed]https://www.youtube.com/watch?v=avPqVznMbe8[/embed]
 
 [embed]https://www.youtube.com/watch?v=iDMC4XF01mQ[/embed]
 
-[caption id="attachment_1454" align="aligncenter" width="785"][![Niestety od środka nie zobaczyłem, będzie trzeba wrócić :) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_181916-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_181916.jpg) Niestety od środka nie zobaczyłem, będzie trzeba wrócić :)[/caption]
+```id="attachment_1454" align="aligncenter" width="785"][![Niestety od środka nie zobaczyłem, będzie trzeba wrócić :) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_181916-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160813_181916.jpg) Niestety od środka nie zobaczyłem, będzie trzeba wrócić :)```
 
 W każdym razie, jeszcze przed wyjazdem udało mi się zrobić ładną panoramę nad jeziorem:
 
@@ -140,15 +140,15 @@ W każdym razie, jeszcze przed wyjazdem udało mi się zrobić ładną panoramę
 ## Powrót do Żywca:
 
 
-[caption id="attachment_1448" align="aligncenter" width="785"][![Droga do domu czyli autostradowa męczarnia, a mogło byc tak pieknie](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.37.57-785x480.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.37.57.png) Droga do domu czyli autostradowa męczarnia, a mogło byc tak pieknie[/caption]
+```id="attachment_1448" align="aligncenter" width="785"][![Droga do domu czyli autostradowa męczarnia, a mogło byc tak pieknie](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.37.57-785x480.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/Zrzut-ekranu-2016-08-14-23.37.57.png) Droga do domu czyli autostradowa męczarnia, a mogło byc tak pieknie```
 
 Z Palavy wyruszyłem 2 godziny po zobaczeniu, zjedzeniu i zwiedzeniu czego sie dało. Był to mój błąd, zwłaszcza, że droga powrotna mogła rano przebiec przez znacznie piękniejsze drogi na Słowacji (Szara linia na mapie) . Była to najpierw wieczorna, a potem nocna jazda Autostrada do Ostrawy, przez Cieszyn a później Żywiec.  Kawa, którą miałem się delektować nad jeziorkiem, wciąż była ciepła i dała mi pozytywnej smakowej energii na stacji paliw, przed dalszą trasą. Torba z 2 butelkami win  stabilnie się trzymała a kilometry przemijały…. jakby nie mogły. Trasa powrotna dłużyła się  i dłużyła.  Czas mijał wolno, km nie uciekały jak powinny, ale po 3 h z przerwami dojechałem do Cieszyna a następnie do Żywca, gdzie na końcu ekipa bramowa zrobiła powitanie, a nocne niebo zachęciło do zrobienia zdjęć gwiazd
 
 
 
-[caption id="attachment_1443" align="aligncenter" width="785"][![Home Sweet Home](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4437_DxO-785x520.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4437_DxO.jpg) Home Sweet Home[/caption]
+```id="attachment_1443" align="aligncenter" width="785"][![Home Sweet Home](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4437_DxO-785x520.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4437_DxO.jpg) Home Sweet Home```
 
-[caption id="attachment_1444" align="aligncenter" width="785"][![Nocne gwiazdy w Żywcu](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4428-1-785x654.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4428-1.png) Nocne gwiazdy w Żywcu[/caption]
+```id="attachment_1444" align="aligncenter" width="785"][![Nocne gwiazdy w Żywcu](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4428-1-785x654.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4428-1.png) Nocne gwiazdy w Żywcu```
 
 
 # Żywiec: Odpoczynek i testy kamerki
@@ -186,8 +186,8 @@ W drodzę powrotnej przeraziły chmury nad Żarem (ruch i korek nagle zrobił si
 
 Dokładnie rok temu miałem S6 do testów i miałem pierwszą dalszą trasę (przez Namestovo az 200km). wtedy miałem też w testach Samsung S6. Rok po tym specjalnie na trasę dostałem do testów nowy Gear 360
 
-[caption id="attachment_1465" align="aligncenter" width="785"][![Wheatley Czy to ty?:) (Portal 2 ) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160812_124209-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160812_124209.jpg) Wheatley  
-Czy to ty?:) (Portal 2 )[/caption]
+```id="attachment_1465" align="aligncenter" width="785"][![Wheatley Czy to ty?:) (Portal 2 ) ](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160812_124209-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160812_124209.jpg) Wheatley  
+Czy to ty?:) (Portal 2 )```
 
 
 
@@ -203,11 +203,11 @@ Niestety Gear 360 Manager,który dołącza Samsung, nie powala ani optymalizacj�
 
 
 
-[caption id="attachment_1472" align="aligncenter" width="768"][![](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160811_195439-1-e1471292652215-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160811_195439-1.jpg) Też macie takie dziwne wrażenie, że ta kamerka patrzy na nas w przerażony sposób ? :) jakby nas badała ?[/caption]
+```id="attachment_1472" align="aligncenter" width="768"][![](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160811_195439-1-e1471292652215-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160811_195439-1.jpg) Też macie takie dziwne wrażenie, że ta kamerka patrzy na nas w przerażony sposób ? :) jakby nas badała ?```
 
 [![IMG_20160811_123006](http://szymonmotyka.pl/wp-content/uploads/2016/08/IMG_20160811_123006-768x1024.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/IMG_20160811_123006.jpg) [![IMG_20160815_220000](http://szymonmotyka.pl/wp-content/uploads/2016/08/IMG_20160815_220000-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/IMG_20160815_220000.jpg)
 
-[caption id="attachment_1476" align="aligncenter" width="785"][![Palava Trip](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160815_140040-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160815_140040.jpg) tabletowo.pl/Kasia zrozumie tą zdjęciową aluzję :)[/caption]
+```id="attachment_1476" align="aligncenter" width="785"][![Palava Trip](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160815_140040-785x589.jpg)](http://szymonmotyka.pl/wp-content/uploads/2016/08/20160815_140040.jpg) tabletowo.pl/Kasia zrozumie tą zdjęciową aluzję :)```
 
 Jeśli jeszcze będą wycieczki w najbliższym czasie z ciekawymi gadżetami (nie.. nie mówie tu o Dildo z rocznika 2016), to myślę, że pojawi się tu wpis
 
@@ -217,7 +217,7 @@ Jeśli jeszcze będą wycieczki w najbliższym czasie z ciekawymi gadżetami (ni
 
 Przyznam, że Agora zaskoczyła podejściem do aplikacji dla swojej  strony Świat Motocykli. Spodziewałem się, że będzie to kolejna strona webowa wrzucona jako APK ...a tu ładne materialowe podejście do designu, artykuły offline , które są przyjazdne do czytania w  trakcie odpoczynku od trasy.
 
-[caption id="attachment_1486" align="aligncenter" width="785"][![Zaskoczyła mnie](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4457-785x520.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4457.png) Zaskoczyła mnie[/caption]
+```id="attachment_1486" align="aligncenter" width="785"][![Zaskoczyła mnie](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4457-785x520.png)](http://szymonmotyka.pl/wp-content/uploads/2016/08/DSC_4457.png) Zaskoczyła mnie```
 
 
 # **Bonus: Tess **

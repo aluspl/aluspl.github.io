@@ -29,9 +29,9 @@ Jednocześnie odkryłem, że za pomocą Rider EAP, do solucji można dodać proj
 Wiem, że takim sposobem nie przetestuje funkcjonalnych funkcji z Unity, a ograniczę się do tych, typu generatory, tworzenie mapy czy sprawdzenia poprawności danych itp.
 Uwaga! Trzeba ustawić referencję do NUnit 3.5+. U mnie pojawiły się, gdy z AssetStore pobrałem Unity Test Tools. Albo z nuget albo innych źródeł. Jest to ważne dla kompatybilności z poniższym wpisem.
 
-[caption id="attachment_1668" align="aligncenter" width="785"][![TDD](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-23-at-19.03.22-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-23-at-19.03.22.png) Narzedzia do testow, nie obowiazkowe, ale zawiera m.in NUnit 3[/caption]
+```id="attachment_1668" align="aligncenter" width="785"][![TDD](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-23-at-19.03.22-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-23-at-19.03.22.png) Narzedzia do testow, nie obowiazkowe, ale zawiera m.in NUnit 3```
 
-[caption id="attachment_1669" align="aligncenter" width="785"][![TDD](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-23.34.01-785x458.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-23.34.01.png) Nowy projekt typu NUNit[/caption]
+```id="attachment_1669" align="aligncenter" width="785"][![TDD](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-23.34.01-785x458.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-24-at-23.34.01.png) Nowy projekt typu NUNit```
 
 
 ## Map Generator

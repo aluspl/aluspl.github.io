@@ -28,12 +28,12 @@ Let’s Begin!
 Jak wspominałem w poprzedniej części, używam Maca do produkcji. Powody są 2: jak kupowałem, był tańszy niż Dell i Surface o tych samych parametrach. No i dobrze mi się pracuje na tym systemie :)
 **Unity 5**
 
-[caption id="attachment_1590" align="aligncenter" width="785"][![](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.22-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.22.png) Unity3d[/caption]
+```id="attachment_1590" align="aligncenter" width="785"][![](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.22-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.22.png) Unity3d```
 
 **InteliJ Rider EAP**
 Polecam, ale trzeba wrzucić do Unity skrypt (znajdziecie w moim projekcie), który poprawnie eksportuje i komunikuje Unity3d z Rider EAP
 
-[caption id="attachment_1591" align="aligncenter" width="785"][![](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.31-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.31.png) Rider EAP[/caption]
+```id="attachment_1591" align="aligncenter" width="785"][![](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.31-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-21.41.31.png) Rider EAP```
 
 
 ## Generowanie Map:
@@ -44,7 +44,7 @@ MapManager będzie dodatkowo rozszerzony o zestaw tekstur, w zależności od typ
 Cały plik z generatorem można znaleźć na githubie, który zamieściłem w ostatnim wpisie :) w Scripts\MapUtils
 Póki co, przyjąłem, że podłoga to jeden kafelek, a ściana to inny kafelek :)
 
-[caption id="attachment_1592" align="aligncenter" width="785"][![Daj się Poznać](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-23.28.40-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-23.28.40.png) LifeLike[/caption]
+```id="attachment_1592" align="aligncenter" width="785"][![Daj się Poznać](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-23.28.40-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/02/Screen-Shot-2017-02-19-at-23.28.40.png) LifeLike```
 
 
 ## Klasy Postaci:

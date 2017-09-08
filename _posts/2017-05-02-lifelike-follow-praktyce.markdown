@@ -32,7 +32,7 @@ W poprzednim odcinku atakowaliśmy wroga ([link](http://szymonmotyka.pl/lifelike
 
 Od ostatniego odcinka zmieniłem IDE. Wiecie, na Macu mam średni wybór do c#, a Mono Develop i jego klony … to nie wybór. InteliJ wydał świetnego Ridera, ale potrafi być “klocowaty” dla pamięci i czasami niestabilny. Wybór padł na Visual Studio Code, który jest klonem lekkiego edytora, zwanego ATOM. Ma świetne wsparcie dla C# oraz Unity. Także dla innych języków. Obsługuje git’a, a nawet i posiada debugger. Czyli dużo potrzebnego stuffu… poza sprawny refactoringiem, który dostarcza nam np. wspomniany InteliJ Rider, czy wtyczka do VS - Resharper (także od InteliJ).
 
-[caption id="attachment_1749" align="aligncenter" width="640"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.18.27-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.18.27.png) Visual Studio Code[/caption]
+```id="attachment_1749" align="aligncenter" width="640"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.18.27-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.18.27.png) Visual Studio Code```
 
 
 ## Ruch
@@ -120,7 +120,7 @@ W każdym razie, jeśli przeciwnik natknie się na nas, a dystans między nami w
 
 Dodatkowo dodałem parę zmian do **Interfejsu Użytkownika**. Czyli jakiś początkowy **UI** do naszych statystyk, póki co HP i imię, wkrótce doświadczenie i poziom również znajdą swoje miejsce.
 
-[caption id="attachment_1751" align="aligncenter" width="640"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.38.14-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.38.14.png) Nowy panel w lewym Górnym rogu[/caption]
+```id="attachment_1751" align="aligncenter" width="640"][![LifeLike](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.38.14-785x491.png)](http://szymonmotyka.pl/wp-content/uploads/2017/05/Screenshot-2017-05-02-19.38.14.png) Nowy panel w lewym Górnym rogu```
 
 
 ## Podsumowanie

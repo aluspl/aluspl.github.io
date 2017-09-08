@@ -81,9 +81,9 @@ W przypadku gracza, stworzyłem **gameobject** typu Light i skrypt, który takż
 To tyle na dzisiaj. Następny wpis będzie dostępny za tydzień, więc spokojnie, nie będziecie zaniedbani. W międzyczasie, zapraszam do testów na [2. Demo Technologiczne](https://aluspl.github.io/RogueLikeDSP/Versions/light/)
 Miłej zabawy ! :)
 
-[caption id="attachment_1651" align="aligncenter" width="785"][![Światło](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.37-785x489.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.37.png) Światło![/caption]
+```id="attachment_1651" align="aligncenter" width="785"][![Światło](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.37-785x489.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.37.png) Światło!```
 
-[caption id="attachment_1650" align="aligncenter" width="785"][![Światło](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.19-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.19.png) Kliknij F aby przelaczyć na dzien/noc[/caption]
+```id="attachment_1650" align="aligncenter" width="785"][![Światło](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.19-785x490.png)](http://szymonmotyka.pl/wp-content/uploads/2017/03/Screen-Shot-2017-03-10-at-14.38.19.png) Kliknij F aby przelaczyć na dzien/noc```
 
 
 

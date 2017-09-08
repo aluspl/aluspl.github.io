@@ -33,7 +33,7 @@ Zacznę może od tego, że od stycznia jestem użytkownikiem Pebble, który prze
 
 
 
-[caption id="attachment_1006" align="aligncenter" width="169"][![Dwa Światy ](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150310_195452136-169x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150310_195452136.jpg) Dwa Światy[/caption]
+```id="attachment_1006" align="aligncenter" width="169"][![Dwa Światy ](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150310_195452136-169x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150310_195452136.jpg) Dwa Światy```
 
 
 # **Sprzęt**
@@ -56,9 +56,9 @@ Zegarek posiada slot nanosim, dzięki któremu po podłączeniu telefon uzyskuje
 
 
 
-[caption id="attachment_1062" align="aligncenter" width="300"][![Czujnik Pulsu oraz spód zegarka ](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150319_194919895-300x169.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150319_194919895.jpg) Czujnik Pulsu oraz spód zegarka[/caption]
+```id="attachment_1062" align="aligncenter" width="300"][![Czujnik Pulsu oraz spód zegarka ](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150319_194919895-300x169.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150319_194919895.jpg) Czujnik Pulsu oraz spód zegarka```
 
-[caption id="attachment_1063" align="aligncenter" width="169"][![Zapięcie naprawdę wymyślne ;) ](http://szymonmotyka.pl/wp-content/uploads/2015/03/2015-03-19-19.42.09-169x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/2015-03-19-19.42.09.jpg) Zapięcie naprawdę wymyślne ;)[/caption]
+```id="attachment_1063" align="aligncenter" width="169"][![Zapięcie naprawdę wymyślne ;) ](http://szymonmotyka.pl/wp-content/uploads/2015/03/2015-03-19-19.42.09-169x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/2015-03-19-19.42.09.jpg) Zapięcie naprawdę wymyślne ;)```
 
 
 # **S Health**
@@ -86,7 +86,7 @@ Niestety podczas drugiej nocy, analiza snu zapauzowała się, ponieważ ekran si
 
 
 
-[caption id="attachment_1002" align="aligncenter" width="169"][![Czujnik Tetna (czasami ma problemy z wykryciem jesli zegarek jest za wysoko umieszczony). ](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150309_201113874-169x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150309_201113874.jpg) Czujnik Tetna (czasami ma problemy z wykryciem jesli zegarek jest za wysoko umieszczony).[/caption]
+```id="attachment_1002" align="aligncenter" width="169"][![Czujnik Tetna (czasami ma problemy z wykryciem jesli zegarek jest za wysoko umieszczony). ](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150309_201113874-169x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150309_201113874.jpg) Czujnik Tetna (czasami ma problemy z wykryciem jesli zegarek jest za wysoko umieszczony).```
 
 
 [![](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150310_141600243-169x300.jpg)](http://szymonmotyka.pl/wp-content/uploads/2015/03/IMG_20150310_141600243.jpg)
