@@ -1,13 +1,13 @@
 ---
-author: Alus
 slug: tools
 title: Tools
 categories:
-- Android
+- Tools
 tags:
 - Tools
 ---
 # Hardware
+
 ## DEV TOOL
 - Macbook Pro 13 (2014) 
 - MSI GE73 VR
@@ -21,12 +21,21 @@ tags:
 
 # Software
 
-- OS: Mac OS X i Windows 10
+## OS: 
+- Mac OS X 
+- Windows 10
 
-- Video: iMovie, Davinci REsolve
-
-- Photos: iPhotos, Lightroom, DxO Optics Pro 9
-
-- IDE: InteliJ Idea (Java) Rider (C#),  Visual Studio 2016, Visual Studio Code, Unity3d
+## Video: 
+- iMovie 
+- Davinci Resolve
+## Photos: 
+- iPhotos
+- Lightroom
+## IDE 
+- Jetbrains InteliJ Idea (Java)
+- Jetbrains Rider (C#)  
+- Visual Studio
+- Visual Studio Code 
+- Unity3d
 
  

@@ -1,5 +1,4 @@
 ---
-author: Alus
 slug: Contact
 title: Contact
 ---
