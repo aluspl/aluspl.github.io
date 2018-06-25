@@ -1,15 +1,13 @@
 ---
 author: Alus
-slug: Hardware
-title: Hardware
+slug: tools
+title: Tools
 categories:
 - Android
-- Programowanie
 tags:
-- android
-- android sdk
+- Tools
 ---
-
+# Hardware
 ## Macbook Pro 13 (2014) i5, 8GB Ram, 256 ssd, intel iris
 
 ## Camera: 
@@ -23,7 +21,7 @@ tags:
 
 - Powerbank: Xiaomi 10 000 mAh | TP Link 10 000 mAh
 
-## Software
+# Software
 
 - OS: Mac OS X i Windows 10
 
