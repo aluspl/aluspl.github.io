@@ -6,15 +6,12 @@ layout: post
 link: http://szymonmotyka.pl/android-sdk-setup/
 slug: android-sdk-setup
 title: Android SDK - Setup
-wordpress_id: 1679
 categories:
 - Android
-- Daj Się poznać
 - Programowanie
 tags:
 - android
 - android sdk
-- dsp
 ---
 
 Hello, this is my first post in english. As I’ve promised in polish version of this post, I wanted to recreate my Android SDK Tutorials. This time, with new technologies, new patterns and in 2 languages! Deal With It.
@@ -67,4 +64,4 @@ where VERSION is version of our sdk (we will find it after installation process 
 This is everything to this part of my tutorial, I hope you enjoyed it. If you want to ask me any question, use FB (link do fp) or Twitter AlusPL
 Greetings !
 
-[embed]https://www.youtube.com/watch?v=Q8v0KHMtwBs[/embed]
+[VLOG](https://www.youtube.com/watch?v=Q8v0KHMtwBs)

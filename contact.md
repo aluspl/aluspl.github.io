@@ -1,6 +1,3 @@
----
-layout: landing-page
----	
 # Contact
 
 ## Hardware
