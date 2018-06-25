@@ -1,10 +1,15 @@
-# CV
+---
+author: Alus
+slug: Contact
+title: Contact
+---
 
-## Szymon Motyka
-### C#: Xamarin, .net Core, Backend, Unity3d
+# Szymon Motyka
+## Technologies:
+- C#: Xamarin, .net Core, Backend, Unity3d
 
 
-## Jobs 
+# Jobs 
 - Metegrity 
 - LifeLike Szymon Motyka
  

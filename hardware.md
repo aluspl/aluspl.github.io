@@ -1,5 +1,14 @@
-
-# Hardware
+---
+author: Alus
+slug: Hardware
+title: Hardware
+categories:
+- Android
+- Programowanie
+tags:
+- android
+- android sdk
+---
 
 ## Macbook Pro 13 (2014) i5, 8GB Ram, 256 ssd, intel iris
 
